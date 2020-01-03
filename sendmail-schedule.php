@@ -23,9 +23,9 @@ try {
 
     //Recipients
     $mail->AddAddress("edricklpcr@gmail.com");     // Add a recipient
-    // $mail->AddAddress("mm@whagons.com");     // Add a recipient
-    // $mail->AddAddress("help@dinganddone.com");     // Add a recipient
-    // $mail->AddAddress("bussines@whagons.com");     // Add a recipient
+    $mail->AddAddress("mm@whagons.com");     // Add a recipient
+    $mail->AddAddress("help@dinganddone.com");     // Add a recipient
+    $mail->AddAddress("bussines@whagons.com");     // Add a recipient
 
     $mail->SetFrom('dingdone2.0@gmail.com');
 
