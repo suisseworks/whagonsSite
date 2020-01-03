@@ -23,15 +23,19 @@ try {
 
     //Recipients
     $mail->AddAddress("edricklpcr@gmail.com");     // Add a recipient
+    // $mail->AddAddress("mm@whagons.com");     // Add a recipient
+    // $mail->AddAddress("bussines@whagons.com");     // Add a recipient
     $mail->SetFrom('dingdone2.0@gmail.com');
 
     // Content
     $mail->Subject = "Nuevo Contacto Whagons!";
     $mail->isHTML(true);
-    $mail->Body =   'Nuevo Contacto Whagons! <br>' .
-                    'Nombre: ' . $_POST["inputName"] . '<br>' .
-                    'Correo: ' . $_POST["inputEmail"] . '<br>' .
-                    'Comentario: ' . $_POST["inputComment"];
+    $mail->Body =   '<h1>Nuevo Contacto Whagons!</h1> <br><br>' .
+                    '<b>Nombre: </b>' . $_POST["inputName"] . '<br>' .
+                    '<b>Correo: </b>' . $_POST["inputEmail"] . '<br>' .
+                    '<b>Telefono: </b>' . $_POST["inputPhone"] . '<br>' .
+                    '<b>Organizacion: </b>' . $_POST["inputOrganization"] . '<br>' .
+                    '<b>Comentario: </b>' . $_POST["inputComment"];
 
     $mail->send();
     
