@@ -127,11 +127,11 @@
 						<div class="wrap-contact100">
 							<img id="loader" src="images/loader-image.gif"  style="display: none">
 							<div style="display: none" id="resultMessage">
-								<h1> En breve le contactaremos! </h1>
+								<h1> En breve le contaremos! </h1>
 							</div>
-							<form id="contact-form" action="sendmail.php" class="contact100-form validate-form">
+							<form id="contact-form" action="sendmail-soport.php" class="contact100-form validate-form">
 								<span class="contact100-form-title">
-									Reserve su demo
+									Como podemos ayudar le? 
 								</span>
 			
 								<div class="wrap-input100 validate-input">
@@ -139,14 +139,6 @@
 									<span class="focus-input100"></span>
 									<span class="symbol-input100">
 										<i class="fa fa-user" aria-hidden="true"></i>
-									</span>
-								</div>
-			
-								<div class="wrap-input100 validate-input" >
-									<select class="input100 countrypicker" id="select-country" name="country"  data-live-search="true"></select>
-									<span class="focus-input100"></span>
-									<span class="symbol-input100">
-										<i class="fa fa-globe" aria-hidden="true"></i>
 									</span>
 								</div>
 			
@@ -363,15 +355,12 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-	<script src="js/countrypicker.min.js"></script>
 	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 
 	<script>
-		ipLookUp();
-		
 		$(function() {
 			$('#contact-form').on('submit', function(e) {
-				var url = "sendmail.php"; // the script where you handle the form input.
+				var url = "sendmail-soport.php"; // the script where you handle the form input.
 		
 				// $("#checkCaptcha").hide();  
 				$("#loader").show();
@@ -396,22 +385,6 @@
 				e.preventDefault();
 			  })
 		})
-
-
-		function ipLookUp () {
-			$.ajax('https://api.db-ip.com/v2/free/self')
-			.then(
-				function success(response) {
-					console.log('User\'s Location Data is ', response);
-					console.log('User\'s Country', response.countryName);
-					$('#select-country option[value="'+response.countryName+'"]').attr("selected", "selected");
-				},
-		
-				function fail(data, status) {
-					console.log('Request failed.  Returned status of',status);
-				}
-			);
-		}
 	  </script>
 </body>
 </html>
