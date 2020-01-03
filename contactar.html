@@ -125,14 +125,17 @@
 				<div class="col_half container clearfix">
 					<div class="container-contact100">
 						<div class="wrap-contact100">
-			
-							<form id="contact-form" action="sendmail2.php" class="contact100-form validate-form">
+							<img id="loader" src="images/loader-image.gif"  style="display: none">
+							<div style="display: none" id="resultMessage">
+								<h1> Gracias por contactarnos! </h1>
+							</div>
+							<form id="contact-form" action="sendmail.php" class="contact100-form validate-form">
 								<span class="contact100-form-title">
 									Contactenos
 								</span>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Name is required">
-									<input class="input100" type="text" id="name"name="inputName" placeholder="Nombre">
+									<input class="input100" type="text" id="name"name="inputName" placeholder="Nombre" required>
 									<span class="focus-input100"></span>
 									<span class="symbol-input100">
 										<i class="fa fa-user" aria-hidden="true"></i>
@@ -140,7 +143,7 @@
 								</div>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-									<input class="input100" type="text"  id="email" name="inputEmail" placeholder="Correo">
+									<input class="input100" type="text"  id="email" name="inputEmail" placeholder="Correo" required>
 									<span class="focus-input100"></span>
 									<span class="symbol-input100">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -148,7 +151,7 @@
 								</div>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Message is required">
-									<textarea class="input100"  id="comment" name="inputComment" placeholder="Comentario"></textarea>
+									<textarea class="input100"  id="comment" name="inputComment" placeholder="Comentario" required></textarea>
 									<span class="focus-input100"></span>
 								</div>
 			
@@ -157,7 +160,7 @@
 										Enviar
 									</button>
 								</div>
-							</form>
+							</form> 
 						</div>
 					</div>
 				</div>
@@ -341,11 +344,11 @@
 	<script>
 		$(function() {
 			$('#contact-form').on('submit', function(e) {
-				var url = "sendmail2.php"; // the script where you handle the form input.
+				var url = "sendmail.php"; // the script where you handle the form input.
 		
 				// $("#checkCaptcha").hide();  
-				// $("#loader").show();
-				// $("#dingdoneForm").hide();
+				$("#loader").show();
+				$("#contact-form").hide();
   
 				$.ajax({
 					  type: "POST",
@@ -353,18 +356,14 @@
 					  data: $("#contact-form").serialize(), // serializes the form's elements.
 					  success: function(data)
 					  {
-						  console.info(data);
-						/*   if (data == -2) {
+						response = JSON.parse(data);
+						
+						if (response.result) {
 							$("#loader").hide();
-							$("#dingdoneForm").show();
-							  $("#checkCaptcha").show();
-						  }
-						  else {
-							$("#checkCaptcha").hide();
-							fbq('track', 'CompleteRegistration');
-							$("#loader").hide();                                           
 							$("#resultMessage").fadeIn();
-						  } */
+						} else {
+							console.log(response.msj);
+						}
 					  }
 					});
 				e.preventDefault();

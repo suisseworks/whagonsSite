@@ -35,7 +35,14 @@ try {
 
     $mail->send();
     
-    echo 'Message has been sent';
+    echo json_encode([
+        "result" => true,
+        "msj" => 'Message has been sent'
+    ]);
+
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    echo json_encode([
+        "result" => false,
+        "msj" => "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"
+    ]);
 }
