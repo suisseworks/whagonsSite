@@ -126,13 +126,13 @@
 					<div class="container-contact100">
 						<div class="wrap-contact100">
 			
-							<form class="contact100-form validate-form">
+							<form id="contact-form" action="sendmail2.php" class="contact100-form validate-form">
 								<span class="contact100-form-title">
 									Contactenos
 								</span>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Name is required">
-									<input class="input100" type="text" name="name" placeholder="Nombre">
+									<input class="input100" type="text" id="name"name="inputName" placeholder="Nombre">
 									<span class="focus-input100"></span>
 									<span class="symbol-input100">
 										<i class="fa fa-user" aria-hidden="true"></i>
@@ -140,7 +140,7 @@
 								</div>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-									<input class="input100" type="text" name="email" placeholder="Correo">
+									<input class="input100" type="text"  id="email" name="inputEmail" placeholder="Correo">
 									<span class="focus-input100"></span>
 									<span class="symbol-input100">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -148,7 +148,7 @@
 								</div>
 			
 								<div class="wrap-input100 validate-input" data-validate = "Message is required">
-									<textarea class="input100" name="message" placeholder="Comentario"></textarea>
+									<textarea class="input100"  id="comment" name="inputComment" placeholder="Comentario"></textarea>
 									<span class="focus-input100"></span>
 								</div>
 			
@@ -336,5 +336,40 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+
+	<script>
+		$(function() {
+			$('#contact-form').on('submit', function(e) {
+				var url = "sendmail2.php"; // the script where you handle the form input.
+		
+				// $("#checkCaptcha").hide();  
+				// $("#loader").show();
+				// $("#dingdoneForm").hide();
+  
+				$.ajax({
+					  type: "POST",
+					  url: url,
+					  data: $("#contact-form").serialize(), // serializes the form's elements.
+					  success: function(data)
+					  {
+						  console.info(data);
+						/*   if (data == -2) {
+							$("#loader").hide();
+							$("#dingdoneForm").show();
+							  $("#checkCaptcha").show();
+						  }
+						  else {
+							$("#checkCaptcha").hide();
+							fbq('track', 'CompleteRegistration');
+							$("#loader").hide();                                           
+							$("#resultMessage").fadeIn();
+						  } */
+					  }
+					});
+				e.preventDefault();
+			  })
+		})
+	  </script>
 </body>
 </html>
