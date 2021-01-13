@@ -1538,10 +1538,11 @@ body.stretched #header.full-header .container {
     padding: 39px 15px;
     color: #444;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif; */
+    font-family: Roboto, sans-serif;
     -webkit-transition: margin .4s ease, padding .4s ease;
     -o-transition: margin .4s ease, padding .4s ease;
     transition: margin .4s ease, padding .4s ease;
@@ -3663,7 +3664,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner {
 }
 
 .slider-caption h2 {
-    font-size: 4rem;
+    font-size: 6rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 700;

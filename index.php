@@ -1,64 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
-<head>
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Whagons International" />
-
-    <!-- Stylesheets
-	============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-    <link rel='icon' href='images/whagons/favicon.ico' type='image/x-icon' s>
-
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-
-
-
-    <!-- Document Title
-	============================================= -->
-    <title>Whagons | Optimice sus operaciones</title>
-
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '579382706038863');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=579382706038863&ev=PageView&noscript=1"
-	/></noscript>
-    <!-- End Facebook Pixel Code -->
-
-</head>
+<?php include 'inc/head.php'; ?>
 
 <body class="stretched">
 
@@ -70,7 +13,7 @@
 		============================================= -->
         <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
 
-            <div id="header-wrap">
+            <div id="header-wrap" style=" background-color: #FFF !important; color: #002836 !important">
 
                 <div class="container clearfix">
 
@@ -79,8 +22,8 @@
                     <!-- Logo
 					============================================= -->
                     <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
                     </div>
                     <!-- #logo end -->
 
@@ -89,7 +32,17 @@
                     <nav id="primary-menu" class="dark">
 
                         <ul>
+                            <li class="mega-menu">
+                                <a href="tel:+12125792861">
+                                    <div style="text-transform: none;font-size: 18px; color: #002836 !important">
+                                        Habla con un representante de ventas. Llámanos al + (506) 2201-1545</div>
+                                </a>
+                            </li>
 
+                         
+                                
+
+                                <!--  
 
                             <li class="mega-menu">
                                 <a href="#funcionalidades">
@@ -97,7 +50,8 @@
                                 </a>
 
                             </li>
-                            <li class="">
+                              
+                           <li class="">
                                 <a href="#quees">
                                     <div>Precios</div>
                                 </a>
@@ -108,12 +62,14 @@
                                     <div>Hospitalidad</div>
                                 </a>
                             </li>
+                        
                             <li class="">
                                 <a href="#quees">
                                     <div>Quiénes Somos</div>
                                 </a>
 
                             </li>
+                            
 
                             <li class="mega-menu">
                                 <a href="soporte.html">
@@ -121,9 +77,10 @@
                                 </a>
 
                             </li>
+                            -->
                             <li class="mega-menu">
                                 <a href="agendar-demo.html">
-                                    <div style="border-radius: 10px; padding: 4px; color: white; background-color:#DE1D5E">&nbsp;&nbsp;SOLICITA TU DEMO&nbsp;&nbsp;</div>
+                                    <div style="border-radius: 10px; padding: 15px; color: white; background-color:#DE1D5E">&nbsp;&nbsp;SOLICITA TU DEMO&nbsp;&nbsp;</div>
                                 </a>
 
                             </li>
@@ -730,71 +687,117 @@
 
                     <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
 
+
+
+
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
+                            <a href="https://www.hotelcapitansuizo.com/" target="_blank" title="Hotel Boutique Capitán Suizo"><img src="images/clients/whagons/gray/3.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
+                            <a href="http://refriteccr.com/" target="_blank"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/12.png" alt="Clients"></a>
+                            <a target="_blank" href="https://manzate.co.cr/"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
+                            <a target="_blank" href="https://www.ellagar.com/"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/1.png" alt="Clients"></a>
+                            <a target="_blank" href=""><img src="images/clients/whagons/gray/4.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/6.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/7.png" alt="Clients"></a>
+                            <a target="_blank" href="http://montacargasodio.com/"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/8.png" alt="Clients"></a>
+                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/9.png" alt="Clients"></a>
+                            <a target="_blank" href="https://www.fantasyrooms.com/"><img src="images/clients/whagons/gray/6.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/10.png" alt="Clients"></a>
+                            <a target="_blank" href="https://florblanca.com/"><img src="images/clients/whagons/gray/7.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/2.png" alt="Clients"></a>
+                            <a target="_blank" href="https://www.aurolahotels.com/"><img src="images/clients/whagons/gray/8.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/3.png" alt="Clients"></a>
+                            <a target="_blank" href="https://www.humboldt.ed.cr/"><img src="images/clients/whagons/gray/9.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/4.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/13.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/14.png" alt="Clients"></a>
+                            <a target="_blank" href="#" title="Arenal Manoa"><img src="images/clients/whagons/gray/2.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/16.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/10.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/17.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/18.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/12.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/19.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/13.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/20.png" alt="Clients"></a>
+                            <a target="_blank" href="#" title="Aguas Claras"><img src="images/clients/whagons/gray/1.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/21.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/14.png" alt="Clients"></a>
                         </div>
                         <div class="oc-item">
-                            <a href="#"><img src="images/clients/whagons/gray/22.png" alt="Clients"></a>
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/16.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/17.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/18.png" alt="Clients"></a>
+                        </div>
+
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/19.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/20.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/21.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/22.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/23.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/24.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
                         </div>
 
 
@@ -808,162 +811,7 @@
 
         <!-- Footer
 		============================================= -->
-        <footer id="footer" class="dark">
-
-            <div class=" container">
-
-                <!-- Footer Widgets
-				============================================= -->
-                <div class="footer-widgets-wrap clearfix">
-
-                    <div class="col_two_third">
-
-                        <div class="col_one_third">
-
-                            <div class="widget clearfix">
-
-                                <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
-
-                                <p>Si se puede <strong>Medir</strong>, se puede <strong>Mejorar</strong>.</p>
-
-                                <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-                                    <address>
-										<strong>Sucursal Latinoamérica:</strong><br>
-										Torres del Lago, Sabana Sur<br>
-										San José, Costa Rica<br>
-                                    </address>
-                                    <address>
-										<strong>Oficinas Centrales:</strong><br>
-										Haldenstrasse 5 | P.O Box 1359<br>
-										6340 Baar, Suiza<br>
-									</address>
-                                    <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 8410 2321<br>
-                                    <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 7228 6148<br>
-                                    <abbr title="Email Address"><strong>Correo:</strong></abbr> info@whagons.com
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third">
-
-                            <div class="widget widget_links clearfix">
-
-                                <h4>Links</h4>
-
-                                <ul>
-                                    <li><a href="contactar.html">Contactar</a></li>
-                                    <li><a href="soporte.html">Soporte</a></li>
-                                    <li><a href="agendar-demo.html">Solicita tu demo</a></li>
-
-
-                                </ul>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third col_last">
-
-                            <div class="widget clearfix">
-                                <h4>Medios</h4>
-
-                                <div id="post-list-footer">
-                                    <div class="spost clearfix">
-                                        <div class="entry-c">
-                                            <div class="entry-title">
-                                                <h4><a target="_blank" href="https://revistasumma.com/emprendedores-costarricenses-ganan-premio-a-la-innovacion-con-plataforma-para-hoteles/">Premio al Producto Innovador Exphore</a></h4>
-                                            </div>
-                                            <ul class="entry-meta">
-                                                <li>Revista Summa</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="spost clearfix">
-                                        <div class="entry-c">
-                                            <div class="entry-title">
-                                                <h4><a target="_blank" href="https://www.elfinancierocr.com/tecnologia/dingdone-una-app-para-automatizar-los-procesos-en-los-hoteles/XAS3UKJNEFDSXLYKRLRZASA6OQ/story/">App para automatizar procesos</a></h4>
-                                            </div>
-                                            <ul class="entry-meta">
-                                                <li>El Financiero</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col_one_third col_last">
-
-
-
-
-                        <div class=" widget clearfix" style="margin-bottom: -20px;">
-
-                            <div class="row">
-
-                                <div class="col-lg-12 clearfix bottommargin-sm">
-
-                                    <img width="40%" src="images/exphore_winners.png"> <br>
-
-
-
-
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- .footer-widgets-wrap end -->
-
-            </div>
-
-            <!-- Copyrights
-			============================================= -->
-            <div id="copyrights">
-
-                <div class="container clearfix">
-
-                    <div class="col_half">
-                        Copyrights &copy; 2020 All Rights Reserved by Whagons International.<br>
-                        <div class="copyright-links"><a href="terminos-de-uso.html">Términos de uso</a> / <a href="politicas-de-privacidad.html">Políticas de Privacidad</a></div>
-                    </div>
-
-                    <div class="col_half col_last tright">
-                        <div class=" fright clearfix">
-                            <a target="_blank" href="https://www.facebook.com/whagons/" class="social-icon si-small si-borderless si-facebook">
-                                <i class="icon-facebook"></i>
-                                <i class="icon-facebook"></i>
-                            </a>
-
-                            <img width="20%" src="images/app-store.webp">
-                            <img width="20%" src="images/google-play.webp">
-
-
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <i class="icon-envelope2"></i> info@whagons.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> 1 (800) 490 1037
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- #copyrights end -->
-
-        </footer>
+        <?php include 'inc/footer.php'; ?>
         <!-- #footer end -->
 
         </div>
@@ -973,31 +821,7 @@
 	============================================= -->
         <div id="gotoTop" class="icon-angle-up"></div>
 
-        <!-- External JavaScripts
-	============================================= -->
-        <script src="js/jquery.js"></script>
-        <script src="js/plugins.js"></script>
-
-        <!-- Footer Scripts
-	============================================= -->
-        <script src="js/functions.js"></script>
-
-
-        <!--Start of Tawk.to Script-->
-        <script type="text/javascript">
-            var Tawk_API = Tawk_API || {},
-                Tawk_LoadStart = new Date();
-            (function() {
-                var s1 = document.createElement("script"),
-                    s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src = 'https://embed.tawk.to/5fc7f2fd920fc91564cce3fd/default';
-                s1.charset = 'UTF-8';
-                s1.setAttribute('crossorigin', '*');
-                s0.parentNode.insertBefore(s1, s0);
-            })();
-        </script>
-        <!--End of Tawk.to Script-->
+        <?php include 'inc/scripts.php'; ?>           
 
 </body>
 
