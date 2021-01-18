@@ -31,12 +31,19 @@
 					============================================= -->
                     <nav id="primary-menu" class="dark">
 
-                        <ul>
-                        
+                        <ul class="d-block">
+                        <li class="hidden mega-menu">
+                                <a href="hospitalidad.php">
+                                    <div style="text-transform: none;border-radius: 10px;padding: 8px; color: white !important; background-color: #019BB3 !important">
+                                    <i class="icon-broom"></i>Hospitalidad 
+                                    </div>
+                                </a>
+
+                            </li>
                             <li class="mega-menu">
                                 <a href="tel:+12125792861">
                                     <div style="text-transform: none;font-size: 18px; color: #002836 !important">
-                                        Habla con un representante de ventas. Llámanos al + (506) 2201-1545</div>
+                                        Llámanos al + (506) 2201-1545</div>
                                 </a>
                             </li>
 
@@ -119,7 +126,7 @@
                         <div class="swiper-slide dark" style="background-image: url('images/slider/swiper/15.jpg');">
                             <div class="container clearfix">
                                 <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Optimice sus Operaciones</h2>
+                                    <h2 data-animate="fadeInUp">Optimice su Negocio</h2>
                                     <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Gánele a la competencia <br> ofreciendo un <em>mejor servicio</em>
                                     </p>
 
