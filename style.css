@@ -582,6 +582,14 @@ span.middot {
     border-color: #1ABC9C !important;
 }
 
+.color-hotel {
+    color: #4068ED !important;
+}
+
+.border-color-hotel {
+    border-color: #4068ED !important;
+}
+
 .nobg {
     background: none !important;
 }
@@ -8833,6 +8841,12 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon img {
     border-radius: 50%;
     background-color: #1ABC9C;
+}
+
+.feature-box .fbox-icon i.hotel,
+.feature-box .fbox-icon img.hotel {
+    border-radius: 50%;
+    background-color: #4068ED !important;
 }
 
 .feature-box .fbox-icon i {

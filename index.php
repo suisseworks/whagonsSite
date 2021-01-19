@@ -32,10 +32,18 @@
                     <nav id="primary-menu" class="dark">
 
                         <ul class="d-block">
-                        <li class="hidden mega-menu">
+                        <li class="hidden  mega-menu">
+                                <a href="hospitalidad.php">
+                                    <div style="text-transform: none;border-radius: 10px;padding: 8px; color: white !important; background-color: #4068ED !important">
+                                    <i class="icon-broom"></i>Hospitalidad 
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li class=" hidden mega-menu">
                                 <a href="hospitalidad.php">
                                     <div style="text-transform: none;border-radius: 10px;padding: 8px; color: white !important; background-color: #019BB3 !important">
-                                    <i class="icon-broom"></i>Hospitalidad 
+                                    <i class="icon-snowflake"></i>Refrigeración 
                                     </div>
                                 </a>
 

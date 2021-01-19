@@ -119,10 +119,14 @@
                         <div class="swiper-slide dark" style="background-image: url('images/slider/swiper/17.jpg');">
                             <div class="container clearfix">
                                 <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Optimice su Hotel</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sea el héroe<br> de sus <em>huéspedes</em> en tiempos del COVID
+                                    <h2   data-animate="fadeInUp">Optimice su Hotel</h2>
+                                    <p class="  d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sea el héroe<br> de sus <em>huéspedes</em> en tiempos del COVID
+                                     
+                                   
                                     </p>
-
+                                    <a target="_blank" href="https://www.youtube.com/embed/0xdKgh4uvzc">
+                                        <span style="border-radius: 5px;padding: 5px;  color: white; background-color: #4068ED">Ver Video </span>
+                                    </a>
 
                                 </div>
                             </div>
@@ -265,7 +269,7 @@
                         <div class="row topmargin-sm clearfix">
 
                             <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
+                                <i class="i-plain color-hotel i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <span class="before-heading">Centro de Control</span>
                                     <h4>¿Qué está pasando en el Hotel?</h4>
@@ -274,7 +278,7 @@
                             </div>
 
                             <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
+                                <i class="i-plain color-hotel i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <span class="before-heading">Comunicación digital.</span>
                                     <h4>Mejor Comunicación</h4>
@@ -283,7 +287,7 @@
                             </div>
 
                             <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
+                                <i class="i-plain color-hotel i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
                                     <span class="before-heading">Genere Inteligencia.</span>
                                     <h4>Estadísticas &amp; Reportes </h4>
@@ -307,7 +311,7 @@
                 <div class="container clearfix">
 
                     <div class="heading-block topmargin-lg center">
-                        <h2>Funcionalidades de Whagons</h2>
+                        <h2>Funcionalidades de Whagons Hospitalidad</h2>
                         <span class="divcenter">A través de una aplicación intuitiva, todos los equipos de la organización se pueden comunicar de manera más clara y eficiente. </span>
                     </div>
 
@@ -317,16 +321,16 @@
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-bulb"></i></a>
+                                    <a href="#"><i class="hotel icon-glass"></i></a>
                                 </div>
-                                <h3>Fácil de Configurar</h3>
-                                <p>Configurable a las necesidades específicos de cada equipo dentro de la organización.</p>
+                                <h3>Solicitudes de Huéspedes</h3>
+                                <p>Configurable a las necesidades específicas de cada hotel para atender a sus huéspedes.</p>
                             </div>
 
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-layers"></i></a>
+                                    <a href="#"><i class="hotel icon-line-layers"></i></a>
                                 </div>
                                 <h3>Visibilidad en Tiempo Real</h3>
                                 <p>Whagons permite consultar en tiempo real el estado y duración de tareas.</p>
@@ -334,10 +338,10 @@
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-android2"></i></a>
+                                    <a href="#"><i class="hotel icon-binoculars"></i></a>
                                 </div>
-                                <h3>Aplicación Nativa</h3>
-                                <p>Whagons cuenta con una aplicación nativa tanto para dispositivos Android como para iPhones y tablets.</p>
+                                <h3>Lost & Found</h3>
+                                <p>Whagons le permite de manera sencillo dar seguimiento a objetos perdidos y encontrados. </p>
                             </div>
 
                         </div>
@@ -352,15 +356,15 @@
 
                             <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-check"></i></a>
+                                    <a href="#"><i class="hotel icon-wrench1"></i></a>
                                 </div>
-                                <h3>Evaluación de Trabajos</h3>
-                                <p>Mide la eficiencia y el desempeño de sus equipos de trabajo.</p>
+                                <h3>Mantenimiento Preventivo</h3>
+                                <p>Programe de manera rápida y sencilla los mantenimientos preventivos del hotel.</p>
                             </div>
 
                             <div class="feature-box  topmargin" data-animate="fadeIn" data-delay="200">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-note"></i></a>
+                                    <a href="#"><i class="hotel icon-note"></i></a>
                                 </div>
                                 <h3>Formularios &amp; Auditorías</h3>
                                 <p>Cada trabajo puede ir acompañado de listas de comprobación inteligentes o auditorias.</p>
@@ -370,7 +374,7 @@
 
                             <div class="feature-box topmargin" data-animate="fadeIn">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-apple"></i></a>
+                                    <a href="#"><i class="hotel icon-apple"></i></a>
                                 </div>
                                 <h3>Protocolos</h3>
                                 <p>El Módulo de Protocolos permite que toda la organización tenga accesos a los mismos desde la APP de Whagons.</p>
@@ -389,10 +393,30 @@
 
                 <div class="container clearfix">
 
-                    <div class="col_one_third">
+                <div class="col_one_third ">
+                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
+                            <div class="fbox-icon">
+                                <a href="#"><i class="color-hotel icon-broom"></i></a>
+                            </div>
+                            <h3>Limpieza y Desinfección </h3>
+                            <p>Programe, Organice y Evalúe las limpiezas de las habitaciones de su hotel.</p>
+                        </div>
+                    </div>
+
+                    <div class="col_one_third ">
+                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
+                            <div class="fbox-icon">
+                                <a href="#"><i class="color-hotel icon-params"></i></a>
+                            </div>
+                            <h3>Mantenimiento Preventivo</h3>
+                            <p>Calendarice las tareas de Mantenimiento Preventivo de manera sencilla y rápida.</p>
+                        </div>
+                    </div>
+
+                    <div class="col_one_third col_last">
                         <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
                             <div class="fbox-icon">
-                                <a href="#"><i class="icon-map-marker2"></i></a>
+                                <a href="#"><i class="color-hotel  icon-map-marker2"></i></a>
                             </div>
                             <h3>Geolocalización</h3>
                             <p>Conozca la ubicación geográfica real de recursos, activos, maquinaria y medios de transporte.
@@ -400,62 +424,44 @@
                         </div>
                     </div>
 
-                    <div class="col_one_third">
+                   
+                    <div class="clear"></div>
+                    <div class="col_one_third ">
                         <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
                             <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-eye"></i></a>
+                                <a href="#"><i class="color-hotel icon-line-eye"></i></a>
                             </div>
-                            <h3>Dashboards Tiempo Real</h3>
+                            <h3>Control de Asistencia <small style="color: #4068ED;">beta</small></h3>
+                            
                             <p>Visualice en tiempo real el estado de las operaciones de su empresa.</p>
                         </div>
                     </div>
 
-                    <div class="col_one_third col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-broom"></i></a>
-                            </div>
-                            <h3>Limpieza y Desinfección <small style="color: #1ABC9C;">beta</small></h3>
-                            <p>Controle las limpiezas de su organización y genere bitácoras de manera automática</p>
-                        </div>
-                    </div>
+                   
 
-                    <div class="clear"></div>
+                
 
                     <div class="col_one_third">
                         <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
                             <div class="fbox-icon">
-                                <a href="#"><i class="icon-truck"></i></a>
+                                <a href="#"><i class="color-hotel icon-truck"></i></a>
                             </div>
-                            <h3>Manejo de Activos <small style="color: #1ABC9C;">beta</small></h3>
+                            <h3>Manejo de Activos <small style="color: #4068ED;">beta</small></h3>
                             <p>Mantega la historial de instalaciones, reparaciones y mantenimientos de sus activos.</p>
                         </div>
                     </div>
 
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-params"></i></a>
-                            </div>
-                            <h3>Mantenimiento Preventivo</h3>
-                            <p>Calendarice las tareas de Mantenimiento Preventivo de manera sencilla y rápida.</p>
-                        </div>
-                    </div>
+                   
 
 
-
-
-
-
-
-
+                    
                     <div class="col_one_third bottommargin-sm col_last">
                         <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
                             <div class="fbox-icon">
-                                <a href="#"><i class="icon-signature"></i></a>
+                                <a href="#"><i class="color-hotel icon-signature"></i></a>
                             </div>
-                            <h3>Firma Digital</h3>
-                            <p>Permite que los clientes aprueben con su firma órdenes de trabajo finalizados. </p>
+                            <h3>Firma Electrónica</h3>
+                            <p>Permite que una tarea finalizada sean aprobada con una firma electrónica </p>
                         </div>
                     </div>
 
@@ -694,120 +700,57 @@
 
                     <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
 
-
-
-
-                        <div class="oc-item">
+                    <div class="oc-item">
                             <a href="https://www.hotelcapitansuizo.com/" target="_blank" title="Hotel Boutique Capitán Suizo"><img src="images/clients/whagons/gray/3.png" alt="Clients"></a>
+                    </div>
+                    <div class="oc-item">
+                            <a href="https://www.hotelaguasclaras.com/" target="_blank" title="Hotel Boutique Aguas Claras"><img src="images/clients/whagons/gray/1.png" alt="Clients"></a>
+                    </div>    
+                    <div class="oc-item">
+                            <a href="https://arenalmanoa.com/" target="_blank" title="Hotel Arenal Manoa"><img src="images/clients/whagons/gray/2.png" alt="Clients"></a>
                         </div>
+                       
                         <div class="oc-item">
-                            <a href="http://refriteccr.com/" target="_blank"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
+                            <a href="https://florblanca.com/" target="_blank" title="Hotel Boutique Flor Blanca"><img src="images/clients/whagons/gray/7.png" alt="Clients"></a>
+                        </div>    
                         <div class="oc-item">
-                            <a target="_blank" href="https://manzate.co.cr/"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.ellagar.com/"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href=""><img src="images/clients/whagons/gray/4.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="http://montacargasodio.com/"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.fantasyrooms.com/"><img src="images/clients/whagons/gray/6.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://florblanca.com/"><img src="images/clients/whagons/gray/7.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.aurolahotels.com/"><img src="images/clients/whagons/gray/8.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.humboldt.ed.cr/"><img src="images/clients/whagons/gray/9.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#" title="Arenal Manoa"><img src="images/clients/whagons/gray/2.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/10.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/12.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/13.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#" title="Aguas Claras"><img src="images/clients/whagons/gray/1.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/14.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/16.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/17.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/18.png" alt="Clients"></a>
+                            <a   target="_blank" title="Hotel Arenal Manoa"><img src="images/clients/whagons/gray/8.png" alt="Clients"></a>
                         </div>
 
                         <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/19.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/20.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/21.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/22.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/23.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/24.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
+                            <a   target="_blank" title="Jardín del Edén"><img src="images/clients/whagons/gray/10.png" alt="Clients"></a>
                         </div>
 
+                        <div class="oc-item">
+                            <a   target="_blank" title="Hotel Club Punta Leona"><img src="images/clients/whagons/gray/13.png" alt="Clients"></a>
+                        </div>
 
+                        <div class="oc-item">
+                            <a   target="_blank" title="Hotel Club Punta Leona"><img src="images/clients/whagons/gray/14.png" alt="Clients"></a>
+                        </div>
+
+                        <div class="oc-item">
+                            <a   target="_blank" title="Rythmia"><img src="images/clients/whagons/gray/16.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a   target="_blank" title="Arenal Springs"><img src="images/clients/whagons/gray/17.png" alt="Clients"></a>
+                        </div>
+
+                        <div class="oc-item">
+                            <a   target="_blank" title="Tamarindo Diriá"><img src="images/clients/whagons/gray/18.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a   target="_blank" title="Torres del Lago"><img src="images/clients/whagons/gray/19.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a   target="_blank" title="Trópico Latino"><img src="images/clients/whagons/gray/20.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a   target="_blank" title="Tryp by Wyndham"><img src="images/clients/whagons/gray/21.png" alt="Clients"></a>
+                        </div>
+                        <div class="oc-item">
+                            <a   target="_blank" title="Wyndham"><img src="images/clients/whagons/gray/22.png" alt="Clients"></a>
+                        </div>
 
                     </div>
 
