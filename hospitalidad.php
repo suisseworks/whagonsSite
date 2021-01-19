@@ -34,7 +34,7 @@
                         <ul class="d-block">
                         
                             <li class="mega-menu">
-                                <a href="tel:+12125792861">
+                                <a href="tel:+50622011545">
                                     <div style="text-transform: none;font-size: 18px; color: #002836 !important">
                                     Habla con un representante de ventas. Llámanos al + (506) 2201-1545</div>
                                 </a>
@@ -175,7 +175,7 @@
             <a id="quees"></a>
             <div class="content-wrap">
 
-                <div class="promo promo-light promo-full bottommargin-lg header-stick notopborder">
+                <div class="hidden promo promo-light promo-full bottommargin-lg header-stick notopborder">
                     <div class="container clearfix">
                         <!-- <h3>Llámanos hoy al <span>  (506) 8410-2321</span> o escríbenos a <span><a href="mailto:info@whagons.com">info@whagons.com</a></span></h3>
                         <span>Nos esforzamos por proporcionar a nuestros clientes un soporte personalizado de primer nivel.</span> -->
@@ -245,15 +245,13 @@
 
                             <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426" data-height-lg="567" data-height-md="470" data-height-md="287" data-height-xs="183">
                                
-                            <iframe  src="https://www.youtube.com/embed/0xdKgh4uvzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe   src="https://www.youtube.com/embed/0xdKgh4uvzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                              
-  
                                <!--
                                 <img src="images/services/main-fbrowser-hospitality.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
                                 <img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
 
-                                -->   
-                                 
+                                -->                                    
                             </div>
 
                         </div>
@@ -835,3 +833,5 @@
 </body>
 
 </html>
+
+ 

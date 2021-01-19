@@ -41,7 +41,7 @@
 
                             </li>
                             <li class="mega-menu">
-                                <a href="tel:+12125792861">
+                                <a href="tel:+50622011545">
                                     <div style="text-transform: none;font-size: 18px; color: #002836 !important">
                                         Llámanos al + (506) 2201-1545</div>
                                 </a>
@@ -182,7 +182,7 @@
             <a id="quees"></a>
             <div class="content-wrap">
 
-                <div class="promo promo-light promo-full bottommargin-lg header-stick notopborder">
+                <div style="margin-bottom; 20px;" class="hidden promo promo-light promo-full bottommargin-lg2 header-stick notopborder">
                     <div class="container clearfix">
                         <!-- <h3>Llámanos hoy al <span>  (506) 8410-2321</span> o escríbenos a <span><a href="mailto:info@whagons.com">info@whagons.com</a></span></h3>
                         <span>Nos esforzamos por proporcionar a nuestros clientes un soporte personalizado de primer nivel.</span> -->
