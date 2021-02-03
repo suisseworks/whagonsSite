@@ -36,7 +36,7 @@
                             <li class="mega-menu">
                                 <a href="tel:+50622011545">
                                     <div style="text-transform: none;font-size: 18px; color: #002836 !important">
-                                    Habla con un representante de ventas. Llámanos al + (506) 2201-1545</div>
+                                    Llámanos al + (506) 2201-1545</div>
                                 </a>
                             </li>
 
