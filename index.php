@@ -1,844 +1,336 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-
-<?php include 'inc/head.php'; ?>
-
-<body class="stretched">
-
-    <!-- Document Wrapper
-	============================================= -->
-    <div id="wrapper" class="clearfix">
-
-        <!-- Header
-		============================================= -->
-        <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
-
-            <div id="header-wrap" style=" background-color: #FFF !important; color: #002836 !important">
-
-                <div class="container clearfix">
-
-                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                    <!-- Logo
-					============================================= -->
-                    <div id="logo">
-                        <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-                    </div>
-                    <!-- #logo end -->
-
-                    <!-- Primary Navigation
-					============================================= -->
-                    <nav id="primary-menu" class="dark">
-
-                        <ul class="d-block">
-                        <li class="mega-menu">
-                                <a href="hospitalidad.php">
-                                    <div style="text-transform: none;border-radius: 10px;padding: 8px; color: white !important; background-color: #4068ED !important">
-                                    <i class="icon-broom"></i>Hospitalidad 
-                                    </div>
-                                </a>
-
-                            </li>
-                            <li class=" hidden mega-menu">
-                                <a href="hospitalidad.php">
-                                    <div style="text-transform: none;border-radius: 10px;padding: 8px; color: white !important; background-color: #019BB3 !important">
-                                    <i class="icon-snowflake"></i>Refrigeración 
-                                    </div>
-                                </a>
-
-                            </li>
-                            <li class="mega-menu">
-                                <a href="tel:+50622011545">
-                                    <div style="text-transform: none;font-size: 18px; color: #002836 !important">
-                                        Llámanos al + (506) 2201-1545</div>
-                                </a>
-                            </li>
-
-                         
-                                
-
-                                <!--  
-
-                            <li class="mega-menu">
-                                <a href="#funcionalidades">
-                                    <div>Funcionalidades</div>
-                                </a>
-
-                            </li>
-                              
-                           <li class="">
-                                <a href="#quees">
-                                    <div>Precios</div>
-                                </a>
-
-                            </li>
-                            <li class="">
-                                <a href="#quees">
-                                    <div>Hospitalidad</div>
-                                </a>
-                            </li>
-                        
-                            <li class="">
-                                <a href="#quees">
-                                    <div>Quiénes Somos</div>
-                                </a>
-
-                            </li>
-                            
-
-                            <li class="mega-menu">
-                                <a href="soporte.html">
-                                    <div style="border-radius: 10px; padding: 4px; color: white; background-color:#0E71A1">&nbsp;&nbsp;SOPORTE&nbsp;&nbsp;</div>
-                                </a>
-
-                            </li>
-                            -->
-                            <li class="mega-menu">
-                                <a href="agendar-demo.html">
-                                    <div style="border-radius: 10px; padding: 15px; color: white; background-color:#DE1D5E">&nbsp;&nbsp;SOLICITA TU DEMO&nbsp;&nbsp;</div>
-                                </a>
-
-                            </li>
-
-                        </ul>
-
-
-
-                        <!-- Top Search
-						============================================= -->
-                        <div class="hidden" id="top-search">
-                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                            <form action="search.html" method="get">
-                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                            </form>
-                        </div>
-                        <!-- #top-search end -->
-
-                    </nav>
-                    <!-- #primary-menu end -->
-
-                </div>
-
-            </div>
-
-        </header>
-        <!-- #header end -->
-
-
-        <section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix ">
-            <div class="slider-parallax-inner">
-
-                <div class="swiper-container swiper-parent">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide dark" style="background-image: url('images/slider/swiper/15.jpg');">
-                            <div class="container clearfix">
-                                <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Optimice su Negocio</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Gánele a la competencia <br> ofreciendo un <em>mejor servicio</em>
-                                    </p>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 
-                        <div class="swiper-slide dark">
-                            <div class="container clearfix">
-                                <div class="slider-caption slider-caption-center">
-                                    <h2 data-animate="fadeInUp">Flexible e Intuitivo</h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Una interfaz moderna &amp; fresca.</p>
-                                </div>
-                            </div>
-                            <div class="video-wrap">
-                                <video id="slide-video" poster="images/videos/explore.jpg" preload="auto" loop autoplay muted>
-									<source src='images/videos/explore.webm' type='video/webm' />
-									<source src='images/videos/explore.mp4' type='video/mp4' />
-								</video>
-                                <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;">
-                            <div class="container clearfix">
-                                <div class="slider-caption">
-                                    <h2 data-animate="fadeInUp">Rendimiento Óptimo
-
-                                    </h2>
-                                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-                    <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-
-                </div>
-                -->
-
-                        <a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
-                    </div>
-        </section>
-
-
-
-        <!-- Content
-		============================================= -->
-        <section id="content">
-
-
-            <a id="quees"></a>
-            <div class="content-wrap">
-
-                <div style="margin-bottom; 20px;" class="hidden promo promo-light promo-full bottommargin-lg2 header-stick notopborder">
-                    <div class="container clearfix">
-                        <!-- <h3>Llámanos hoy al <span>  (506) 8410-2321</span> o escríbenos a <span><a href="mailto:info@whagons.com">info@whagons.com</a></span></h3>
-                        <span>Nos esforzamos por proporcionar a nuestros clientes un soporte personalizado de primer nivel.</span> -->
-                        <a href="agendar-demo.html" style="border-radius: 10px; color: black; background-color: transparent; border-style: solid; border-width: 2px !important; border-color:#DE1D5E !important" class="button button-dark button-xlarge button-rounded">SOLICITA TU DEMO</a>
-
-                    </div>
-                </div>
-
-                <div class="hidden container clearfix">
-
-                    <div class="heading-block center nobottomborder bottommargin-lg">
-                        <h1>Si se puede Medir, se puede Mejorar</h1>
-                        <span>Organice, Controle &amp; Evalúe a sus equipos de trabajo!</span>
-                    </div>
-
-                    <div class="col_one_third nobottommargin">
-
-                        <div class="heading-block fancy-title nobottomborder title-bottom-border">
-                            <h4>Qué <span>hacemos</span>.</h4>
-                        </div>
-
-                        <p>Logramos que los procesos, las tareas y la comunicación dentro y entre diferentes equipos fluya. Nos enfocamos en progreso más que en proceso. Proveemos claridad, visibilidad, trazabilidad e indicadores sobre las operaciones del
-                            negocio.
-                        </p>
-
-                    </div>
-
-                    <div class="col_one_third nobottommargin">
-
-                        <div class="heading-block fancy-title nobottomborder title-bottom-border">
-
-                            <h4>Qué <span>es</span>.</h4>
-                        </div>
-
-                        <p>La tecnología para industria es con frencuencia compleja costosa y poco flexible. Whagons es una herramienta en la nube, de bajo costo, intuitiva y sencilla de utilizar, que cuenta con la versatilidad necesaria para adaptarse a
-                            diversas industrias. </p>
-
-                    </div>
-
-                    <div class="col_one_third nobottommargin col_last">
-
-                        <div class="heading-block fancy-title nobottomborder title-bottom-border">
-                            <h4>Cómo <span>funciona</span>.</h4>
-                        </div>
-
-                        <p>Whagons conecta a todos los equipos para el manejo de tareas, la comunicación y el análisis operacional. Permite que la organización trabaje sobre una plataforma en común para lograr alcanzar las metas de la empresa.</p>
-
-                    </div>
-
-                    <div class="clear"></div>
-
-                </div>
-
-
-                <div class="container clearfix">
-                    <div class="row clearfix">
-
-                        <div class="col-xl-5">
-                            <div class="heading-block topmargin">
-                                <h1>Ahorre tiempo y dinero optimizando sus operaciones.</h1>
-                            </div>
-                            <p class="lead">Visibilidad & Trazabilidad en <i>Tiempo Real</i>. </br>
-                                Mejor Comunicación, Control &amp; Eficiencia.</p>
-                        </div>
-
-                        <div class="col-xl-7">
-
-                            <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426" data-height-lg="567" data-height-md="470" data-height-md="287" data-height-xs="183">
-                                <img src="images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-                                <img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="section nobottommargin">
-                    <div class="container clear-bottommargin clearfix">
-
-                        <div class="row topmargin-sm clearfix">
-
-                            <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
-                                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Centro de Control</span>
-                                    <h4>¿Qué está pasando?</h4>
-                                </div>
-                                <p>Visualice el estado de las operaciones en tiempo real. Con Whagons puede medir duraciones, productividad, eficiencia y mucho más.</p>
-                            </div>
-
-                            <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
-                                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Chat &amp; Notificaciones.</span>
-                                    <h4>Mejor Comunicación</h4>
-                                </div>
-                                <p>Optimice la comunicación entre sus diferentes equipos, eliminando el uso de whatsApp, correos y papelería.</p>
-                            </div>
-
-                            <div class="col-lg-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
-                                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Dashboards &amp; Reportes.</span>
-                                    <h4>Estadísticas &amp; Reportes </h4>
-                                </div>
-                                <p>Apoye la tome de decisiones a través de dashboards y reportes que le brindarán información precisa sobre las operaciones de su negocio.</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <a id="funcionalidades"></a>
-                <!--<div class="section parallax bottommargin-lg" style="background-image: url('images/parallax/3.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-                    <div class="heading-block center nobottomborder nobottommargin">
-                        <h2> "Cualquier producto que necesita un manual para funcionar está roto"</h2>
-                        <em>Elon Musk</em>
-                    </div>
-                </div> -->
-
-
-                <div class="container clearfix">
-
-                    <div class="heading-block topmargin-lg center">
-                        <h2>Funcionalidades de Whagons</h2>
-                        <span class="divcenter">A través de una aplicación intuitiva, todos los equipos de la organización se pueden comunicar de manera más clara y eficiente. </span>
-                    </div>
-
-                    <div class="row bottommargin-sm">
-
-                        <div class="col-lg-4 col-md-6 bottommargin">
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-bulb"></i></a>
-                                </div>
-                                <h3>Fácil de Configurar</h3>
-                                <p>Configurable a las necesidades específicos de cada equipo dentro de la organización.</p>
-                            </div>
-
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-layers"></i></a>
-                                </div>
-                                <h3>Visibilidad en Tiempo Real</h3>
-                                <p>Whagons permite consultar en tiempo real el estado y duración de tareas.</p>
-                            </div>
-
-                            <div class="feature-box fbox-right topmargin" data-animate="fadeIn">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-android2"></i></a>
-                                </div>
-                                <h3>Aplicación Nativa</h3>
-                                <p>Whagons cuenta con una aplicación nativa tanto para dispositivos Android como para iPhones y tablets.</p>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-4 d-md-none d-lg-block bottommargin center">
-                            <img src="images/services/iphone7.png" alt="iphone 2">
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 bottommargin">
-
-
-
-                            <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-check"></i></a>
-                                </div>
-                                <h3>Evaluación de Trabajos</h3>
-                                <p>Mide la eficiencia y el desempeño de sus equipos de trabajo.</p>
-                            </div>
-
-                            <div class="feature-box  topmargin" data-animate="fadeIn" data-delay="200">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-note"></i></a>
-                                </div>
-                                <h3>Formularios &amp; Auditorías</h3>
-                                <p>Cada trabajo puede ir acompañado de listas de comprobación inteligentes o auditorias.</p>
-                            </div>
-
-
-
-                            <div class="feature-box topmargin" data-animate="fadeIn">
-                                <div class="fbox-icon">
-                                    <a href="#"><i class="icon-apple"></i></a>
-                                </div>
-                                <h3>Protocolos</h3>
-                                <p>El Módulo de Protocolos permite que toda la organización tenga accesos a los mismos desde la APP de Whagons.</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-
-
-
-
-                <div class="container clearfix">
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-map-marker2"></i></a>
-                            </div>
-                            <h3>Geolocalización</h3>
-                            <p>Conozca la ubicación geográfica real de recursos, activos, maquinaria y medios de transporte.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-eye"></i></a>
-                            </div>
-                            <h3>Dashboards Tiempo Real</h3>
-                            <p>Visualice en tiempo real el estado de las operaciones de su empresa.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-broom"></i></a>
-                            </div>
-                            <h3>Limpieza y Desinfección <small style="color: #1ABC9C;">beta</small></h3>
-                            <p>Controle las limpiezas de su organización y genere bitácoras de manera automática</p>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-truck"></i></a>
-                            </div>
-                            <h3>Manejo de Activos <small style="color: #1ABC9C;">beta</small></h3>
-                            <p>Mantega la historial de instalaciones, reparaciones y mantenimientos de sus activos.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-params"></i></a>
-                            </div>
-                            <h3>Mantenimiento Preventivo</h3>
-                            <p>Calendarice las tareas de Mantenimiento Preventivo de manera sencilla y rápida.</p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-                    <div class="col_one_third bottommargin-sm col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-signature"></i></a>
-                            </div>
-                            <h3>Firma Digital</h3>
-                            <p>Permite que los clientes aprueben con su firma órdenes de trabajo finalizados. </p>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                </div>
-
-
-
-                <div id="portfolio" class="hidden portfolio portfolio-nomargin grid-container portfolio-notitle portfolio-full grid-container clearfix">
-
-                    <article class="portfolio-item pf-media pf-icons">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Open Imagination</a></h3>
-                            <span><a href="#">Media</a>, <a href="#">Icons</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-                            <span><a href="#">Illustrations</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics pf-uielements">
-                        <div class="portfolio-image">
-                            <a href="#">
-                                <img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
-                            <span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-icons pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/4.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
-                            <span><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-uielements pf-media">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/5.jpg" alt="Console Activity">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Console Activity</a></h3>
-                            <span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/6.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
-                            <span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-uielements pf-icons">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single-video.html">
-                                <img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-                            <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-                            <span><a href="#">Graphics</a></span>
-                        </div>
-                    </article>
-
-                </div>
-
-
-                <div class="clear"></div>
-
-                <a href="docs/whagons.pdf" class=" button button-full  center tright bottommargin-lg">
-                    <div class="container clearfix">
-                        Descarga Brochure de Whagons 3.0 <strong>aquí</strong> <i class="icon-caret-right" style="top:4px;"></i>
-                    </div>
-                </a>
-
-                <div class="hidden container clearfix">
-
-                    <div class="col_one_third bottommargin-sm center">
-                        <img data-animate="fadeInLeft" src="images/services/iphone6.png" alt="Iphone">
-                    </div>
-
-                    <div class="col_two_third bottommargin-sm col_last">
-
-                        <div class="heading-block topmargin-sm">
-                            <h3>Optimized for Mobile &amp; Touch Enabled Devices.</h3>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam,
-                            laboriosam!
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam.</p>
-
-                        <a href="#" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
-
-                    </div>
-
-                </div>
-
-                <div class="hidden section parallax dark nobottommargin" style="background-image: url('images/services/home-testi-bg.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-
-                    <div class="heading-block center">
-                        <h3>What Clients Say?</h3>
-                    </div>
-
-                    <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
-                        <div class="flexslider">
-                            <div class="slider-wrap">
-                                <div class="slide">
-                                    <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-                                    </div>
-                                    <div class="testi-content">
-                                        <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
-                                        <div class="testi-meta">
-                                            Steve Jobs
-                                            <span>Apple Inc.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-                                    </div>
-                                    <div class="testi-content">
-                                        <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-                                        <div class="testi-meta">
-                                            Collis Ta'eed
-                                            <span>Envato Inc.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-                                    </div>
-                                    <div class="testi-content">
-                                        <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-                                        <div class="testi-meta">
-                                            John Doe
-                                            <span>XYZ Inc.</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-
-
-                <div class="container clearfix">
-
-                    <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-
-
-
-
-                        <div class="oc-item">
-                            <a href="https://www.hotelcapitansuizo.com/" target="_blank" title="Hotel Boutique Capitán Suizo"><img src="images/clients/whagons/gray/3.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a href="http://refriteccr.com/" target="_blank"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://manzate.co.cr/"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.ellagar.com/"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href=""><img src="images/clients/whagons/gray/4.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="http://montacargasodio.com/"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.fantasyrooms.com/"><img src="images/clients/whagons/gray/6.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://florblanca.com/"><img src="images/clients/whagons/gray/7.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.aurolahotels.com/"><img src="images/clients/whagons/gray/8.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.humboldt.ed.cr/"><img src="images/clients/whagons/gray/9.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/5.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#" title="Arenal Manoa"><img src="images/clients/whagons/gray/2.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/10.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/12.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/13.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#" title="Aguas Claras"><img src="images/clients/whagons/gray/1.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/14.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="https://www.lasgravilias.com/"><img src="images/clients/whagons/gray/27.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/16.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/17.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/18.png" alt="Clients"></a>
-                        </div>
-
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/19.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/20.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/21.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/22.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/15.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/23.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/11.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/24.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/25.png" alt="Clients"></a>
-                        </div>
-                        <div class="oc-item">
-                            <a target="_blank" href="#"><img src="images/clients/whagons/gray/26.png" alt="Clients"></a>
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-        </section>
-        <!-- #content end -->
-
-        <!-- Footer
-		============================================= -->
-        <?php include 'inc/footer.php'; ?>
-        <!-- #footer end -->
-
-        </div>
-        <!-- #wrapper end -->
-
-        <!-- Go To Top
-	============================================= -->
-        <div id="gotoTop" class="icon-angle-up"></div>
-
-        <?php include 'inc/scripts.php'; ?>           
-
-</body>
-
-</html>
+<?php include 'inc/header.php'; ?>
+		<section>
+				<div class="slider-dark arrows-dark slick-loading fa-req home-banner" data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true, &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 5000}" data-brk-library="slider__slick">
+				<div>
+						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide2.jpg) !important;background: transparent;" data-brk-library="component__parallax">
+							<div class="container">
+								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
+											<defs>
+												<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+													<stop offset="0%" stop-color="var(--brand-primary)" />
+													<stop offset="100%" stop-color="var(--secondary)" />
+												</linearGradient>
+											</defs>
+											<path d="M0,0H793.7V170.08H0ZM0,170.08c149.56-4.21,259.59-9.69,289-12.72,7.7-.79,22.53-2.73,36.59-13.55,12.29-9.47,18.34-21.39,21.73-28.26C369.3,71.05,392.65,10.86,396.85,0H0Z" />
+										</svg></span>
+										<div class="col-1"></div>
+								<div class="col-sm-5 text-center">
+									<img class="w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+								</div>
+								<div class="col-1"></div>
+									<div class="col-sm-5">
+									<div class="text-sm-left text-center">
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Visibilidad y</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Trazabilidad</h2>
+										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
+											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div>
+						<div class="brk-paraxify overflow-hid" style="background-image: url(images/home-banner.jpg) !important;background: transparent;" data-brk-library="component__parallax">
+							<div class="container">
+								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
+											<defs>
+												<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+													<stop offset="0%" stop-color="var(--brand-primary)" />
+													<stop offset="100%" stop-color="var(--secondary)" />
+												</linearGradient>
+											</defs>
+											<path d="M0,0H793.7V170.08H0ZM0,170.08c149.56-4.21,259.59-9.69,289-12.72,7.7-.79,22.53-2.73,36.59-13.55,12.29-9.47,18.34-21.39,21.73-28.26C369.3,71.05,392.65,10.86,396.85,0H0Z" />
+										</svg></span>
+										<div class="col-1"></div>
+								<div class="col-sm-5 text-center">
+									<img class="w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+								</div>
+								<div class="col-1"></div>
+									<div class="col-sm-5">
+									<div class="text-sm-left text-center">
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Optimice su</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Negocio</h2>
+										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
+											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div>
+						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide3.jpg) !important;background: transparent;" data-brk-library="component__parallax">
+							<div class="container">
+								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
+											<defs>
+												<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+													<stop offset="0%" stop-color="var(--brand-primary)" />
+													<stop offset="100%" stop-color="var(--secondary)" />
+												</linearGradient>
+											</defs>
+											<path d="M0,0H793.7V170.08H0ZM0,170.08c149.56-4.21,259.59-9.69,289-12.72,7.7-.79,22.53-2.73,36.59-13.55,12.29-9.47,18.34-21.39,21.73-28.26C369.3,71.05,392.65,10.86,396.85,0H0Z" />
+										</svg></span>
+										<div class="col-1"></div>
+								<div class="col-sm-5 text-center">
+									<img class="w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+								</div>
+								<div class="col-1"></div>
+									<div class="col-sm-5">
+									<div class="text-sm-left text-center">
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Optimice su</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Negocio</h2>
+										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
+											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+		</section>
+		<section class="position-relative pt-130 pb-130 pt-xs-50 pb-xs-70 intro-section">
+			<div class="container">
+				<div class="row align-items-end justify-content-center" data-brk-library="component__image_frames">
+					<div class="col-md-7 text-left mt-140 mt-lg-0 mb-lg-50">
+						<div class="extra__heading-3" data-brk-library="component__title_section">
+							<div class="heading">
+								<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">AHORRE TIEMPO Y</h2>
+							<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase"> DINERO OPTIMIZANDO <br><span class="font__weight-ultralight">SUS OPERACIONES.</span> </h2>
+							</div>
+							<p class="font__family-open-sans font__size-20">Visibilidad & Trazabilidad en Tiempo Real.
+								Mejor Comunicación, Control & Eficiencia.</p>
+						</div>
+					</div>
+					<div class="col-md-5 flex-lg-last pb-60">
+						<div class="frame-image img-double-bigger">
+							<div class="img mt-50"><img class="lazyload" src="images/main-fbrowser.png" data-src=" images/main-fbrowser.png" alt="alt"></div>
+							<div class="img mr-150"><img class="lazyload" src="images/main-fmobile.png" data-src="images/main-fmobile.png" alt="alt"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="Features-section">
+			<div class="container mt-20 mb-70">
+					<div class="services__wrapper-main services__wrapper-pedestal active__effect-main" data-brk-library="component__services">
+						<div class="row row-no-gutter align-items-center">
+							<div class="col-lg-4">
+								<div class="services__wrapper active__effect right text-lg-right">
+									<div class="inline-wrap"><button class="icon__btn icon__btn-anim icon__btn-md_1"><span class="after"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="before"></span> <i class="fas fa-tv"></i></button>
+										<div>
+											<p class="font__family-open-sans font__weight-bold font__size-16 brk-base-font-color">Centro de Control</p>
+											<h4 class="font__family-montserrat font__weight-ultralight font__size-24 text-uppercase mt-10">¿QUÉ ESTÁ PASANDO?</h4>
+										</div>
+									</div>
+									<p class="font__family-open-sans font__size-14 text-gray mt-20">Visualice el estado de las operaciones en tiempo real. Con Whagons puede medir duraciones, productividad, eficiencia y mucho más.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="services__wrapper active__effect active current center text-center"><button class="icon__btn icon__btn-anim icon__btn-md_1"><span class="after"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="before"></span> <i class="far fa-comments"></i></button>
+									<p class="font__family-open-sans font__weight-bold font__size-16 brk-base-font-color">Chat & Notificaciones</p>
+									<h4 class="font__family-montserrat font__weight-ultralight font__size-24 text-uppercase mt-10">MEJOR COMUNICACIÓN</h4>
+										<p class="font__family-open-sans font__size-14 text-gray mt-20">Optimice la comunicación entre sus diferentes equipos, eliminando el uso de whatsApp, correos y papelería.</p>
+										
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="services__wrapper active__effect left text-lg-left">
+									<div class="inline-wrap"><button class="icon__btn icon__btn-anim icon__btn-md_1"><span class="after"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="spike"></span> <span class="before"></span> <i class="far fa-chart-bar"></i></button>
+										<div>
+											<p class="font__family-open-sans font__weight-bold font__size-16 brk-base-font-color">Dashboards & Reportes</p>
+											<h4 class="font__family-montserrat font__weight-ultralight font__size-24 text-uppercase mt-10">ESTADÍSTICAS & REPORTES</h4>
+										</div>
+									</div>
+									<p class="font__family-open-sans font__size-14 text-gray mt-20">Apoye la tome de decisiones a través de dashboards y reportes que le brindarán información precisa sobre las operaciones de su negocio.</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="pb-50 lower-feautures">
+			<div class="container">
+				<div class="text-center brk-promo-crcl-title pt-30 promo-title">
+					<h2 class="title__heading-06 title__heading-sub wow zoomIn title__heading-sub_class-color brk-text-base-color-1 font__weight-bold font__family-montserrat" data-brk-library="component__title">WHAGONS</h2>
+					<h2 class="title__heading-06 title__heading-main brk-color-base-dark font__family-montserrat font__size-40 font__weight-ultralight" data-brk-library="component__title"><span class="font__weight-extrabold">FUNCIONALIDADES DE </span></h2>
+					<p>A través de una aplicación intuitiva, todos los equipos de la <br> organización se pueden comunicar de manera más clara y eficiente.</p>
+				</div>
+				<div class="brk-promo-crcl" data-brk-library="component__promo,waypoints">
+					<div class="brk-promo-crcl__circles-container"><span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span></div><img src="images/iphone7.png" alt="laptop" class="brk-promo-crcl__bg promo-image">
+					
+					<div class="brk-promo-crcl__cards-container home-promo">
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-cogs"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">FÁCIL DE CONFIGURAR</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Configurable a las necesidades específicos de cada equipo dentro de la organización.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="far fa-eye"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">VISIBILIDAD EN TIEMPO REAL</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Whagons permite consultar en tiempo real el estado y duración de tareas.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-mobile-alt"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">APLICACIÓN NATIVA</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Whagons cuenta con una aplicación nativa tanto para dispositivos Android como para iPhones y tablets.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-check"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">EVALUACIÓN DE TRABAJOS</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Mide la eficiencia y el desempeño de sus equipos de trabajo.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="far fa-file-alt"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">FORMULARIOS & AUDITORÍAS</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Cada trabajo puede ir acompañado de listas de comprobación inteligentes o auditorias.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fab fa-apple"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">PROTOCOLOS</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">El Módulo de Protocolos permite que toda la organización tenga accesos a los mismos desde la APP de Whagons.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-map-marker-alt"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">GEOLOCALIZACIÓN</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Conozca la ubicación geográfica real de recursos, activos, maquinaria y medios de transporte.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-tachometer-alt"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">DASHBOARDS TIEMPO REAL</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Visualice en tiempo real el estado de las operaciones de su empresa.</p>
+						</a>
+						<a class="brk-promo-hover-card" href="#">
+							<div class="brk-promo-hover-card__icon-wrapper">
+								<div class="brk-abs-overlay brk-promo-hover-card__icon-overlay brk-alt-gradient--30deg-96"></div><i class="fas fa-broom"></i>
+							</div>
+							<p class="brk-promo-hover-card__title font__family-montserrat font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">LIMPIEZA Y DESINFECCIÓN BETA</p>
+							<p class="brk-promo-hover-card__subtitle brk-dark-font-color font__size-14 line__height-21 text-center">Controle las limpiezas de su organización y genere bitácoras de manera automática</p>
+						</a>
+						
+					</div>
+				</div>
+			</div>
+				
+		</section>
+		<section class="curve-features">
+			
+				<!-- overlay__gradient -->
+				<div class="pb-70 mt-70 mt-md-130 overlay__curve bg__style overlay__gradient all-light text-center" tyle="background-image: url(img/bg-1920_1.jpg)" data-brk-library="component__services">
+					<div class="container">
+						<div class="services__wrapper-main services__wrapper-honeycomb active__effect-main">
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="services__wrapper active__effect current active">
+										<div class="icon__cover"><button class="icon__btn icon__btn-anim icon__btn-sm"><span class="before"></span> <i class="fas fa-truck"></i> <span class="after"></span></button></div>
+										
+										<h4 class=" font__weight-light font__size-24 text-uppercase"><span class="font__weight-regular">MANEJO DE ACTIVOS BETA</span></h4><span class="divide"></span>
+										<p class="font__family-open-sans font__size-14 main-text">Mantega la historial de instalaciones, reparaciones y mantenimientos de sus activos.</p>
+										
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="services__wrapper active__effect active current center">
+										<div class="icon__cover"><button class="icon__btn icon__btn-anim icon__btn-sm"><span class="before"></span> <i class="fas fa-sliders-h"></i> <span class="after"></span></button></div>
+										
+										<h4 class=" font__weight-light font__size-24 text-uppercase"><span class="font__weight-regular">MANTENIMIENTO PREVENTIVO</span></h4><span class="divide"></span>
+										<p class="font__family-open-sans font__size-14 main-text">Calendarice las tareas de Mantenimiento Preventivo de manera sencilla y rápida.</p>
+										
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="services__wrapper active__effect current active">
+										<div class="icon__cover"><button class="icon__btn icon__btn-anim icon__btn-sm"><span class="before"></span> <i class="fas fa-signature"></i> <span class="after"></span></button></div>
+										
+										<h4 class=" font__weight-light font__size-24 text-uppercase"><span class="font__weight-regular">FIRMA DIGITAL</span></h4><span class="divide"></span>
+										<p class="font__family-open-sans font__size-14 main-text">Permite que los clientes aprueben con su firma órdenes de trabajo finalizados.</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><span class="overlay_after"></span>
+				</div>
+			
+		</section>
+		<section>
+			<div class="bg__style overlay__gradient all-light lazyload" data-brk-library="component__call_to_action">
+					<div class="container">
+						<div class="cfa__wrapper cfa__hot pt-50 pb-50 pl-20 pr-20">
+
+							<h4 class="font__family-montserrat font__size-25 font__weight-bold text-uppercase">Descarga Brochure <br><span class="font__weight-ultralight"> de Whagons 3.0</span></h4><a href="docs/whagons.pdf" target="_blank" class="btn btn-inside-out btn-lg btn-inside-out-invert border-radius-30 font__family-open-sans font__weight-bold btn-min-width-200" data-brk-library="component__button"><span class="before">Aquí</span><span class="text">Aquí</span><span class="after">Aquí</span></a>
+						</div>
+					</div><span class="overlay_after brk-base-bg-gradient-14 opacity-90"></span>
+				</div>
+		</section>
+		
+		<section>
+			<div class="container mt-50 mb-50">
+				<div class="brk-brand-slider slick-loading fa-req pt-30 pt-md-0" id="brands" data-brk-library="slider__slick">
+					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/1.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/2.png" data-src="images/brands/2.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/3.png" data-src="images/brands/3.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/4.png" data-src="images/brands/4.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/5.png" data-src="images/brands/5.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/6.png" data-src="images/brands/6.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/7.png" data-src="images/brands/7.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/8.png" data-src="images/brands/8.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/9.png" data-src="images/brands/9.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/10.png" data-src="images/brands/10.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/11.png" data-src="images/brands/11.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/12.png" data-src="images/brands/12.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/13.png" data-src="images/brands/13.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/14.png" data-src="images/brands/14.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/15.png" data-src="images/brands/15.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/16.png" data-src="images/brands/16.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/17.png" data-src="images/brands/17.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/18.png" data-src="images/brands/18.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/19.png" data-src="images/brands/19.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/20.png" data-src="images/brands/20.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/21.png" data-src="images/brands/21.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/22.png" data-src="images/brands/22.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/23.png" data-src="images/brands/23.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/24.png" data-src="images/brands/24.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/25.png" data-src="images/brands/25.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/26.png" data-src="images/brands/26.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/27.png" data-src="images/brands/27.png" alt="71x69_1"></div>
+					
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		
+		
+		
+		
+<?php include 'inc/footer.php'; ?>

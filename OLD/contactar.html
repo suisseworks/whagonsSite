@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/form-contact.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel='icon' href='images/whagons/favicon.ico' type='image/x-icon' s>
+
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Document Title
+	============================================= -->
+    <title>Contactar | Whagons</title>
+</head>
+
+<body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        <!-- Header
+		============================================= -->
+        <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+            <div id="header-wrap">
+                <div class="container clearfix">
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <!-- Logo
+					============================================= -->
+                    <div id="logo">
+                        <a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                    </div>
+                    <!-- #logo end -->
+
+                    <!-- Primary Navigation
+					============================================= -->
+                    <nav id="primary-menu" class="dark">
+                        <ul>
+                            <li class="current">
+                                <a href="index.php">
+                                    <div>Inicio</div>
+                                </a>
+
+                            </li>
+                            <li class="">
+                                <a href="#quees">
+                                    <div>Qué es</div>
+                                </a>
+
+                            </li>
+                            <li class="mega-menu">
+                                <a href="#funcionalidades">
+                                    <div>Funcionalidades</div>
+                                </a>
+
+                            </li>
+                            <li class="mega-menu">
+                                <a href="soporte.html">
+                                    <div style="border-radius: 10px; padding: 4px; color: white; background-color:#0E71A1">
+                                        &nbsp;&nbsp;SOPORTE&nbsp;&nbsp;</div>
+                                </a>
+
+                            </li>
+                            <li class="mega-menu">
+                                <a href="agendar-demo.html">
+                                    <div style="border-radius: 10px; padding: 4px; color: white; background-color:#DE1D5E">
+                                        &nbsp;&nbsp;AGENDAR DEMO&nbsp;&nbsp;</div>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- Top Search
+						============================================= -->
+                        <div class="hidden" id="top-search">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i
+									class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                            </form>
+                        </div>
+                        <!-- #top-search end -->
+                    </nav>
+                    <!-- #primary-menu end -->
+                </div>
+            </div>
+        </header>
+        <!-- #header end -->
+        <!-- Page Title
+		============================================= -->
+        <section id="page-title">
+            <div class="container clearfix">
+                <h1>Contactar</h1>
+                <span>Un agente te responderá cuanto antes.</span>
+
+            </div>
+        </section>
+        <!-- #page-title end -->
+        <!-- Google Map
+		============================================= -->
+        <section id="google-map" class="hidden gmap slider-parallax"></section>
+        <!-- Page Sub Menu
+		============================================= -->
+        <div id="page-menu">
+            <div id="page-menu-wrap">
+                <div class="container clearfix">
+                    <div class="menu-title">Envíanos un <span>CORREO </span></div>
+                </div>
+            </div>
+        </div>
+        <!-- #page-menu end -->
+
+        <!-- Content
+		============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="col_half container clearfix">
+                    <div class="container-contact100">
+                        <div class="wrap-contact100">
+                            <img id="loader" src="images/loader-image.gif" style="display: none; ">
+                            <div style="display: none" id="resultMessage">
+                                <h1> En breve te contactaremos! </h1>
+                            </div>
+                            <form id="contact-form" action="sendmail-soport.php" class="contact100-form validate-form">
+                                <span class="contact100-form-title">
+									¿Como podemos ayudarle? 
+								</span>
+
+                                <div class="wrap-input100 validate-input">
+                                    <input class="input100" type="text" id="name" name="inputName" placeholder="NOMBRE" required>
+                                    <span class="focus-input100"></span>
+                                    <span class="symbol-input100">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input">
+                                    <input class="input100" type="text" id="name" name="inputOrganization" placeholder="ORGANIZACIÓN" required>
+                                    <span class="focus-input100"></span>
+                                    <span class="symbol-input100">
+										<i class="fa fa-building" aria-hidden="true"></i>
+									</span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input">
+                                    <input class="input100" type="email" id="email" name="inputEmail" placeholder="CORREO" required>
+                                    <span class="focus-input100"></span>
+                                    <span class="symbol-input100">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input">
+                                    <input class="input100" type="number" id="email" name="inputPhone" placeholder="TELÉFONO">
+                                    <span class="focus-input100"></span>
+                                    <span class="symbol-input100">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</span>
+                                </div>
+
+                                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                                    <textarea class="input100" id="comment" name="inputComment" placeholder="CONSULTA" required></textarea>
+                                    <span class="focus-input100"></span>
+                                </div>
+
+                                <div class="container-contact100-form-btn">
+                                    <button class="contact100-form-btn">
+										ENVIAR
+									</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sidebar
+					============================================= -->
+                <div class="col_half sidebar col_last nobottommargin">
+                    <address>
+                        <strong>Sucursal Latinoamérica:</strong><br>
+						Torres de Lago, Sabana Sur<br>
+						San José, Costa Rica<br>
+					</address>
+                    <abbr title="Phone Number"><strong>Teléfonos:</strong><br></abbr> (506) 2201 1545<br>
+                    <abbr title="Phone Number"><strong></strong></abbr> (506) 8410 2321<br>
+                    <abbr title="Email Address"><strong>Correo:</strong></abbr> info@whagons.com
+                    <abbr title="Email Address"><strong>Correo:</strong></abbr> info@whagons.com
+                    <div class="widget noborder notoppadding">
+                        <a target="_blank" href="http://www.facebook.com/whagons" class="social-icon si-small si-dark si-facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer
+		============================================= -->
+        <footer id="footer" class="dark">
+
+            <div class=" container">
+
+                <!-- Footer Widgets
+				============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+
+                    <div class="col_two_third">
+
+                        <div class="col_one_third">
+
+                            <div class="widget clearfix">
+
+                                <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+
+
+
+                                <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                    <address>
+									<strong>Sucursal Latinoamérica:</strong><br>
+									Torres del Lago, Sabana Sur<br>
+									San José, Costa Rica<br>
+                                </address>
+                                    <address>
+                                    <strong>Oficinas Centrales:</strong><br>
+                                    Haldenstrasse 5 | P.O Box 1359<br>
+                                    6340 Baar, Suiza<br>
+                                </address>
+
+                                    <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 2201 1545<br>
+                                    <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 8410 2321
+                                    <br>
+                                    <abbr title="Email Address"><strong>Correo:</strong></abbr> info@whagons.com
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col_one_third">
+                            <div class="widget widget_links clearfix">
+                                <h4>Links</h4>
+                                <ul>
+                                    <li><a href="contactar.html">Contactar</a></li>
+                                    <li><a href="soporte.html">Soporte</a></li>
+                                    <li><a href="agendar-demo.html">Agendar Demo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col_one_third col_last">
+                            <div class="widget clearfix">
+                                <h4>Medios</h4>
+                                <div id="post-list-footer">
+                                    <div class="spost clearfix">
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a target="_blank" href="https://revistasumma.com/emprendedores-costarricenses-ganan-premio-a-la-innovacion-con-plataforma-para-hoteles/">Premio
+													al Producto Innovador Exphore</a></h4>
+                                            </div>
+                                            <ul class="entry-meta">
+                                                <li>Revista Summa</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="spost clearfix">
+                                        <div class="entry-c">
+                                            <div class="entry-title">
+                                                <h4><a target="_blank" href="https://www.elfinancierocr.com/tecnologia/dingdone-una-app-para-automatizar-los-procesos-en-los-hoteles/XAS3UKJNEFDSXLYKRLRZASA6OQ/story/">App
+													para automatizar procesos hoteleros</a></h4>
+                                            </div>
+                                            <ul class="entry-meta">
+                                                <li>El Financiero</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third col_last">
+                        <div class="widget subscribe-widget clearfix">
+                            <h5><strong>Subscríbete</strong> para manternerte al día con noticias, actualizaciones &amp; Ofertas
+                            </h5>
+                            <div class="widget-subscribe-form-result"></div>
+                            <form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="nobottommargin">
+                                <div class="input-group divcenter">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="icon-email2"></i></div>
+                                    </div>
+                                    <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="submit">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class=" widget clearfix" style="margin-bottom: -20px;">
+                            <div class="row">
+                                <div class="col-lg-12 clearfix bottommargin-sm">
+                                    <img width="70%" src="images/procomer.png"> <br>
+                                    <small style="margin-left: 40px; color: gray"></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-widgets-wrap end -->
+            </div>
+            <!-- Copyrights
+			============================================= -->
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                        Copyrights &copy; 2020 All Rights Reserved by Whagons International.<br>
+                        <div class="copyright-links"><a href="terminos-de-uso.html">Términos de uso</a> / <a href="politicas-de-privacidad.html">Políticas de Privacidad</a></div>
+                    </div>
+
+                    <div class="col_half col_last tright">
+                        <div class=" fright clearfix">
+                            <a target="_blank" href="https://www.facebook.com/whagons/" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
+
+                            <img width="20%" src="images/app-store.webp">
+                            <img width="20%" src="images/google-play.webp">
+
+
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <i class="icon-envelope2"></i> info@whagons.com <span class="middot">&middot;</span> <i class="icon-headphones"></i>(506) 2201 1545
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- #copyrights end -->
+        </footer>
+        <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+    <!-- External JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+
+    <script>
+        $(function() {
+            $('#contact-form').on('submit', function(e) {
+                var url = "sendmail.php"; // the script where you handle the form input.
+
+                // $("#checkCaptcha").hide();  
+                $("#loader").show();
+                $("#contact-form").hide();
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $("#contact-form").serialize(), // serializes the form's elements.
+                    success: function(data) {
+                        response = JSON.parse(data);
+
+                        if (response.result) {
+                            $("#loader").hide();
+                            $("#resultMessage").fadeIn();
+                        } else {
+                            console.log(response.msj);
+                        }
+                    }
+                });
+                e.preventDefault();
+            })
+        })
+    </script>
+</body>
+
+</html>

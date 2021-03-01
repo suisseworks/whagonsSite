@@ -1,156 +1,127 @@
-<footer id="footer" class="dark">
+</div> <!-- /.main-page -->
 
-<div class=" container">
+		<footer class="brk-footer position-relative" data-brk-library="component__footer,twitter_init">
+			<div class="brk-footer__wrapper pt-70 pt-md-90 brk-bg-center-cover" style="background-image: url()">
+				<div class="brk-abs-bg-overlay brk-base-gradient-27"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-12 col-md-6">
+							<h6 class="sr-only">Twitter posts</h6><a href="#" class="d-sm-inline-block d-block text-left mb-45" style="margin-top:-10px"><img src="images/footer-widget-logo.png" alt="alt"></a>
+							<p class="brk-dark-font-color-3 font__family-roboto font__size-15 font__weight-normal line__height-28 mb-20 mr-80 mr-xs-0 text-sm-left text-left">Si se puede Medir, se puede Mejorar.</p>
+							<p class="msg_contact d-none alert alert-success"></p>
 
-    <!-- Footer Widgets
-    ============================================= -->
-    <div class="footer-widgets-wrap clearfix">
+							<form method="post"  class="brk_subscribe_footer brk-form_footer-5 d-inline-block mb-30"><input type="text" placeholder="E-mail address" name="email" class="font__family-roboto font__size-15 font__weight-light subscribe_mail"> <button type="button" class="d-flex align-items-center justify-content-center font__family-montserrat font__size-12 font__weight-bold text-uppercase subscribe_whagons" disabled>Subscribe</button></form>
+							<div class="row custom-social" data-brk-library="component__social_block">
+								<div class="col-12 d-flex justify-content-start align-items-center">
 
-        <div class="col_two_third">
+									<div class="social__icon-circle m-0">
+										<a href="http://www.facebook.com/whagons" target="_blank">
+											<i class="brk-icon fab fa-facebook-f mb-0 mr-2">
+												<span class="before"></span>
+												<span class="after"></span>
+											</i>
+										</a>
+										
+									</div>
+									<div class="social__icon-circle m-0">
+										<a href="https://www.instagram.com/whagons/" target="_blank">
+											<i class="brk-icon fab fa-instagram mb-0 mr-2">
+												<span class="before"></span>
+												<span class="after"></span>
+											</i>
+										</a>
+										
+									</div>
+									<div class="social__icon-circle m-0">
+										<a href="https://www.youtube.com/channel/UCFDdOTRprmoffYS6fu_02gA" target="_blank">
+											<i class="brk-icon fab fa-youtube mb-0 mr-2">
+												<span class="before"></span>
+												<span class="after"></span>
+											</i>
+										</a>
+										
+									</div>
+									<div class="social__icon-circle m-0">
+										<a href="https://www.pinterest.com/whagons" target="_blank">
+											<i class="brk-icon fab fa-pinterest-p mb-0 mr-2">
+												<span class="before"></span>
+												<span class="after"></span>
+											</i>
+										</a>
+										
+									</div>
 
-            <div class="col_one_third">
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-2 col-12 col-md-6">
+							<h6 class="brk-white-font-color mb-40 mb-md-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left mt-xs-20">LINKS</h6>
+							<ul class="d-flex flex-column font__family-open-sans brk-dark-font-color-3 font__size-14 font__weight-normal line__height-16 text-sm-left text-left">
+								<li class="mb-15"><a href="contactar.php">Contactar</a></li>
+								<li class="mb-15"><a href="soporte.php">Soporte</a></li>
+								<li class="mb-15"><a href="agendar-demo.php">Agendar Demo</a></li>
+								<li class="mb-15"><a href="términos-de-uso.php">Términos de uso</a></li>
+								<li class="mb-15"><a href="políticas-de-privacidad.php">Políticas de Privacidad</a></li>
+							</ul>
+							
+						</div>
+						<div class="col-xl-3 col-12 col-md-6">
+							<h6 class="brk-white-font-color mb-40 mb-md-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left">MEDIOS</h6>
+							<article class=" mb-20 lazyload" data-brk-library="component__tiles">
+								<div class="brk-tiles-simple__content p-0 ">
+									<a href="https://revistasumma.com/emprendedores-costarricenses-ganan-premio-a-la-innovacion-con-plataforma-para-hoteles/" target="_blank">
+										<h5 class="font__family-montserrat font__weight-semibold font__size-16 text-truncate mb-2  brk-base-font-color">Premio al Producto Innovador Exphore</h5>
+									</a>
+									<p class="font__size-12 m-0">Revista Summa</p>						
+								</div>
+								<hr class="horiz-line my-3">
+								<div class="brk-tiles-simple__content p-0 ">
+									<a href="https://www.elfinancierocr.com/tecnologia/dingdone-una-app-para-automatizar-los-procesos-en-los-hoteles/XAS3UKJNEFDSXLYKRLRZASA6OQ/story" target="_blank">
+										<h5 class="font__family-montserrat font__weight-semibold font__size-16 text-truncate mb-2  brk-base-font-color">App para automatizar procesos hoteleros</h5>
+									</a>
+									<p class="font__size-12 m-0">El Financiero</p>						
+								</div>
+							</article>
+						</div>
+						<div class="col-xl-3 col-12 col-md-6">
+							<h6 class="brk-white-font-color mb-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left mt-xs-20">Find Us</h6>
+							
+							<p class="font__size-20 mb-30 text-sm-left text-left">
+								<a href="tel:50622011545" class="brk-white-font-color font__family-open-sans font__weight-light line__height-25">(506) 2201-1545</a> <br>								 
+								</p>
+							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fa fa-envelope line__height-24 brk-base-font-color"></i> <a href="mailto:info@whagons.com" class="show-inline-block">info@whagons.com</a></p>
+							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Sucursal Latinoamérica:</strong>
+											Torres del Lago, Sabana Sur
+											San José, Costa Rica</span></p>
+							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Oficinas Centrales:</strong>
+											Haldenstrasse 5 | P.O Box 1359
+											6340 Baar, Suiza</span></p>
+						</div>
+					</div>
+					<hr class="horiz-line mt-750 mb-20">
+					<div class="row pb-25 align-items-center copyright">
+						<div class="col-md-6">
+							<p class="brk-dark-font-color-3 font__family-open-sans font__size-14 mr-15">Copyrights © 2021 All Rights Reserved by Whagons International.</p>
+						</div>
+						<div class="col-md-6">
+							<div class="d-flex align-items-center justify-content-end">
+								<img src="images/exphore_winners.png"  class="img-fluid mr-2" width="50px">
+								<img src="images/b1.png" class="img-fluid mr-2" width="150px">
+								<img src="images/b2.png" class="img-fluid" width="150px">
+							</div>
+						</div>
+						
+						
+					</div>
 
-                <div class="widget clearfix">
+				</div>
+			</div>
+		</footer>
 
-                    <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+		
+		<a href="#top" id="toTop"></a>
+	<script src="js/scripts.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 
-                    <p>Si se puede <strong>Medir</strong>, se puede <strong>Mejorar</strong>.</p>
-
-                    <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-                        <address>
-                            <strong>Sucursal Latinoamérica:</strong><br>
-                            Torres del Lago, Sabana Sur<br>
-                            San José, Costa Rica<br>
-                        </address>
-                        <address>
-                            <strong>Oficinas Centrales:</strong><br>
-                            Haldenstrasse 5 | P.O Box 1359<br>
-                            6340 Baar, Suiza<br>
-                        </address>
-                        <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 2201-1545<br>
-                        <abbr title="Phone Number"><strong>Teléfono:</strong></abbr> (506) 8410 2321<br>
-                        <abbr title="Email Address"><strong>Correo:</strong></abbr> info@whagons.com
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col_one_third">
-
-                <div class="widget widget_links clearfix">
-
-                    <h4>Links</h4>
-
-                    <ul>
-                        <li><a href="contactar.html">Contactar</a></li>
-                        <li><a href="soporte.html">Soporte</a></li>
-                        <li><a href="agendar-demo.html">Solicita tu demo</a></li>
-
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <div class="col_one_third col_last">
-
-                <div class="widget clearfix">
-                    <h4>Medios</h4>
-
-                    <div id="post-list-footer">
-                        <div class="spost clearfix">
-                            <div class="entry-c">
-                                <div class="entry-title">
-                                    <h4><a target="_blank" href="https://revistasumma.com/emprendedores-costarricenses-ganan-premio-a-la-innovacion-con-plataforma-para-hoteles/">Premio al Producto Innovador Exphore</a></h4>
-                                </div>
-                                <ul class="entry-meta">
-                                    <li>Revista Summa</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="spost clearfix">
-                            <div class="entry-c">
-                                <div class="entry-title">
-                                    <h4><a target="_blank" href="https://www.elfinancierocr.com/tecnologia/dingdone-una-app-para-automatizar-los-procesos-en-los-hoteles/XAS3UKJNEFDSXLYKRLRZASA6OQ/story/">App para automatizar procesos</a></h4>
-                                </div>
-                                <ul class="entry-meta">
-                                    <li>El Financiero</li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col_one_third col_last">
-
-
-
-
-            <div class=" widget clearfix" style="margin-bottom: -20px;">
-
-                <div class="row">
-
-                    <div class="col-lg-12 clearfix bottommargin-sm">
-
-                        <img width="40%" src="images/exphore_winners.png"> <br>
-
-
-
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- .footer-widgets-wrap end -->
-
-</div>
-
-<!-- Copyrights
-============================================= -->
-<div id="copyrights">
-
-    <div class="container clearfix">
-
-        <div class="col_half">
-            Copyrights &copy; 2020 All Rights Reserved by Whagons International.<br>
-            <div class="copyright-links"><a href="terminos-de-uso.html">Términos de uso</a> / <a href="politicas-de-privacidad.html">Políticas de Privacidad</a></div>
-        </div>
-
-        <div class="col_half col_last tright">
-            <div class=" fright clearfix">
-                <a target="_blank" href="https://www.facebook.com/whagons/" class="social-icon si-small si-borderless si-facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                </a>
-
-                <img width="20%" src="images/app-store.webp">
-                <img width="20%" src="images/google-play.webp">
-
-
-            </div>
-
-            <div class="clear"></div>
-
-            <i class="icon-envelope2"></i> info@whagons.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> (506) 2201 1545
-        </div>
-
-    </div>
-
-</div>
-<!-- #copyrights end -->
-
-</footer>
+</html>
