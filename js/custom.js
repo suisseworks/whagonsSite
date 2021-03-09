@@ -72,6 +72,7 @@ jQuery(function($) {
 		var organization = $('.wh_org').val();
 		var phone = $('.whphone').val();
 		var consultation = $('.whconsultation').val();
+		var whformtype = $('.whformtype').val();
 
 		$("#loader").show();
 		$("#contact-form").hide();
@@ -85,6 +86,7 @@ jQuery(function($) {
 				organization: organization, 
 				phone: phone, 
 				consultation: consultation, 
+				whformtype: whformtype, 
 			},
 			dataType: "json",
 			success: function( response ) {
@@ -93,7 +95,7 @@ jQuery(function($) {
 					$("#loader").hide();
 					$("#resultMessage").fadeIn();
 				} else {
-					console.log("************* ERROR ERROR ERROR *************");
+					console.log("************* ERROR ERROR *************");
 					console.log(response);
 				}
 				

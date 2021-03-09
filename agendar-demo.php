@@ -30,6 +30,7 @@
 								</div>
 								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
 								
+								<input type="text" value="agendar-demo" class="whformtype" style="display: none">
 								<?php include('inc/wh-form.php');?>
 								
 							</div>

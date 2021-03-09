@@ -29,13 +29,9 @@
 								</div>
 								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
 								
-								
 									<?php include('inc/wh-form.php');?>
-								
-									
-								
+									<input type="text" value="soporte" class="whformtype" style="display: none">
 							</div>
-							
 						</div>
 						<div class="col-lg-1"></div>
 						<div class="col-lg-4 form-content">

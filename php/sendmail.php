@@ -31,6 +31,7 @@ try {
     $mail->Subject = "Nuevo Contacto Whagons!";
     $mail->isHTML(true);
     $mail->Body =   '<h1>Nuevo Contacto Whagons!</h1> <br><br>' .
+                    '<b>Intención: </b>' . $_POST["whformtype"] . '<br>' .
                     '<b>Nombre: </b>' . $_POST["name"] . '<br>' .
                     '<b>Correo: </b>' . $_POST["email"] . '<br>' .
                     '<b>Telefono: </b>' . $_POST["phone"] . '<br>' .

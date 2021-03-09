@@ -30,6 +30,7 @@
 								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
 								
 								<?php include('inc/wh-form.php');?>
+								<input type="text" value="contactar" class="whformtype" style="display: none">
 								
 							</div>
 							
