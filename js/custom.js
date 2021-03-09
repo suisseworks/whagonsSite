@@ -72,8 +72,12 @@ jQuery(function($) {
 		var organization = $('.wh_org').val();
 		var phone = $('.whphone').val();
 		var consultation = $('.whconsultation').val();
+
+		$("#loader").show();
+		$("#contact-form").hide();
+		
 		$.ajax({
-			url: 'php/contact.php',
+			url: 'php/sendmail.php',
 			type: 'POST',
 			data: {
 				name: name,
@@ -84,20 +88,23 @@ jQuery(function($) {
 			},
 			dataType: "json",
 			success: function( response ) {
-				$('.contact_whagons').attr('Value','Please Wait...').prop('disabled', true);
-				$('.msg_contact_whagons').removeClass('d-none');
-				$('.msg_contact_whagons').html(response.msg);
+
+				if (response.result) {
+					$("#loader").hide();
+					$("#resultMessage").fadeIn();
+				} else {
+					console.log("************* ERROR ERROR ERROR *************");
+					console.log(response);
+				}
+				
 				setTimeout( function(){
+					$("#contact-form").show();
 					$('.msg_contact_whagons').addClass('d-none');
 					$('.btn_whagons .brk-form-wrap').removeClass('brk-form-wrap-active');
 					$('.btn_whagons').trigger('reset');
-
 				}, 2000);
-
 			}
-
 		});
-
 	});
 });
 
