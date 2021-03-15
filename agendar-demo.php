@@ -6,7 +6,7 @@
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
 						<div class="d-flex justify-content-start pr-40 pr-xs-0 breadcrumbs__title">
-							<h2 class="brk-white-font-color font__weight-semibold font__size-48 line__height-68 font__family-montserrat">AGENDAR DEMO</h2>
+							<h2 class="brk-white-font-color font__weight-semibold font__size-48 line__height-68 font__family-montserrat">PRUEBA DE UN MES</h2>
 						</div>
 					</div>
 					<div class="col-12 col-md-6">
@@ -25,8 +25,8 @@
 						<div class="col-lg-7 ">
 							<div class="extra__heading-2 cs-bdr-clr" data-brk-library="component__title_section">
 								<div class="heading">
-									<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">Quiero  <br>agendar</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase">un demo</h2>
+									<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">Quiero  <br>probar</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase">un mes Gratis</h2>
 								</div>
 								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
 								
@@ -38,7 +38,7 @@
 						<div class="col-lg-1"></div>
 						<div class="col-lg-4 form-content">
 							<div class="wow fadeInRight">
-								<h1 class="font__family-montserrat font__size-56 line__height-60 font__weight-thin mb-30">Need Help?<br><span class="font__weight-bold">Contact Us</span></h1>
+								<h1 class="font__family-montserrat font__size-56 line__height-60 font__weight-thin mb-30">¿Necesita ayuda?<br><span class="font__weight-bold">Contáctenos</span></h1>
 								<p class="brk-dark-font-color font__size-14 line__height-26 mb-35">Si se puede Medir, se puede Mejorar.</p>
 								<p class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fa fa-envelope line__height-24 brk-base-font-color"></i> <a href="mailto:info@whagons.com" class="show-inline-block">info@whagons.com</a></p>
 								<p class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fa fa-phone line__height-24 brk-base-font-color"></i> <a href="tel:50622011545" class="show-inline-block">(506) 2201 1545</a></p>								 

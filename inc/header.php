@@ -30,7 +30,7 @@
 			<div class="brk-header-mobile__open"><span></span></div>
 			<div class="brk-header-mobile__logo"><a href="index.php"><img class="brk-header-mobile__logo-1 lazyload atex-logo" src="images/logo-dark.png" data-src="images/logo-dark.png" alt="alt"> <img class="brk-header-mobile__logo-2 lazyload atex-logo" src="images/logo-dark.png" data-src="images/logo-dark.png" alt="alt"></a></div>
 			<div class="mobile-header-btn">
-				<a href="agendar-demo.php" class="btn btn-prime btn-lg border-radius-5 font__family-montserrat btn-min-width-200 header-btn" data-brk-library="component__button">SOLICITA TU DEMO</a>
+				<a href="agendar-demo.php" class="btn btn-prime btn-lg border-radius-5 font__family-montserrat btn-min-width-200 header-btn" data-brk-library="component__button">PRUEBA UN MES GRATIS</a>
 			</div>
 		</div>
 		<header class="brk-header brk-header_style-2 custom-header brk-header_color-dark brk-header_skin-1 position-fixed d-lg-flex flex-column" style="display: none;" data-logo-src="images/logo-dark.png" data-bg-mobile="images/logo-dark.png" data-brk-library="component__header">
@@ -52,7 +52,7 @@
 						</div>
 						<div class="col-lg-5 align-self-lg-stretch text-lg-right">
 							<div class="brk-call-us brk-header__item"><a href="tel:50622011545" class="brk-call-us__number"><i class="fa fa-phone" aria-hidden="true"></i>Llámanos</a> <a href="tel:50622011545" class="brk-call-us__link"><i class="fa fa-phone" aria-hidden="true"></i></a></div>
-							<a href="agendar-demo.php" class="btn btn-prime btn-lg border-radius-5 font__family-montserrat btn-min-width-200 header-btn header-main-btn" data-brk-library="component__button">SOLICITA TU DEMO</a>
+							<a href="agendar-demo.php" class="btn btn-prime btn-lg border-radius-5 font__family-montserrat btn-min-width-200 header-btn header-main-btn" data-brk-library="component__button">PRUEBA UN MES GRATIS</a>
 							<!-- <a href="agendar-demo.php" class="btn btn-gradient btn- brk-header__item brk-header__btn btn-sm-1 border-radius-25 font__family-open-sans font__weight-bold brk-white-font-color" data-brk-library="component__button"><span>SOLICITA TU DEMO</span></a> -->
 						</div>
 					</div>

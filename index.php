@@ -66,6 +66,7 @@
 						</div>
 					</div>
 					
+					<!--
 					<div>
 						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide3.jpg) !important;background: transparent;" data-brk-library="component__parallax">
 							<div class="container">
@@ -98,6 +99,7 @@
 						</div>
 						
 					</div>
+					-->
 				</div>
 		</section>
 		<section class="position-relative pt-130 pb-130 pt-xs-50 pb-xs-70 intro-section">

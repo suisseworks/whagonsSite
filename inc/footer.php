@@ -10,7 +10,7 @@
 							<p class="brk-dark-font-color-3 font__family-roboto font__size-15 font__weight-normal line__height-28 mb-20 mr-80 mr-xs-0 text-sm-left text-left">Si se puede Medir, se puede Mejorar.</p>
 							<p class="msg_contact d-none alert alert-success"></p>
 
-							<form method="post"  class="brk_subscribe_footer brk-form_footer-5 d-inline-block mb-30"><input type="text" placeholder="E-mail address" name="email" class="font__family-roboto font__size-15 font__weight-light subscribe_mail"> <button type="button" class="d-flex align-items-center justify-content-center font__family-montserrat font__size-12 font__weight-bold text-uppercase subscribe_whagons" disabled>Subscribe</button></form>
+							<!-- <form method="post"  class="brk_subscribe_footer brk-form_footer-5 d-inline-block mb-30"><input type="text" placeholder="E-mail address" name="email" class="font__family-roboto font__size-15 font__weight-light subscribe_mail"> <button type="button" class="d-flex align-items-center justify-content-center font__family-montserrat font__size-12 font__weight-bold text-uppercase subscribe_whagons" disabled>Subscribe</button></form> -->
 							<div class="row custom-social" data-brk-library="component__social_block">
 								<div class="col-12 d-flex justify-content-start align-items-center">
 
@@ -93,6 +93,7 @@
 							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Sucursal Latinoamérica:</strong>
 											Torres del Lago, Sabana Sur
 											San José, Costa Rica</span></p>
+							
 							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Oficinas Centrales:</strong>
 											Haldenstrasse 5 | P.O Box 1359
 											6340 Baar, Suiza</span></p>
