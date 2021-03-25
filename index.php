@@ -20,9 +20,9 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Visibilidad y</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Trazabilidad</h2>
-										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Si se puede medir</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">se puede mejorar</h2>
+										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Visibilidad y Trazabilidad <br> en tiempo real</p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
@@ -53,9 +53,9 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Optimice su</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Negocio</h2>
-										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Mejore la Comunicación</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">de su organización</h2>
+										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Control de Tareas<br> y medición de desempeños</p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
