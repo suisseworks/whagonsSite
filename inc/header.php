@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-brk-skin="brk-blue.css">
-<!-- <html class="brk-preloader" lang="en" data-brk-skin="brk-blue.css"> -->
+<html class="brk-preloader" lang="en" data-brk-skin="brk-blue.css">
 
 <head>
 	<title>Whagons | Optimice sus operaciones</title>
