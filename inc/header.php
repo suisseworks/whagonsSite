@@ -9,8 +9,8 @@
 	<link rel="shortcut icon" href="./images/favicon.png">
 	<link rel="apple-touch-icon-precomposed" href="./images/fav.png">
 	<meta name="theme-color" content="#2775FF">
-	<meta name="keywords" content="themeforest, theme, html, template">
-	<meta name="description" content="themeforest, theme, html, template">
+	<meta name="keywords" content="Whagons, SAAS, App, Software Colaborativo, Asistencia, Biometricos">
+	<meta name="description" content="Whagons es un software de control que permite organizar equipos y tareas, evaluar usuarios y medir resultados.">
 	<link rel="stylesheet" id="brk-direction-bootstrap" href="css/assets/bootstrap.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" id="brk-skin-color" href="css/skins/brk-green.css">
@@ -20,6 +20,25 @@
 	<link id="brk-css-min" rel="stylesheet" href="css/assets/custom.css">
 	<link rel="stylesheet" href="vendor/revslider/css/settings.css">
 	<link rel='icon' href='images/favicon.png' type='image/x-icon' >
+
+
+ <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '470062567657961');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=470062567657961&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>

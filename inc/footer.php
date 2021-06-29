@@ -65,7 +65,7 @@
 							</ul>
 							
 						</div>
-						<div class="col-xl-3 col-12 col-md-6">
+						<div style="display: none" class="col-xl-3 col-12 col-md-6">
 							<h6 class="brk-white-font-color mb-40 mb-md-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left">MEDIOS</h6>
 							<article class=" mb-20 lazyload" data-brk-library="component__tiles">
 								<div class="brk-tiles-simple__content p-0 ">
@@ -90,11 +90,11 @@
 								<a href="tel:50622011545" class="brk-white-font-color font__family-open-sans font__weight-light line__height-25">(506) 2201-1545</a> <br>								 
 								</p>
 							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fa fa-envelope line__height-24 brk-base-font-color"></i> <a href="mailto:info@whagons.com" class="show-inline-block">info@whagons.com</a></p>
-							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Sucursal Latinoamérica:</strong>
+							<p style="display:none" class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Sucursal Latinoamérica:</strong>
 											Torres del Lago, Sabana Sur
 											San José, Costa Rica</span></p>
 							
-							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Oficinas Centrales:</strong>
+							<p style="display:none" class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Oficinas Centrales:</strong>
 											Haldenstrasse 5 | P.O Box 1359
 											6340 Baar, Suiza</span></p>
 						</div>

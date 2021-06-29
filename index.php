@@ -283,7 +283,7 @@
 				</div>
 			
 		</section>
-		<section>
+		<section style="display:none">
 			<div class="bg__style overlay__gradient all-light lazyload" data-brk-library="component__call_to_action">
 					<div class="container">
 						<div class="cfa__wrapper cfa__hot pt-50 pb-50 pl-20 pr-20">
@@ -294,7 +294,7 @@
 				</div>
 		</section>
 		
-		<section>
+		<section style="display: none">
 			<div class="container mt-50 mb-50">
 				<div class="brk-brand-slider slick-loading fa-req pt-30 pt-md-0" id="brands" data-brk-library="slider__slick">
 					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/1.png" alt="71x69_1"></div>
