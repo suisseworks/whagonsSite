@@ -32,18 +32,10 @@
 										</a>
 										
 									</div>
-									<div class="social__icon-circle m-0">
-										<a href="https://www.youtube.com/channel/UCFDdOTRprmoffYS6fu_02gA" target="_blank">
-											<i class="brk-icon fab fa-youtube mb-0 mr-2">
-												<span class="before"></span>
-												<span class="after"></span>
-											</i>
-										</a>
-										
-									</div>
-									<div class="social__icon-circle m-0">
-										<a href="https://www.pinterest.com/whagons" target="_blank">
-											<i class="brk-icon fab fa-pinterest-p mb-0 mr-2">
+									 
+									<div class="social__icon-circle m-0" ">
+										<a href="https://www.linkedin.com/company/whagons" target="_blank">
+											<i class="brk-icon fab fa-linkedin mb-0 mr-2">
 												<span class="before"></span>
 												<span class="after"></span>
 											</i>
@@ -84,7 +76,7 @@
 							</article>
 						</div>
 						<div class="col-xl-3 col-12 col-md-6">
-							<h6 class="brk-white-font-color mb-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left mt-xs-20">Find Us</h6>
+							<h6 class="brk-white-font-color mb-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left mt-xs-20">Contactar</h6>
 							
 							<p class="font__size-20 mb-30 text-sm-left text-left">
 								<a href="tel:50622011545" class="brk-white-font-color font__family-open-sans font__weight-light line__height-25">(506) 2201-1545</a> <br>								 
@@ -106,9 +98,9 @@
 						</div>
 						<div class="col-md-6">
 							<div class="d-flex align-items-center justify-content-end">
-								<img src="images/exphore_winners.png"  class="img-fluid mr-2" width="50px">
-								<img src="images/b1.png" class="img-fluid mr-2" width="150px">
-								<img src="images/b2.png" class="img-fluid" width="150px">
+								<img src="images/exphore_winners.png"  class="img-fluid mr-2" width="50px" alt="Exphore Winners 2017">
+								<img src="images/b1.png" class="img-fluid mr-2" width="150px" alt="Download on the App Store">
+								<img src="images/b2.png" class="img-fluid" width="150px" alt="Get it on Google Play">
 							</div>
 						</div>
 						

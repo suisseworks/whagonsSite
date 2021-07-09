@@ -2,39 +2,6 @@
 		<section>
 				<div class="slider-dark arrows-dark slick-loading fa-req home-banner" data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true, &quot;autoplay&quot;: true, &quot;autoplaySpeed&quot;: 5000}" data-brk-library="slider__slick">
 				<div>
-						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide2.jpg) !important;background: transparent;" data-brk-library="component__parallax">
-							<div class="container">
-								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
-											<defs>
-												<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
-													<stop offset="0%" stop-color="var(--brand-primary)" />
-													<stop offset="100%" stop-color="var(--secondary)" />
-												</linearGradient>
-											</defs>
-											<path d="M0,0H793.7V170.08H0ZM0,170.08c149.56-4.21,259.59-9.69,289-12.72,7.7-.79,22.53-2.73,36.59-13.55,12.29-9.47,18.34-21.39,21.73-28.26C369.3,71.05,392.65,10.86,396.85,0H0Z" />
-										</svg></span>
-										<div class="col-1"></div>
-								<div class="col-sm-5 text-center">
-									<img class="w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
-								</div>
-								<div class="col-1"></div>
-									<div class="col-sm-5">
-									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Si se puede medir</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">se puede mejorar</h2>
-										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Visibilidad y Trazabilidad <br> en tiempo real</p>
-										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
-											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
-										</div>
-									</div>
-								</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-					
-					<div>
 						<div class="brk-paraxify overflow-hid" style="background-image: url(images/home-banner.jpg) !important;background: transparent;" data-brk-library="component__parallax">
 							<div class="container">
 								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
@@ -53,9 +20,9 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Mejore la Comunicación</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">de su organización</h2>
-										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Control de Tareas<br> y medición de desempeños</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Ahora mi celular es</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mi centro de operaciones</h2>
+										<p style="font-size: 24px"  class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">La App que optimiza las tareas de la empresa.</p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
@@ -64,11 +31,11 @@
 								</div>
 							</div>
 						</div>
+						
 					</div>
 					
-					<!--
 					<div>
-						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide3.jpg) !important;background: transparent;" data-brk-library="component__parallax">
+						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide2.jpg) !important;background: transparent;" data-brk-library="component__parallax">
 							<div class="container">
 								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
 											<defs>
@@ -86,9 +53,10 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Optimice su</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> Negocio</h2>
-										<p class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">Gánele a la competencia   ofreciendo <br> un mejor servicio</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Organizo mejor</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mis tareas</h2>
+										<p style="font-size: 24px"  class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">¡Whagons mejora la comunicación con tu equipo!
+</p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
@@ -97,9 +65,41 @@
 								</div>
 							</div>
 						</div>
-						
 					</div>
-					-->
+					
+					<div>
+						<div class="brk-paraxify overflow-hid" style="background-image: url(images/slide4.jpg) !important;background: transparent;" data-brk-library="component__parallax">
+							<div class="container">
+								<div class="row align-items-center wing__wrap scroll-show pt-130 pb-130 content__side-right slider-content"><span class="parallax__bg-shape-lg brk-parallax__bg-gradient-md"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 170" space="preserve" preserveAspectRatio="none" fill="url(#gradient)">
+											<defs>
+												<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+													<stop offset="0%" stop-color="var(--brand-primary)" />
+													<stop offset="100%" stop-color="var(--secondary)" />
+												</linearGradient>
+											</defs>
+											<path d="M0,0H793.7V170.08H0ZM0,170.08c149.56-4.21,259.59-9.69,289-12.72,7.7-.79,22.53-2.73,36.59-13.55,12.29-9.47,18.34-21.39,21.73-28.26C369.3,71.05,392.65,10.86,396.85,0H0Z" />
+										</svg></span>
+										<div class="col-1"></div>
+								<div class="col-sm-5 text-center">
+									<img class="hidden w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+								</div>
+								<div class="col-1"></div>
+									<div class="col-sm-5">
+									<div class="text-sm-left text-center">
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Notificaciones automáticas, Firma electrónica, generación de Reportes de Trabajo y mucho más. </p>
+										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
+											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-heart icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+						
+						 
 				</div>
 		</section>
 		<section class="position-relative pt-130 pb-130 pt-xs-50 pb-xs-70 intro-section">
@@ -294,7 +294,7 @@
 				</div>
 		</section>
 		
-		<section style="display: none">
+		<section >
 			<div class="container mt-50 mb-50">
 				<div class="brk-brand-slider slick-loading fa-req pt-30 pt-md-0" id="brands" data-brk-library="slider__slick">
 					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/1.png" alt="71x69_1"></div>

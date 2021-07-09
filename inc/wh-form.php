@@ -1,4 +1,4 @@
-<img id="loader" src="images/loader-image.gif"  style="display: none">
+<img id="loader" src="images/loader-image.gif"  style="display: none" alt="Loader Image">
 <div id="resultMessage" class="msg_contact_whagons alert alert-success" style="display: none">
 	<h1> En breve le contactaremos! </h1>
 </div>

@@ -24,10 +24,10 @@
 						<div class="col-lg-7">
 							<div class="extra__heading-2 cs-bdr-clr" data-brk-library="component__title_section">
 								<div class="heading">
-									<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">¿Como podemos   <br> ayudarle?</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase">un demo</h2>
+									<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">¿Como podemos   <br></h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase"> ayudarle?</h2>
 								</div>
-								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
+								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Contáctenos</h2>
 								
 								<?php include('inc/wh-form.php');?>
 								<input type="text" value="contactar" class="whformtype" style="display: none">
@@ -75,24 +75,16 @@
 											</a>
 											
 										</div>
-										<div class="social__icon-circle m-0">
-											<a href="https://www.youtube.com/channel/UCFDdOTRprmoffYS6fu_02gA" target="_blank">
-												<i class="brk-icon fab fa-youtube mb-0 mr-2">
-													<span class="before"></span>
-													<span class="after"></span>
-												</i>
-											</a>
-											
-										</div>
-										<div class="social__icon-circle m-0">
-											<a href="https://www.pinterest.com/whagons" target="_blank">
-												<i class="brk-icon fab fa-pinterest-p mb-0 mr-2">
-													<span class="before"></span>
-													<span class="after"></span>
-												</i>
-											</a>
-											
-										</div>
+										 
+										<div class="social__icon-circle m-0" ">
+										<a href="https://www.linkedin.com/company/whagons" target="_blank">
+											<i class="brk-icon fab fa-linkedin mb-0 mr-2">
+												<span class="before"></span>
+												<span class="after"></span>
+											</i>
+										</a>
+										
+									</div>
 
 									</div>
 								</div>
