@@ -20,11 +20,11 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Ahora mi celular es</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mi centro de operaciones</h2>
-										<p style="font-size: 24px"  class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">La App que optimiza las tareas de la empresa.</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Formularios Digitales, Firma electrónica y mucho más. </p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
-											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-check icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
 									</div>
 								</div>
@@ -48,17 +48,16 @@
 										</svg></span>
 										<div class="col-1"></div>
 								<div class="col-sm-5 text-center">
-									<img class="w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+									<img class="w-50 mr-auto ml-auto" src="images/header-mobile-2.png" alt="alt">
 								</div>
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Organizo mejor</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mis tareas</h2>
-										<p style="font-size: 24px"  class="font__family-montserrat font__size-30 line__height-24 mt-30 text-white">¡Whagons mejora la comunicación con tu equipo!
-</p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Formularios Digitales, Firma electrónica y mucho más. </p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
-											<a href="https://youtu.be/ne9LSwSD0Sw" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox" data-brk-library="component__button"><i class="fa fa-play icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
+											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-thumbs-up icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
 									</div>
 								</div>
@@ -81,14 +80,14 @@
 										</svg></span>
 										<div class="col-1"></div>
 								<div class="col-sm-5 text-center">
-									<img class="hidden w-50 mr-auto ml-auto" src="images/header-mobile.png" alt="alt">
+									<img class="hidden w-50 mr-auto ml-auto" src="images/main-fmobile.png" alt="alt">
 								</div>
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
 										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
 										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
-										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Notificaciones automáticas, Firma electrónica, generación de Reportes de Trabajo y mucho más. </p>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Formularios Digitales, Firma electrónica y mucho más. </p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-heart icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
@@ -118,7 +117,7 @@
 					<div class="col-md-5 flex-lg-last pb-60">
 						<div class="frame-image img-double-bigger">
 							<div class="img mt-50"><img class="lazyload" src="images/main-fbrowser.png" data-src=" images/main-fbrowser.png" alt="alt"></div>
-							<div class="img mr-150"><img class="lazyload" src="images/main-fmobile.png" data-src="images/main-fmobile.png" alt="alt"></div>
+							<div class="img mr-150"><img class="lazyload" src="images/header-mobile-2.png" data-src="images/header-mobile-2.png" alt="alt"></div>
 						</div>
 					</div>
 				</div>
@@ -313,17 +312,11 @@
 					<div><img class="lazyload" src="images/brands/14.png" data-src="images/brands/14.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/15.png" data-src="images/brands/15.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/16.png" data-src="images/brands/16.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/17.png" data-src="images/brands/17.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/18.png" data-src="images/brands/18.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/17.png" data-src="images/brands/17.png" alt="71x69_1"></div>					
 					<div><img class="lazyload" src="images/brands/19.png" data-src="images/brands/19.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/20.png" data-src="images/brands/20.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/21.png" data-src="images/brands/21.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/22.png" data-src="images/brands/22.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/23.png" data-src="images/brands/23.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/24.png" data-src="images/brands/24.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/25.png" data-src="images/brands/25.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/26.png" data-src="images/brands/26.png" alt="71x69_1"></div>
-					<div><img class="lazyload" src="images/brands/27.png" data-src="images/brands/27.png" alt="71x69_1"></div>
+				 
 					
 				</div>
 				
