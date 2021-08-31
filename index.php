@@ -20,9 +20,9 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
-										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Formularios Digitales, Firma electrónica y mucho más. </p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Ahora mi celular es </h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mi centro de operaciones</h2>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">La App que optimiza las tareas de la empresa. </p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-check icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
@@ -53,9 +53,9 @@
 								<div class="col-1"></div>
 									<div class="col-sm-5">
 									<div class="text-sm-left text-center">
-										<h2 class="font__family-montserrat font__size-64 line__height-42">Ofrezca un</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42"> mejor servicio a sus clientes</h2>
-										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Formularios Digitales, Firma electrónica y mucho más. </p>
+										<h2 class="font__family-montserrat font__size-64 line__height-42">Organizo mejor</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-64 line__height-42">mis tareas</h2>
+										<p  style="font-size: 24px" class="font__family-montserrat  line__height-24 mt-30 text-white">Whagons mejora la comunicación con tu equipo. </p>
 										<div class="brk-hosted-video brk-hosted-video_no-poster px-o py-0 brk-box-shadow-none mt-30" data-brk-library="component__media_embeds,fancybox">
 											<a style="background-color: #FF002F" href="agendar-demo.php" class="icon__btn icon__btn-lg icon__btn-circled icon__btn-circled_active fancybox_remove" data-brk-library="component__button"><i class="fa fa-thumbs-up icon-inside" aria-hidden="true"></i> <span class="before"></span> <span class="after"></span></a>
 										</div>
