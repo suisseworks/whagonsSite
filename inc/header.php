@@ -61,7 +61,15 @@
 						</div>
 						<div class="col-lg align-self-lg-stretch d-lg-flex">
 							<nav class="brk-nav brk-header__item">
-								<ul class="brk-nav__menu">
+								<?php 
+								$string = $_SERVER['REQUEST_URI'];
+								//echo $string;
+								if( strpos($string, 'index.php') !== false  ||  $string == "/whagons/" ){
+									?>
+								<ul class="brk-nav__menu homepage">
+								<?php } else { ?>
+								<ul class="brk-nav__menu other-pages">
+								<?php } ?>
 								<li><a href="index.php"><span>Inicio</span></a></li>
 									<li><a href="contactar.php"><span>Contactar</span></a></li>
 									<li><a href="soporte.php"><span>Soporte</span></a></li>
