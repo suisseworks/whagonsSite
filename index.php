@@ -169,7 +169,110 @@
 					<h2 class="title__heading-06 title__heading-main brk-color-base-dark font__family-montserrat font__size-40 font__weight-ultralight" data-brk-library="component__title"><span class="font__weight-extrabold">FUNCIONALIDADES DE </span></h2>
 					<p>A través de una aplicación intuitiva, todos los equipos de la <br> organización se pueden comunicar de manera más clara y eficiente.</p>
 				</div>
-				<div class="brk-promo-crcl" data-brk-library="component__promo,waypoints">
+				<div class="row mt-5">
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-cogs"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">FÁCIL DE CONFIGURAR
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Configurable a las necesidades específicos de cada equipo dentro de la organización.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="far fa-eye"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">VISIBILIDAD EN TIEMPO REAL
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Whagons permite consultar en tiempo real el estado y duración de tareas.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-mobile-alt"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">APLICACIÓN NATIVA
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Whagons cuenta con una aplicación nativa tanto para dispositivos Android como para iPhones y tablets.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-check"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">EVALUACIÓN DE TRABAJOS
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Mide la eficiencia y el desempeño de sus equipos de trabajo.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="far fa-file-alt"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">FORMULARIOS & AUDITORÍAS
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Cada trabajo puede ir acompañado de listas de comprobación inteligentes o auditorias.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fab fa-apple"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">PROTOCOLOS
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">El Módulo de Protocolos permite que toda la organización tenga accesos a los mismos desde la APP de Whagons.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">GEOLOCALIZACIÓN
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Conozca la ubicación geográfica real de recursos, activos, maquinaria y medios de transporte.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-tachometer-alt"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">DASHBOARDS TIEMPO REAL
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Visualice en tiempo real el estado de las operaciones de su empresa.
+								</p>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4 mb-30">
+							<div class="info-box-icon-simple d-flex flex-column align-items-center p-5 position-relative h-100 brk-library-rendered shadow-rounded" data-brk-library="component__info_box">
+								<div class="info-box-icon-simple__icon-wrapper d-flex align-items-center justify-content-center mb-2">
+									<i class="fas fa-broom"></i>
+								</div>
+								<p class="font__family-montserrat info-box-icon-simple__title font__size-12 line__height-14 font__weight-bold pt-20 pb-10 text-center text-uppercase letter-spacing-40 brk-black-font-color">LIMPIEZA Y DESINFECCIÓN BETA
+								</p>
+								<p class="info-box-icon-simple__about brk-dark-font-color font__size-14 line__height-21 text-center">Controle las limpiezas de su organización y genere bitácoras de manera automática
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+				<!-- <div class="brk-promo-crcl" data-brk-library="component__promo,waypoints">
 					<div class="brk-promo-crcl__circles-container"><span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span> <span class="brk-promo-crcl__circle"></span></div><img src="images/iphone7.png" alt="laptop" class="brk-promo-crcl__bg promo-image">
 					
 					<div class="brk-promo-crcl__cards-container home-promo">
@@ -238,7 +341,9 @@
 						</a>
 						
 					</div>
-				</div>
+				</div> -->
+
+
 			</div>
 				
 		</section>

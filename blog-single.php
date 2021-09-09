@@ -87,6 +87,152 @@
 						</div>
 					</div>
 				</div>
+				<div class="mb-40">
+								<div class="brk-reply mt-40" data-brk-library="component__forum_post">
+									<h3 class="brk-reply__header font__family-montserrat font__size-21 font__weight-bold line__height-60">Leave a comment</h3>
+									<form action="#" class="brk-reply__form brk-form-strict" data-brk-library="component__form">
+										<div class="row">
+											<div class="col-lg-6 col-12">
+												<input name="name" type="text" placeholder="Your Name">
+											</div>
+											<div class="col-lg-6 col-12">
+												<input name="email" type="email" placeholder="Your Email" required>
+											</div>
+											<div class="col-12">
+												<textarea name="textarea" placeholder="Enter Your Message" required></textarea>
+											</div>
+										</div>
+										<button class="btn btn-inside-out btn-md btn-icon border-radius-25 font__family-open-sans font__weight-semibold btn-icon-right m-0 mt-25" data-brk-library="component__button">
+											<i class="fas fa-long-arrow-alt-right icon-inside"></i>
+											<span class="before">Post a comment</span><span class="text">Click Me</span><span class="after">Post a comment</span>
+										</button>
+									</form>
+								</div>
+							</div>
+							<h3 class="brk-reply__header font__family-montserrat font__size-21 font__weight-bold line__height-60 mb-10">Comments</h3>
+							<div>
+								<div class="brk-reply-item" data-brk-library="component__blog_page_css">
+									<a href="#" class="brk-reply-item__user">
+										<img src="images/blogs/user.jpg" data-src="images/blogs/user.jpg" alt="alt" class="lazyload">
+									</a>
+									<div class="brk-reply-item__content">
+										<div class="d-sm-flex justify-content-sm-between">
+											<div class="brk-reply-item__header">
+												<a href="#" class="brk-reply-item__header-like">
+													<i class="fal fa-heart"></i>
+													<span>0</span>
+												</a>
+												<a href="#" class="brk-reply-item__header-reply">
+													<i class="fas fa-reply"></i>
+													<span class="font__weight-bold">Reply</span>
+												</a>
+											</div>
+											<a href="#" class="font__size-md-17 font__size-15 line-height-1-5 font__weight-bold">Rebeca Oliva</a>
+										</div>
+										<div class="brk-dark-font-color font__family-open-sans font__size-md-14 font__size-13 line-height-1-625 mt-10">
+											Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+										</div>
+									</div>
+									<div class="brk-reply-item" data-brk-library="component__blog_page_css">
+										<a href="#" class="brk-reply-item__user">
+											<img src="images/blogs/user2.jpg" data-src="images/blogs/user2.jpg" alt="alt" class="lazyload">
+										</a>
+										<div class="brk-reply-item__content">
+											<div class="d-sm-flex justify-content-sm-between">
+												<div class="brk-reply-item__header">
+													<a href="#" class="brk-reply-item__header-like">
+														<i class="fal fa-heart"></i>
+														<span>0</span>
+													</a>
+													<a href="#" class="brk-reply-item__header-reply">
+														<i class="fas fa-reply"></i>
+														<span class="font__weight-bold">Reply</span>
+													</a>
+												</div>
+												<a href="#" class="font__size-md-17 font__size-15 line-height-1-5 font__weight-bold">Rebeca Oliva</a>
+											</div>
+											<div class="brk-dark-font-color font__family-open-sans font__size-md-14 font__size-13 line-height-1-625 mt-10">
+												Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+											</div>
+										</div>
+										<div class="brk-reply-item" data-brk-library="component__blog_page_css">
+											<a href="#" class="brk-reply-item__user">
+												<img src="images/blogs/user3.jpg" data-src="images/blogs/user3.jpg" alt="alt" class="lazyload">
+											</a>
+											<div class="brk-reply-item__content">
+												<div class="d-sm-flex justify-content-sm-between">
+													<div class="brk-reply-item__header">
+														<a href="#" class="brk-reply-item__header-like">
+															<i class="fal fa-heart"></i>
+															<span>0</span>
+														</a>
+														<a href="#" class="brk-reply-item__header-reply">
+															<i class="fas fa-reply"></i>
+															<span class="font__weight-bold">Reply</span>
+														</a>
+													</div>
+													<a href="#" class="font__size-md-17 font__size-15 line-height-1-5 font__weight-bold">Rebeca Oliva</a>
+												</div>
+												<div class="brk-dark-font-color font__family-open-sans font__size-md-14 font__size-13 line-height-1-625 mt-10">
+													Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="brk-reply-item" data-brk-library="component__blog_page_css">
+									<a href="#" class="brk-reply-item__user">
+										<img src="images/blogs/user4.jpg" data-src="images/blogs/user4.jpg" alt="alt" class="lazyload">
+									</a>
+									<div class="brk-reply-item__content">
+										<div class="d-sm-flex justify-content-sm-between">
+											<div class="brk-reply-item__header">
+												<a href="#" class="brk-reply-item__header-like">
+													<i class="fal fa-heart"></i>
+													<span>0</span>
+												</a>
+												<a href="#" class="brk-reply-item__header-reply">
+													<i class="fas fa-reply"></i>
+													<span class="font__weight-bold">Reply</span>
+												</a>
+											</div>
+											<a href="#" class="font__size-md-17 font__size-15 line-height-1-5 font__weight-bold">Rebeca Oliva</a>
+										</div>
+										<div class="brk-dark-font-color font__family-open-sans font__size-md-14 font__size-13 line-height-1-625 mt-10">
+											Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+										</div>
+									</div>
+								</div>
+								<div class="brk-reply-item" data-brk-library="component__blog_page_css">
+									<a href="#" class="brk-reply-item__user">
+										<img src="images/blogs/user3.jpg" data-src="images/blogs/user3.jpg" alt="alt" class="lazyload">
+									</a>
+									<div class="brk-reply-item__content">
+										<div class="d-sm-flex justify-content-sm-between">
+											<div class="brk-reply-item__header">
+												<a href="#" class="brk-reply-item__header-like">
+													<i class="fal fa-heart"></i>
+													<span>0</span>
+												</a>
+												<a href="#" class="brk-reply-item__header-reply">
+													<i class="fas fa-reply"></i>
+													<span class="font__weight-bold">Reply</span>
+												</a>
+											</div>
+											<a href="#" class="font__size-md-17 font__size-15 line-height-1-5 font__weight-bold">Rebeca Oliva</a>
+										</div>
+										<div class="brk-dark-font-color font__family-open-sans font__size-md-14 font__size-13 line-height-1-625 mt-10">
+											Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mt-30">
+								<div class="brk-pagination brk-pagination-large" data-brk-library="component__pagination">
+									<a href="#" class="text-center"><span class="brk-prev-link"><i class="fa fa-angle-left"></i>Older</span></a>
+									<a href="#" class="text-center"><span class="brk-next-link">Newer<i class="fa fa-angle-right"></i></span></a>
+								</div>
+							</div>
 			</div>
 		</main>
 	</div>

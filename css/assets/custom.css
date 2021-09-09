@@ -403,3 +403,27 @@ header:not(.brk-header_scroll) .other-pages li a span {
     font-size: 36px;
     line-height: 1.2;
 }
+.shadow-rounded{
+    box-shadow: 0 20px 60px rgb(0 0 0 / 12%) !important;
+    border-radius: 10px;
+}
+@media (max-width:  1199px){
+    .shadow-rounded{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.info-box-icon-simple__icon-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: relative;
+    width: 79px;
+    height: 79px;
+    margin: 0 auto;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 36px;
+}
