@@ -401,6 +401,9 @@
 		<section >
 			<div class="container mt-50 mb-50">
 				<div class="brk-brand-slider slick-loading fa-req pt-30 pt-md-0" id="brands" data-brk-library="slider__slick">
+					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/panalifting.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/nosara.png" alt="71x69_1"></div>
+					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/adn.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/1.png" data-src="images/brands/1.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/2.png" data-src="images/brands/2.png" alt="71x69_1"></div>
 					<div><img class="lazyload" src="images/brands/3.png" data-src="images/brands/3.png" alt="71x69_1"></div>
