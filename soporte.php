@@ -11,7 +11,7 @@
 					</div>
 					<div class="col-12 col-md-6">
 						<div class="pt-25 pb-35 position-static position-lg-relative breadcrumbs__subtitle">
-							<h3 class="brk-white-font-color font__family-montserrat font__weight-medium font__size-18 line__height-21 text-uppercase mb-15">Un agente te responderá cuanto antes.</h3>
+							<h2 class="brk-white-font-color font__family-montserrat font__weight-medium font__size-18 line__height-21  mb-15">WhatsApp de Soporte:   506 7068 1468.</h2>
 						</div>
 					</div>
 				</div>
@@ -25,7 +25,7 @@
 							<div class="extra__heading-2 cs-bdr-clr" data-brk-library="component__title_section">
 								<div class="heading">
 									<h2 class="font__family-montserrat font__weight-ultralight font__size-40 text-uppercase">¿Como podemos   <br> ayudarle?</h2>
-										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase">un demo</h2>
+										<h2 class="font__family-montserrat font__weight-bold font__size-40 text-uppercase">Soporte</h2>
 								</div>
 								<h2 class="font__family-montserrat font__weight-semibold letter-spacing-20 after-heading">Envíenos</h2>
 								
@@ -100,4 +100,4 @@
 				</div>
 			</section>
 
-<?php include 'inc/footer.php'; ?>
+<?php include 'inc/footer-soporte.php'; ?>
