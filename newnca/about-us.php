@@ -282,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Elena Trukhina</h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">CO-CEO<br>NCA Entrepreneur Management, Deal Flow & Europe Operations</p>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">Co-CEO</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/in/elena-trukhina-b058453/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
 							    </div>							
@@ -296,7 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Christian Malek</h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">CO-CEO<br>Co-Investor Relations, Fund Management & US Operations</p>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">Co-CEO</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/in/christian-malek-2088368b/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
 							    </div>	
@@ -308,16 +308,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/maija.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Maija Olivia</h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-			        			    Head of Legal & Compliance <br>Legal & Compliance
-									<br><br> &nbsp;
+			        			    Head of Legal & Compliance
+									 
 			        			</p>
-			        			<div class="d-flex align-items-center justify-content-center mt-3">
+			        			<div style="visibility:hidden !important" class=" d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/in/maija-o-7979384b/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
 							    </div>							
 						    </div>	
@@ -331,7 +331,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br>James McLaren</h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								M&A Manager US <br><br><br>&nbsp;
+								M&A Manager  <br>Europe
 			        			</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/in/nicolasgonzalezluna/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
@@ -347,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Vacancy</h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								M&A Manager <br> Europe
+								M&A Manager <br> US
 								<br><br><br>&nbsp;
 			        			</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
@@ -358,7 +358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/cautin.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -414,8 +414,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         	<div>
 	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Elisa Lorenzi </h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-			        				VP Talent Management <br> NCA Entrepreneur Selection & Onboarding
-			        			</p>
+			        				VP Talent Management			        			</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/in/elisa-lorenzi/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
 							    </div>							
@@ -505,13 +504,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
+                        	<img class="w-100" src="img/infantozzi.jpg">
+                        </div>	
+                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
+                        	<div>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> José Infantozzi </h5>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
+								Data Analyst
+			        			</p>
+			        			<div class="d-flex align-items-center justify-content-center mt-3">
+									<a href="https://www.linkedin.com/in/jose-miguel-infantozzi-h/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+							    </div>							
+						    </div>	
+                        </div>	
+					</div>
+					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
+                        <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/dummy_img.png">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Vacancy</h5>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Elie Fink</h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								Financial Controller <br><br><br> <br>&nbsp;
+								Financial Controller 
 			        			</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
 									<a href="https://www.linkedin.com/company/30146432" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
@@ -550,7 +565,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
 					<div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/hendren.jpg">
                         </div>	
 						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
                         	<div>
@@ -578,7 +593,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>	
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/mordy.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -593,7 +608,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
 					<div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/olivier.jpg">
                         </div>	
 						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
                         	<div>
@@ -609,7 +624,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
 					<div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/angel.jpg">
                         </div>	
 						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
                         	<div>
@@ -644,7 +659,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>	
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/ricardo.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -659,7 +674,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/anabel.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -689,7 +704,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
+                        	<img class="w-100" src="img/tomas.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
