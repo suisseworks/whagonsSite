@@ -10,6 +10,7 @@
 	<link rel="apple-touch-icon-precomposed" href="./images/fav.png">
 	<meta name="theme-color" content="#2775FF">
 	<meta name="keywords" content="Whagons, SAAS, App, Software Colaborativo, Asistencia, Biometricos">
+
 	<meta name="description" content="Whagons es un software de control que permite organizar equipos alrededor de tareas, checklists y auditorías, evaluar usuarios y generar inteligencia.">
 	<link rel="stylesheet" id="brk-direction-bootstrap" href="css/assets/bootstrap.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -78,7 +79,7 @@
 							</nav>
 						</div>
 						<div class="col-lg-5 align-self-lg-stretch text-lg-right">
-							<div class="brk-call-us brk-header__item"><a href="tel:50622011545" class="brk-call-us__number"><i class="fa fa-phone" aria-hidden="true"></i>Llámanos</a> <a href="tel:50622011545" class="brk-call-us__link"><i class="fa fa-phone" aria-hidden="true"></i></a></div>
+							<div class=" brk-call-us brk-header__item"><a href="tel:50622011545" class=" whagonsphone brk-call-us__number"><i class="fa fa-phone" aria-hidden="true"></i><span id="llamanos">(506) 2201-1545</span></a> <a href="tel:50622011545" class="whagonsphoneheader brk-call-us__link"><i class="fa fa-phone" aria-hidden="true"></i></a></div>
 							<a href="agendar-demo.php" class="btn-piloto btn btn-prime btn-lg border-radius-5 font__family-montserrat btn-min-width-200 header-btn333 header-main-btn" data-brk-library="component__button">PRUEBA UN MES GRATIS</a>
 							<!-- <a href="agendar-demo.php" class="btn btn-gradient btn- brk-header__item brk-header__btn btn-sm-1 border-radius-25 font__family-open-sans font__weight-bold brk-white-font-color" data-brk-library="component__button"><span>SOLICITA TU DEMO</span></a> -->
 						</div>

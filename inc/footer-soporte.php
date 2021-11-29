@@ -1,4 +1,36 @@
 
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+
+$(function() {
+	var requestUrl = "https://pro.ip-api.com/json/?key=CAocWRUNQqtEcPY";
+	$.ajax({
+		url: requestUrl,
+		type: 'GET',
+		success: function(json)
+		{
+			console.log(json);
+			console.log("My country is: " + json.country);
+			if (json.countryCode != 'CR') {
+				$(".whagonsphone").text('1 (302) 510-1467');
+				$(".whagonsphone").attr('href','tel:13025101467');
+				$("#llamanos").text('1 (302) 510-1467');
+				$(".whagonsphoneheader").attr('href','tel:13025101467');
+			}
+
+		},
+		error: function(err)
+		{
+			console.log("Request failed, error= " + err);
+		}
+	});
+});
+
+
+</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <a href="https://api.whatsapp.com/send?phone=50670681468" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
@@ -86,7 +118,7 @@
 							<h6 class="brk-white-font-color mb-25 font__family-montserrat font__weight-semibold font__size-24 text-left text-sm-left mt-xs-20">Contactar</h6>
 							
 							<p class="font__size-20 mb-30 text-sm-left text-left">
-								<a href="tel:50622011545" class="brk-white-font-color font__family-open-sans font__weight-light line__height-25">(506) 2201-1545</a> <br>								 
+								<a href="tel:50622011545" class="whagonsphone brk-white-font-color font__family-open-sans font__weight-light line__height-25">(506) 2201-1545</a> <br>								 
 								</p>
 							<p class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fa fa-envelope line__height-24 brk-base-font-color"></i> <a href="mailto:info@whagons.com" class="show-inline-block">info@whagons.com</a></p>
 							<p style="display:none" class="font__family-open-sans font__weight-bold font__size-12 mb-10 brk-white-font-color text-sm-left text-left"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span><strong class="font__weight-bold">Sucursal Latinoamérica:</strong>

@@ -39,7 +39,7 @@
 								<h1 class="font__family-montserrat font__size-56 line__height-60 font__weight-thin mb-30">¿Necesitas ayuda?<br><span class="font__weight-bold">Contáctenos</span></h1>
 								<p class="brk-dark-font-color font__size-14 line__height-26 mb-35">Si se puede Medir, se puede Mejorar.</p>
 								<p class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fa fa-envelope line__height-24 brk-base-font-color"></i> <a href="mailto:info@whagons.com" class="show-inline-block">info@whagons.com</a></p>
-								<p class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fa fa-phone line__height-24 brk-base-font-color"></i> <a href="tel:50622011545" class="show-inline-block">(506) 2201 1545</a></p>								 
+								<p class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fa fa-phone line__height-24 brk-base-font-color"></i> <a href="tel:50622011545" class="whagonsphone show-inline-block">(506) 2201 1545</a></p>								 
 								<p style="display:none" class="font__family-open-sans font__weight-bold font__size-18 mb-10"><span> <strong>Sucursal Latinoamérica:</strong></span></p>
 								<p style="display:none" class="font__family-open-sans font__weight-bold font__size-14 mb-15"><i class="brk-footer-icon text-middle fas fa-map-marker-alt line__height-24 brk-base-font-color"></i> <span>Sucursal Latinoamérica:Torres de Lago, Sabana Sur San José, Costa Rica</span></p>
 								<div class="row custom-social" data-brk-library="component__social_block">
