@@ -173,7 +173,7 @@ footer .container,
 
 
 /*.brk-header_scroll{
-	padding: 2px 2.3px;
+    padding: 2px 2.3px;
 }*/
 
 .social_icon {
@@ -545,7 +545,7 @@ header .brk-nav__menu>li>a:hover {
 
 /*AR*/
 
-.form_side_bar .brk-theme-options__panel a {
+/*.form_side_bar .brk-theme-options__panel a {
     transform: rotate(270deg);
     display: flex;
     align-items: center;
@@ -555,8 +555,22 @@ header .brk-nav__menu>li>a:hover {
     font-family: arial;
     padding: 0;
     margin-top: 50px;
-}
+}*/
 
+.form_side_bar .brk-theme-options__panel a {
+    transform: rotate(270deg);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 15px;
+    flex-direction: row-reverse;
+    font-family: arial;
+    padding: 0;
+    margin-top: 117px;
+    margin-left: -59px;
+    text-transform: uppercase;
+    min-width: 189px;
+}
 .form_side_bar .brk-theme-options__panel {
     height: 291px;
     width: 70px;
@@ -2400,4 +2414,43 @@ a.modal_btn {
 li.li__margin-10 {
     padding: 0 !important;
     margin: 0 0 0 30px !important;
+}
+@media only screen and (min-width: 992px) {
+   .our_team .member_card.col-lg-3, .our_team .advisory-board .col-lg-3 {
+        background: #fff;
+        padding: 0 !important;
+        margin: 0 5px 10px;
+        flex: auto;
+        max-width: calc(25% - 10px) !important;
+    }
+}
+.our_team .member_card.col-lg-3 a.cs-strhd-link:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+@media only screen and (max-width: 991px) {
+    .get_touch_main .resources_form.resources_page {
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .resources_form {
+        padding: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .brk-theme-options.form_side_bar {
+        margin-right: 0 !important;
+    }
+    .form_side_bar .brk-theme-options__panel {
+        height: 250px !important;
+    }
 }
