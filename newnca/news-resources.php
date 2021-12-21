@@ -36,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/Stanford-PRIMER.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/Stanford-OBSERVATIONS.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -64,24 +64,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						    </div>	
                         </div>	
 					</div>
+				 
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
-                        </div>	
-                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
-                        	<div>
-	                        	<h5 class="text-center font__size-20 line__height-27 font__family-efb">
-	                        		<a href="https://www.youtube.com/view_play_list?p=ED130F32CB9F698E" target="_blank" class="cs-strhd-link">
-	                        			Stanford GSB: Search Fund Videos
-	                        		</a>
-	                        	</h5>
-
-						    </div>	
-                        </div>	
-					</div>
-					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
-                        <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/Stanford-WhatitTakes.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -96,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/IESE-International.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -111,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/IESE-2020.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -124,24 +110,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						    </div>	
                         </div>	
 					</div>
+					 
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
-                        </div>	
-                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
-                        	<div>
-	                        	<h5 class="text-center font__size-20 line__height-27 font__family-efb">
-	                        		<a href="https://bspeclub.com/2019/04/25/search-funds-entrepreneurship-through-acquisition/" target="_blank" class="cs-strhd-link">
-	                        			Bocconi Students PE: Search Funds - Entrepreneurship through Acquisition
-	                        		</a>
-	                        	</h5>
-
-						    </div>	
-                        </div>	
-					</div>
-					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
-                        <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/GermanysMittelstand.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -156,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/searchfundORG.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -171,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/Elena.jpg">
+                        	<img class="w-100" src="img/resources/searchfunderCOM.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>

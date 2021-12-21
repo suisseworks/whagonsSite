@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								        <p class="font__family-open-sans font__size-16 pr-lg-175 pr-md-30">
 								        	<span class="font__weight-bold"> Talented individuals that are admitted into the NCA program initially raise a small pool of capital to finance a 24-month research project with the sole objective of identifying an acquisition opportunity with an existing business owner.</span><br>
                                             <span class="d-block mt-20">
-								        	Our NCA Entrepreneurs are mandated to search for well-established, profitable companies, usually in fragmented industries with an estimated enterprise value between EUR 10 to EUR 35 million. While each NCA Entrepreneur will conduct research in the industries they have pre-defined with their investors, our program was built with a bottom up approach. Please visit our dedicated Business Owners page (link below) for additional information about the type of companies we are looking for.
+								        	Our NCA Entrepreneurs are mandated to search for well-established, profitable companies, usually in fragmented industries with an estimated enterprise value between EUR 10 to EUR 35 million. While each NCA Entrepreneur will conduct research in the industries they have pre-defined with their investors, our program was built with a bottom up approach. Please visit the below link for additional information about the type of companies we are looking for.
 								        	</span>
 								        </p>
 								        <div class="next_arrow w-100 mt-30">
@@ -235,7 +235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										        	Our Entrepreneurship Through Acquisition program generates mutually beneficial financial rewards for all stakeholders.
 										        </span><br>
 									        	<span class="d-block mt-20">
-										        	NCA’s highly specialized ETA program offers co-investors the possibility to build a diversified portfolio of profitable and well-established European companies, identified and managed by top-notch industry professionals in partnership with NCA. NCA Entrepreneurs benefit professionally by establishing a meaningful economic stake in an existing business legacy, and existing businesses can rest assured that we’re in it for the long haul, with NCA talent incentivized to optimize long-term growth as they become the largest shareholder.
+										        	NCA’s highly specialized ETA program offers co-investors the possibility to build a diversified portfolio of profitable and well-established companies, identified and managed by top-notch industry professionals in partnership with NCA. NCA Entrepreneurs benefit professionally by establishing a meaningful economic stake in an existing business legacy, and existing businesses can rest assured that we’re in it for the long haul, with NCA talent incentivized to optimize long-term growth as they become the largest shareholder.
 										        </span>	
 									        </p>
 									        <div class="next_arrow w-100">
@@ -308,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				
 					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section w-100">
-                        	<img class="w-100" src="img/maija.jpg">
+                        	<img class="w-100" src="img/dummy_img.png">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -504,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/infantozzi.jpg">
+                        	<img class="w-100" src="img/dummy_img.png">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
@@ -535,50 +535,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>	
 					</div>
 					 
-				</div>	
-					<!-- Special Partners IR -->
-				<div class="row no-gutters new_row mt-5">
-					<div class="col-lg-12 pl-5 pr-5">
-						<div class="position-relative z-index-1">
-							<div class="headline">
-								<h3 class="mb-5 underline title tile_2 wow fadeInUp">
-								Special Partners IR
-								</h3>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
-                        <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/Sara_Yates.jpg">
-                        </div>	
-                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
-                        	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Sara Yates </h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								Special Partner
-			        			</p>
-			        			<div class="d-flex align-items-center justify-content-center mt-3">
-									<a href="https://www.linkedin.com/in/sarayatesuk/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
-							    </div>							
-						    </div>	
-                        </div>	
-					</div>
-					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
-					<div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/hendren.jpg">
-                        </div>	
-						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
-                        	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> David Hendren</h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								Special Partner
-			        			</p>
-			        			<div class="d-flex align-items-center justify-content-center mt-3">
-									<a href="https://www.linkedin.com/in/davidhendren/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
-							    </div>							
-						    </div>	
-                        </div>
-					</div>	
 				</div>
 				<!-- Advisory Board -->
 				<div class="row no-gutters new_row mt-5">
@@ -608,7 +564,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
 					<div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/olivier.jpg">
+                        	<img class="w-100" src="img/dummy_img.png">
                         </div>	
 						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
                         	<div>
@@ -646,6 +602,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>	
 				</div>	
 
+				
+
+					<!-- Special Partners IR -->
+				<div class="row no-gutters new_row mt-5">
+					<div class="col-lg-12 pl-5 pr-5">
+						<div class="position-relative z-index-1">
+							<div class="headline">
+								<h3 class="mb-5 underline title tile_2 wow fadeInUp">
+								Special Partners
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
+                        <div class="img_section dummy w-100">
+                        	<img class="w-100" src="img/Sara_Yates.jpg">
+                        </div>	
+                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
+                        	<div>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Sara Yates </h5>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
+								Special Partner
+			        			</p>
+			        			<div class="d-flex align-items-center justify-content-center mt-3">
+									<a href="https://www.linkedin.com/in/sarayatesuk/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+							    </div>							
+						    </div>	
+                        </div>	
+					</div>
+					<div class="col-lg-3 pl-5 pr-5 mt-10 mt-lg-0">
+					<div class="img_section dummy w-100">
+                        	<img class="w-100" src="img/hendren.jpg">
+                        </div>	
+						<div class="member_content bg-white py-4 d-flex align-items-center justify-content-center">
+                        	<div>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> David Hendren</h5>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
+								Special Partner
+			        			</p>
+			        			<div class="d-flex align-items-center justify-content-center mt-3">
+									<a href="https://www.linkedin.com/in/davidhendren/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+							    </div>							
+						    </div>	
+                        </div>
+					</div>	
+				</div>
+				
 				<!-- M&A Partners -->
 				<div class="row no-gutters new_row mt-5">
 					<div class="col-lg-12 pl-5 pr-5">
@@ -674,6 +677,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
+                        	<img class="w-100" src="img/lalor_hijo.jpg">
+                        </div>	
+                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
+                        	<div>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Ricardo Lalor (h) </h5>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
+								Managing Director BACP	        			</p>
+			        			<div class="d-flex align-items-center justify-content-center mt-3">
+									<a href="https://www.linkedin.com/in/vincent-d-471534192/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+							    </div>							
+						    </div>	
+                        </div>	
+					</div>
+					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
+                        <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/anabel.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
@@ -687,21 +705,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						    </div>	
                         </div>	
 					</div>
-					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
-                        <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
-                        </div>	
-                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
-                        	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Francisco Lluch</h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								Analyst BACP	        			</p>
-			        			<div class="d-flex align-items-center justify-content-center mt-3">
-									<a href="https://www.linkedin.com/in/vincent-d-471534192/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
-							    </div>							
-						    </div>	
-                        </div>	
-					</div>
+					
 					<div class=" col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/tomas.jpg">
