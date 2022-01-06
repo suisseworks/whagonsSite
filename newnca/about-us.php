@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								        <p class="font__family-open-sans font__size-16 pr-lg-175 pr-md-30">
 								        	<span class="font__weight-bold"> Talented individuals that are admitted into the NCA program initially raise a small pool of capital to finance a 24-month research project with the sole objective of identifying an acquisition opportunity with an existing business owner.</span><br>
                                             <span class="d-block mt-20">
-								        	Our NCA Entrepreneurs are mandated to search for well-established, profitable companies, usually in fragmented industries with an estimated enterprise value between EUR 10 to EUR 35 million. While each NCA Entrepreneur will conduct research in the industries they have pre-defined with their investors, our program was built with a bottom up approach. Please visit the below link for additional information about the type of companies we are looking for.
+								        	Our NCA Entrepreneurs are mandated to search for well-established, profitable companies, usually in fragmented industries, with an estimated enterprise value between EUR 10 and EUR 35 million. While each NCA Entrepreneur will conduct research in the industries they have pre-defined with their investors, our program was built with a bottom up approach. Please visit the below link for additional information about the type of companies we are looking for.
 								        	</span>
 								        </p>
 								        <div class="next_arrow w-100 mt-30">
@@ -339,23 +339,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						    </div>	
                         </div>	
 					</div>
-					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
-                        <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/dummy_img.png">
-                        </div>	
-                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
-                        	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Vacancy</h5>
-			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								M&A Manager <br> US
-								<br><br><br>&nbsp;
-			        			</p>
-			        			<div class="d-flex align-items-center justify-content-center mt-3">
-									<a href="https://www.linkedin.com/company/30146432" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
-							    </div>							
-						    </div>	
-                        </div>	
-					</div>
+					 
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/cautin.jpg">
@@ -440,6 +424,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
+                        	<img class="w-100" src="img/anna.jpg">
+                        </div>	
+                        <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
+                        	<div>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Anna Troitskaya </h5>
+			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
+								Senior Operations Analyst 
+			        			</p>
+			        			<div class="d-flex align-items-center justify-content-center mt-3">
+									<a href="https://www.linkedin.com/in/annatroitskaya/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+							    </div>							
+						    </div>	
+                        </div>	
+					</div>
+					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
+                        <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/andrea.jpg">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
@@ -456,20 +456,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<div class="col-lg-3 member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
-                        	<img class="w-100" src="img/anna.jpg">
+                        	<img class="w-100" src="img/dummy_img.png">
                         </div>	
                         <div class="member_content bg-white py-4 d-flex align-items-center justify-content-center px-4">
                         	<div>
-	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Anna Troitskaya </h5>
+	                        	<h5 class="text-center font__size-22 line__height-30 font__family-efb">Meet<br> Giovanni Gallino</h5>
 			        			<p class="text-center font__size-16 font__family-open-sans line__height-28 mt-2 member_status">
-								Senior Operations Analyst 
+								Talent Acquisition Specialist 
 			        			</p>
 			        			<div class="d-flex align-items-center justify-content-center mt-3">
-									<a href="https://www.linkedin.com/in/annatroitskaya/" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
+									<a href="https://www.linkedin.com/in/giovannigallinohr" target="_blank" class="social_icon d-inline-flex align-items-center justify-content-center border-radius-5 p-2"><i class="fab fa-linkedin-in"></i></a>
 							    </div>							
 						    </div>	
                         </div>	
 					</div>
+					
 					<div class="col-lg-3  member_card pl-5 pr-5 mb-10 mt-10 mt-lg-0">
                         <div class="img_section dummy w-100">
                         	<img class="w-100" src="img/jessica.jpg">
