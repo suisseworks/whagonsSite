@@ -388,10 +388,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="app-intro-video-box">
                         <img src="assets/img/more-home/video/video-2.jpg" alt="video-img">
-                        <a href="https://www.facebook.com/watch/?v=1473546479663702&ref=sharing" class="video-btn popup-video"><i class="ri-play-line"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/watch/?v=1473546479663702&ref=sharing" class="video-btn popup-video2"><i class="ri-play-line"></i></a>
 
                         <div class="intro-video-shape">
-                            <img src="assets/img/more-home/video/shape-3.png" alt="image">
+                            <img src="assets/img/custom/testimonio.png" alt="image">
                         </div>
                     </div>
                 </div>
@@ -501,8 +501,8 @@
     <div class="feedback-wrap-area ptb-100">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">CLIENT REVIEWS</span>
-                <h2>What Our Customer Say About Us</h2>
+                <span class="sub-title">Más Testimoniales</span>
+                <h2>Lo que nuestros clientes dicen</h2>
             </div>
             <div class="feedback-swiper-wrap-slides swiper-container">
                 <div class="swiper-wrapper">
@@ -678,14 +678,14 @@
                     <div class="single-blog-wrap-post">
                         <div class="image">
                             <a target="_blank" href="https://elcorporativocr.com/tecnologia/tenga-completo-control-de-su-negocio-de-la-mano-con-la-tecnologia/" class="d-block">
-                                <img src="assets/img/more-home/blog/blog-2.jpg" alt="blog">
+                                <img src="assets/img/custom/press2.png" alt="blog">
                             </a>
-                            <a target="_blank" href="https://elcorporativocr.com/tecnologia/tenga-completo-control-de-su-negocio-de-la-mano-con-la-tecnologia/"" class="tag">Agency</a>
+                            <a target="_blank" href="https://elcorporativocr.com/tecnologia/tenga-completo-control-de-su-negocio-de-la-mano-con-la-tecnologia/"" class="tag">Control</a>
                         </div>
                         <div class="content">
                             <ul class="meta">
                                 <li><i class="ri-time-line"></i> 22 Octubre, 2021</li>
-                                <li><i class="ri-message-2-line"></i> <a href="blog-details.html">(4) Comment</a></li>
+                                
                             </ul>
                             <h3><a target="_blank" href="https://elcorporativocr.com/tecnologia/tenga-completo-control-de-su-negocio-de-la-mano-con-la-tecnologia/">Tenga completo control de su negocio de la mano con la tecnología</a></h3>
                         </div>
@@ -694,17 +694,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog-wrap-post">
                         <div class="image">
-                            <a href="blog-details.html" class="d-block">
-                                <img src="assets/img/more-home/blog/blog-3.jpg" alt="blog">
+                            <a target="_blank" href="https://www.laestrella.com.pa/economia/170702/gana-labores-hoteles-acelerar-plataforma" class="d-block">
+                                <img src="assets/img/custom/press3.png" alt="blog">
                             </a>
-                            <a href="blog-grid.html" class="tag">Marketing</a>
+                            <a target="_blank" href="https://www.laestrella.com.pa/economia/170702/gana-labores-hoteles-acelerar-plataforma" class="tag">Premio</a>
                         </div>
                         <div class="content">
                             <ul class="meta">
-                                <li><i class="ri-time-line"></i> April 12, 2021</li>
-                                <li><i class="ri-message-2-line"></i> <a href="blog-details.html">(2) Comment</a></li>
+                                <li><i class="ri-time-line"></i> April 12, 2018</li>
+                                 
                             </ul>
-                            <h3><a href="blog-details.html">Branding involves developing strategy to create a point</a></h3>
+                            <h3><a target="_blank" href="https://www.laestrella.com.pa/economia/170702/gana-labores-hoteles-acelerar-plataforma">Plataforma para acelerar labores en hoteles gana premio</a></h3>
                         </div>
                     </div>
                 </div>
