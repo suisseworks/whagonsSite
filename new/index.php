@@ -45,9 +45,9 @@
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Funcionalidades</a></li>
+                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
 
-                            <li class="nav-item"><a href="#" class=" nav-link">Precios</a></li>
+                            <li class="nav-item"><a href="#precios" class=" nav-link">Precios</a></li>
 
                             <li class="nav-item"><a href="contact.html" class="nav-link">Contactar</a></li>
                         </ul>
@@ -255,7 +255,7 @@
     <!-- End App About Area -->
 
     <!-- Start Key Features Area -->
-    <div class="key-features-area bg-transparent-with-color pt-100 pb-100">
+    <div id="funcionalidades" class="key-features-area bg-transparent-with-color pt-100 pb-100">
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Whagons (What´s going on)</span>
@@ -410,46 +410,9 @@
     <!-- End App Video Area -->
 
     <!-- Start Gradient Funfacts Area -->
-    <div class="gradient-funfacts-area pt-100 pb-75">
+    <div class="gradient-funfacts-area pt-100">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="single-funfacts-card">
-                        <div class="icon">
-                            <i class="ri-download-2-line"></i>
-                        </div>
-                        <p>Total Downloads</p>
-                        <h3><span class="odometer" data-count="10">00</span><span class="sign">M</span></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="single-funfacts-card">
-                        <div class="icon">
-                            <i class="ri-star-fill"></i>
-                        </div>
-                        <p>Total Reviews</p>
-                        <h3><span class="odometer" data-count="799">00</span><span class="sign">K</span></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="single-funfacts-card">
-                        <div class="icon">
-                            <i class="ri-global-line"></i>
-                        </div>
-                        <p>Worldwide Countries</p>
-                        <h3><span class="odometer" data-count="150">00</span><span class="sign">+</span></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="single-funfacts-card">
-                        <div class="icon">
-                            <i class="ri-map-pin-user-line"></i>
-                        </div>
-                        <p>Active Users</p>
-                        <h3><span class="odometer" data-count="5">00</span><span class="sign">M</span></h3>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
     <!-- End Gradient Funfacts Area -->
@@ -509,7 +472,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Theme Customization</h5>
+                                <h5>Servicio al Cliente</h5>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -518,12 +481,12 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <p>‘Kiedo is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.’</p>
+                            <a target="_blank" href="https://www.facebook.com/watch/?v=1226915434421602&ref=sharing">100% Recomiendo Whagons. Creo en la herramienta y en la gente que trabaja para Whagons.</a>
                             <div class="client-info">
-                                <img src="assets/img/user/user1.jpg" alt="user">
+                                <img src="assets/img/custom/jorge-varela.png" alt="user">
                                 <div class="title">
-                                    <h3>Deanna Hodges</h3>
-                                    <span>Spotify Developer</span>
+                                    <h3>Jorge Varela</h3>
+                                    <span>Gerente General en Rythmia</span>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +495,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Theme Customization</h5>
+                                <h5>Fácil de usar</h5>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -541,12 +504,12 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <p>‘Kiedo is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.’</p>
+                            <a target="_blank" href="https://www.facebook.com/watch/?v=1226915434421602&ref=sharing">Facilita tener un control sobre los procesos del día a día. Es una herramienta muy útil y sencilla de utilizar.</a>
                             <div class="client-info">
-                                <img src="assets/img/user/user2.jpg" alt="user">
+                                <img src="assets/img/custom/leela.png" alt="user">
                                 <div class="title">
-                                    <h3>Deanna Hodges</h3>
-                                    <span>Spotify Developer</span>
+                                    <h3>Leela Wernscheid</h3>
+                                    <span>Gerente de Operaciones del Colegio Humboldt</span>
                                 </div>
                             </div>
                         </div>
@@ -555,7 +518,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Theme Customization</h5>
+                                <h5>Cultura organizacional</h5>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -564,12 +527,12 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <p>‘Kiedo is the best digital agency in our area As a midsize software developent company we combine the best of both worlds. We have the focus and speed of the small it outsurcing companies.’</p>
+                            <a target="_blank" href="https://www.facebook.com/watch/?v=1473546479663702&ref=sharing">De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo.</p>
                             <div class="client-info">
-                                <img src="assets/img/user/user3.jpg" alt="user">
+                                <img src="assets/img/custom/guido.png" alt="user">
                                 <div class="title">
-                                    <h3>Deanna Hodges</h3>
-                                    <span>Spotify Developer</span>
+                                    <h3>Guido Tenorio</h3>
+                                    <span>Gerente de Operaciones del Grupo Lagar</span>
                                 </div>
                             </div>
                         </div>
@@ -584,7 +547,7 @@
     <!-- End Feedback Wrap Area -->
 
     <!-- Start App Pricing Area -->
-    <div class="app-pricing-area pt-100 pb-75">
+    <div id="precios" class="app-pricing-area pt-100 pb-75">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-12">
@@ -717,53 +680,143 @@
     <div class="partner-area pb-100">
         <div class="container">
             <div class="partner-title">
-                Trusted by world famous companies:
+                Empresas que confían en Whagons:
             </div>
             <div class="partner-slides owl-carousel owl-theme">
-                <div class="partner-item">
+                      
+            <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner3.png" alt="image">
+                        <img src="assets/img/custom/logos/1.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner4.png" alt="image">
+                        <img src="assets/img/custom/logos/2.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner1.png" alt="image">
+                        <img src="assets/img/custom/logos/3.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner2.png" alt="image">
+                        <img src="assets/img/custom/logos/SIT.png" alt="image">
+                    </a>
+                </div>    
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/4.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner5.png" alt="image">
+                        <img src="assets/img/custom/logos/5.png" alt="image">
+                    </a>
+                </div>
+                
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/6.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner6.png" alt="image">
+                        <img src="assets/img/custom/logos/villasol.png" alt="image">
+                    </a>
+                </div>  
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/7.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner7.png" alt="image">
+                        <img src="assets/img/custom/logos/8.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
                     <a href="#" class="d-block">
-                        <img src="assets/img/partner/partner8.png" alt="image">
+                        <img src="assets/img/custom/logos/9.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/10.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/11.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/12.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/13.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/14.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/15.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/16.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/17.png" alt="image">
+                    </a>
+                </div>
+              
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/nosara.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/20.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/adn.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/21.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/panalifting.png" alt="image">
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Partner Area -->
+    
+    <!-- WhatsApp floating button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=50672286148" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
 
     <?php include 'inc/footer.php'; ?>
 </body>

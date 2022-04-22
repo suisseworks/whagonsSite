@@ -5,15 +5,15 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <a href="index-2.html" class="logo">
-                                <img src="assets/img/logo.png" alt="logo">
+                                <img src="assets/img/custom/logo-small.png" alt="logo">
                             </a>
-                            <p>Best solution for your it startup business, consecteturadipiscing elit. Scelerisque amet odio velit,  auctor nam elit nulla.</p>
+                            <p>Digitalice sus operaciones con nuestra App revolucionaria que todos pueden utilizar.</p>
                             <ul class="social-links">
-                                <li><a href="#" target="_blank"><i class="ri-facebook-fill"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="ri-twitter-fill"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="ri-messenger-fill"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="ri-github-fill"></i></a></li>
+                                <li><a href="https://www.facebook.com/whagons" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                                <li><a href="https://www.instagram.com/whagons/" target="_blank"><i class="ri-instagram-fill"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/78597367/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                                
+                           
                             </ul>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="copyright-area">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> <strong>Pakap</strong>. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> <strong>Pakap</strong>. All Rights Reserved by <a href="https://envytheme.com/" target="_blank">Whagons International</a></p>
                 </div>
             </div>
         </div>
