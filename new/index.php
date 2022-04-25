@@ -49,7 +49,7 @@
 
                             <li class="nav-item"><a href="#precios" class=" nav-link">Precios</a></li>
 
-                            <li class="nav-item"><a href="contact.html" class="nav-link">Contactar</a></li>
+                            <li class="nav-item"><a href="contactar.php" class="nav-link">Contactar</a></li>
                         </ul>
                         <div class="others-option">
                             <a href="contact.html" class="default-btn">Comenzar</a>
