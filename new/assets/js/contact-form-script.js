@@ -1,9 +1,18 @@
 /*==============================================================*/
 // Contact Form  JS
 /*==============================================================*/
+var sending = false;
 (function($) {
     "use strict"; // Start of use strict
+
+    
+
     $("#contactForm").validator().on("submit", function(event) {
+        
+        console.log(`validator ${sending}`);
+
+        if (sending) return false;
+        
         if (event.isDefaultPrevented()) {
             // handle the invalid form...
             console.log('Error');
@@ -11,9 +20,10 @@
             submitMSG(false, "Favor completar los campos requeridos!");
         } else {
             // everything looks good!
+            sending = true;
             console.log('BIEN');
             event.preventDefault();
-            submitForm();
+            sendEmail();
         }
     });
 
@@ -46,7 +56,8 @@
 
     function formSuccess() {
         $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!")
+        submitMSG(true, "Message Submitted!");
+        sending = false;
     }
 
     function formError() {
@@ -62,5 +73,40 @@
             var msgClasses = "h4 text-left text-danger";
         }
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+    }
+
+    function sendEmail() {
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var consultation = $('#message').val();
+
+        $("#loader").show();
+        submitMSG(false, "Enviando mensaje...");
+
+
+        $.ajax({
+            url: 'assets/php/sendmail.php',
+            type: 'POST',
+            data: {
+                name: name,
+                email: email,
+                organization: '',
+                phone: '',
+                consultation: consultation,
+                whformtype: 'agendar-demo',
+            },
+            dataType: "json",
+            success: function(response) {
+
+                if (response.result) {
+                    $("#loader").hide();
+                    formSuccess();
+                } else {
+                    formError();
+                    submitMSG(false, text);
+                    sending = false;
+                }
+            }
+        });
     }
 }(jQuery)); // End of use strict

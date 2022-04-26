@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // Load Composer's autoloader
-require '../vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
@@ -27,7 +27,7 @@ try {
     // $mail->AddAddress("help@whagons.com");     // Add a recipient
 
     $mail->SetFrom('help@whagons.com');
-
+    
     // Content
     $mail->Subject = "Nuevo Contacto Whagons!";
     $mail->isHTML(true);

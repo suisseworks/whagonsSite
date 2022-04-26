@@ -6163,5 +6163,12 @@ New Demo CSS
     }
 }
 
+.container-horizontal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 35%;
+  }
+
 
 /*# sourceMappingURL=style.css.map */

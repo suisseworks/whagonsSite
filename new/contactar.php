@@ -93,20 +93,6 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                       <!-- <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" name="phone_number" class="form-control" id="phone_number"   data-error="Please enter your phone number" placeholder="Enter your phone number">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        -->
-                       <!-- <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" name="msg_subject" class="form-control" id="msg_subject" placeholder="Enter your subject"   data-error="Please enter your subject">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        -->
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="form-group">
                                 <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Please enter your message" placeholder="Enter message..."></textarea>
@@ -115,7 +101,10 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <button type="submit" class="default-btn"><i class='bx bx-paper-plane'></i>Enviar Mensaje</button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="container-horizontal">
+                                <img id="loader" src="assets/img/loader-image.gif" style="height: 60px; width: 60px; display: none;"  alt="Loader Image">
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            </div>
                             <div class="clearfix"></div>
                         </div>
                     </div>
