@@ -5,7 +5,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <a href="index-2.html" class="logo">
-                                <img src="assets/img/custom/logo-small.png" alt="logo">
+                                <img src="../assets/img/custom/logo-small.png" alt="logo">
                             </a>
                             <p>Digitalice sus operaciones con nuestra App revolucionaria que todos pueden utilizar.</p>
                             <ul class="social-links">

@@ -23,6 +23,26 @@
     <title>Whagons - Digitalice sus operaciones con nuestra App revolucionaria</title>
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+
+ <!-- Facebook Pixel Code -->
+ <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '470062567657961');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=470062567657961&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
@@ -113,7 +133,7 @@
                         <p>Su interfaz elegante e intuitiva permite que los usuarios entiendan su funcionamiento sin tener que pasar por capacitaciones extenuantes.</p>
                         <div class="btn-box">
                             <a href="pricing.html" class="default-btn">Solicite un demo</a>
-                            <a href="docs/Whagons-2022.pdf" class="link-btn"> Especificaciones</a>
+                           <!-- <a href="docs/Whagons-2022.pdf" class="link-btn"> Especificaciones</a> -->
                         </div>
                     </div>
                 </div>
@@ -245,7 +265,7 @@
                         </ul>
                         <div class="btn-box">
                             <a href="contactar.php" class="default-btn">Comience prueba gratuita</a>
-                            <a href="docs/Whagons-2022.pdf" class="link-btn">Ver Especificaciones</a>
+                            <!-- <a href="docs/Whagons-2022.pdf" class="link-btn">Ver Especificaciones</a> -->
                         </div>
                     </div>
                 </div>
@@ -546,15 +566,15 @@
     </div>
     <!-- End Feedback Wrap Area -->
 
-    <!-- Start App Pricing Area -->
+    <!-- Start App Pricing Area 
     <div id="precios" class="app-pricing-area pt-100 pb-75">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-12">
                     <div class="app-pricing-section-title">
                         <span class="sub-title">Tabla de Precios</span>
-                        <h2>Sin costos escondidos ni de implementación</h2>
-                        <a href="docs/Whagons-2022.pdf">Ver Especificaciones y Planes</a>
+                        <h2>Comúniquese con nosotros para una cotización a la medida</h2>
+                       
                         
                     </div>
                 </div>
@@ -568,7 +588,7 @@
                                 </div>
                                 <span class="popular">Popular</span>
                                 <div class="price">
-                                    $99 <span>/Mes</span>
+                                    $199 <span>/Mes</span>
                                 </div>
                                 <div class="pricing-btn">
                                     <a href="#" class="default-btn">Adquirir Plan</a>
@@ -578,6 +598,7 @@
                                     <li><i class="ri-check-line"></i> Firma digital de tareas</li>
                                     <li><i class="ri-check-line"></i> CLOCK-IN</li>
                                     <li><i class="ri-check-line"></i> 5 Reportes</li>
+                                    <li><i class="ri-check-line"></i> GPS Tracking</li>
                                     <li><i class="ri-check-line"></i> 5 GB de espacio</li>
                                     <li><i class="ri-check-line"></i> Soporte en vivo</li>
                                 </ul>
@@ -590,7 +611,7 @@
                                     <p>hasta 30 usuarios premium</p>
                                 </div>
                                 <div class="price">
-                                    $199 <span>/Mes</span>
+                                    $399 <span>/Mes</span>
                                 </div>
                                 <div class="pricing-btn">
                                     <a href="#" class="default-btn">Adquirir Plan</a>
@@ -601,6 +622,7 @@
                                     <li><i class="ri-check-line"></i> Firma digital de tareas</li>
                                     <li><i class="ri-check-line"></i> CLOCK-IN</li>
                                     <li><i class="ri-check-line"></i> 8 Reportes</li>
+                                    <li><i class="ri-check-line"></i> GPS Tracking</li>
                                     <li><i class="ri-check-line"></i> 10 GB de espacio</li>
                                     <li><i class="ri-check-line"></i> Soporte en vivo</li>
                                 </ul>
@@ -611,7 +633,7 @@
             </div>
         </div>
     </div>
-    <!-- End App Pricing Area -->
+    End App Pricing Area -->
 
     <!-- Start Blog Wrap Area -->
     <div class="blog-area pb-75">
@@ -819,7 +841,18 @@
     </a>
 
 
+
     <?php include 'inc/footer.php'; ?>
+    <script>
+        
+        /* $(function() {
+           
+            if (navigator.language.includes('en'))
+                location.href = 'en';
+        });
+
+        */
+    </script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/custom.css">
 
-    <title>Whagons - Digitalice sus operaciones con nuestra App revolucionaria</title>
+    <title>Whagons - Digitize your operations with our revolutionary App</title>
 
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
 </head>
@@ -44,15 +44,16 @@
                     <a class="navbar-brand" href="/"><img src="../assets/img/custom/black-logo.png" alt="logo"></a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Features</a></li>
 
-                            <li class="nav-item"><a href="#precios" class=" nav-link">Precios</a></li>
+                            <li class="nav-item"><a href="#precios" class=" nav-link">Pricing</a></li>
 
-                            <li class="nav-item"><a href="contactar.php" class="nav-link">Contactar</a></li>
+                            <li class="nav-item"><a href="../contactar.php" class="nav-link">Contact Us</a></li>
+                            <li class="nav-item"><a href="../index.php" class="nav-link">Español</a></li>
                         </ul>
                         <div class="others-option">
-                            <a href="contactar.php" class="default-btn">Comenzar</a>
+                            <a href="contactar.php" class="default-btn">Start</a>
                         </div>
                     </div>
                 </nav>
@@ -67,12 +68,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <span style="font-size:1.5em" class="sub-title">¡Si se puede medir, se puede mejorar!</span>
-                        <h1>Digitalice sus operaciones con nuestra App revolucionaria</h1>
-                        <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p>
+                        <span style="font-size:1.5em" class="sub-title">If it can be measured, it can be improved!</span>
+                        <h1>Digitize your operations with our revolutionary App</h1>
+                        <p class="sub-title2">Whagons is an award-winning platform that helps you better organize your business operations.</p>
                         <div class="app-btn-box">
 
-                            <a href="contact.html" class="default-btn">Prueba Gratuita</a>
+                            <a href="contact.html" class="default-btn">Free Trial</a>
 
                         </div>
                     </div>
@@ -107,13 +108,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="features-inner-content">
-                        <span class="sub-title">Características Clave</span>
-                        <h2>Whagons es una herramienta que todos pueden utilizar</h2>
-                        <p>La App de Whagons fue diseñada para los usuarios puedan utilizarla de manera sencilla sin ningún problema. </p>
-                        <p>Su interfaz elegante e intuitiva permite que los usuarios entiendan su funcionamiento sin tener que pasar por capacitaciones extenuantes.</p>
+                        <span class="sub-title">Key Features</span>
+                        <h2>Whagons is a tool that everyone can use</h2>
+                        <p>The Whagons App was designed so that users can use it easily without any problem.</p>
+                        <p>Its elegant and intuitive interface allows users to understand its operation without having to go through strenuous training.</p>
                         <div class="btn-box">
-                            <a href="pricing.html" class="default-btn">Solicite un demo</a>
-                            <a href="docs/Whagons-2022.pdf" class="link-btn"> Especificaciones</a>
+                            <a href="pricing.html" class="default-btn">Request a demo</a>
+                            <!-- <a href="docs/Whagons-2022.pdf" class="link-btn"> Specs</a> -->
                         </div>
                     </div>
                 </div>
@@ -124,9 +125,9 @@
                                 <div class="icon">
                                     <i class="ri-check-double-line"></i>
 
-                                    <h3>Lista de Chequeo</h3>
+                                    <h3>Checklists</h3>
                                 </div>
-                                <p>Digitalice listas de chequeo, auditorías y formularios. Whagons le permite configurar listas de chequeo inteligentes.</p>
+                                <p>Digitize checklists, audits and forms. Whagons allows you to set up smart checklists.</p>
                             </div>
                         </div>
 
@@ -135,9 +136,9 @@
                                 <div class="icon">
                                     <i class="ri-gps-line"></i>
 
-                                    <h3>Trazabilidad y Evaluaciones</h3>
+                                    <h3>Traceability and Evaluations</h3>
                                 </div>
-                                <p>Genere trazabilidad y evalúe rendimintos, eliminando el uso excesivo de WhatsApp, Excel y correos electrónicos.</p>
+                                <p>Generate traceability and evaluate performance, eliminating the excessive use of WhatsApp, Excel and emails.</p>
                             </div>
                         </div>
 
@@ -146,9 +147,9 @@
                                 <div class="icon">
                                     <i class="ri-settings-2-fill"></i>
 
-                                    <h3>Fácil de Configurar</h3>
+                                    <h3>Easy to Configure</h3>
                                 </div>
-                                <p>Whagons le permite configurar equipos, usuarios, roles, horarios, tareas y ubicaciones (spots) de manera sencilla.</p>
+                                <p>Whagons allows you to easily configure teams, users, roles, schedules, tasks and locations (spots).</p>
                             </div>
                         </div>
 
@@ -157,9 +158,9 @@
                                 <div class="icon">
                                     <i class="ri-pie-chart-2-line"></i>
 
-                                    <h3>Reportes a la medida</h3>
+                                    <h3>Custom Reports</h3>
                                 </div>
-                                <p>Whagons cuenta con una gran cantidad de reportes que le permiten analizar las estadísticas operacionales de su organización.</p>
+                                <p>Whagons has a large number of reports that allow you to analyze the operational statistics of your organization.</p>
                             </div>
                         </div>
                     </div>
@@ -178,7 +179,7 @@
                         <div class="icon">
                             <i class="ri-smartphone-line"></i>
                         </div>
-                        <h3>App Intuitiva</h3>
+                        <h3>Intuitive App</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
@@ -186,7 +187,7 @@
                         <div class="icon bg2">
                             <i class="ri-award-line"></i>
                         </div>
-                        <h3>Herramienta Premiada</h3>
+                        <h3>Award Winning Tool</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
@@ -194,7 +195,7 @@
                         <div class="icon">
                             <i class="ri-fingerprint-line"></i>
                         </div>
-                        <h3>Uso de biométricos</h3>
+                        <h3>Use of biometrics</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
@@ -202,7 +203,7 @@
                         <div class="icon bg2">
                             <i class="ri-safe-line"></i>
                         </div>
-                        <h3>Protección de datos</h3>
+                        <h3>Data Protection</h3>
                     </div>
                 </div>
             </div>
@@ -222,30 +223,30 @@
 
                 <div class="col-lg-6 col-md-12">
                     <div class="app-about-content">
-                        <span class="sub-title">FORMULARIOS</span>
-                        <h2>Digitalice listas de chequeo, formularios y auditorías</h2>
-                        <p>Configure diferentes tipos de listas de chequeo y formularios que pueden ser multi-equipo.</p>
+                        <span class="sub-title">Forms</span>
+                        <h2>Digitize checklists, forms and audits</h2>
+                        <p>Configure different types of checklists and forms that can be multi-team.</p>
                         <ul class="list">
                             <li>
                                 <div class="icon bg-3">
                                     <i class="ri-signal-wifi-1-line"></i>
                                 </div>
-                                <h3>Sincronización en tiempo real</h3>
-                                <p>Los formularios de Whagons se sicronizan en tiempo real y además funcionan offline si no hubiera wifi.
-                                    Puedo agregar comentarios, fotos y crear tareas desde cada ítem de un formulario.
+                                <h3>Real time synchronization</h3>
+                                <p>Whagons forms are synchronized in real time and also work offline if there is no Wi-Fi.
+                                     I can add comments, photos and create tasks from each item of a form.
                                 </p>
                             </li>
                             <li>
                                 <div class="icon bg-3">
                                     <i class="ri-calendar-check-line"></i>
                                 </div>
-                                <h3>Evaluación de formularios</h3>
-                                <p>Permite evaluar cada ítem de un formulario generando métricas de completitud y de eficiencia sobre los trabajos realizados. </p>
+                                <h3>Evaluation of forms</h3>
+                                <p>It allows evaluating each item of a form, generating completeness and efficiency metrics on the work carried out.</p>
                             </li>
                         </ul>
                         <div class="btn-box">
-                            <a href="contactar.php" class="default-btn">Comience prueba gratuita</a>
-                            <a href="docs/Whagons-2022.pdf" class="link-btn">Ver Especificaciones</a>
+                            <a href="contactar.php" class="default-btn">Start free trial</a>
+                            <a href="docs/Whagons-2022.pdf" class="link-btn">See specs</a>
                         </div>
                     </div>
                 </div>
@@ -259,7 +260,7 @@
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Whagons</span>
-                <h2>Funcionalidades principales de Whagons</h2>
+                <h2>Whagons core features</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -268,8 +269,8 @@
                         <div class="icon">
                             <i class="ri-team-line"></i>
                         </div>
-                        <h3>Herramienta colaborativa</h3>
-                        <p>Coordine la comunicación y las tareas de los diferentes departamentos de su empresa de manera digital, sencilla y eficiente.</p>
+                        <h3>Collaborative tool</h3>
+                        <p>Coordinate the communication and tasks of the different departments of your company in a digital, simple and efficient way.</p>
                     </div>
                 </div>
             <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -277,8 +278,8 @@
                         <div class="icon bg2">
                             <i class="ri-calendar-check-fill"></i>
                         </div>
-                        <h3>Listas de chequeo</h3>
-                        <p>Ahorre tiempo y dinero optimizando procesos que requieren de listas de chequeo y formularios. Digitalice sus auditorías.</p>
+                        <h3>Checklists</h3>
+                        <p>Save time and money by streamlining processes that require checklists and forms. Digitize your audits.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -287,7 +288,7 @@
                             <i class="ri-eye-line"></i>
                         </div>
                         <h3>Clock-IN</h3>
-                        <p>Controle entradas y salidas con GPS y calcule las horas extra trabajadas.</p>
+                        <p>Control inputs and outputs with GPS and calculate overtime hours worked.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -295,8 +296,8 @@
                         <div class="icon bg2">
                             <i class="ri-hammer-line"></i>
                         </div>
-                        <h3>Tareas recurrentes</h3>
-                        <p>Programe tareas periódicas, tales como mantenimientos preventivos, con el planificador de Whagons.</p>
+                        <h3>Recurring tasks</h3>
+                        <p>Schedule regular tasks, such as preventive maintenance, with the Whagons scheduler.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
@@ -304,8 +305,8 @@
                         <div class="icon">
                             <i class="ri-leaf-line"></i>
                         </div>
-                        <h3>Limpieza de Spots</h3>
-                        <p>Organice de manera eficiente las limpiezas de oficinas, habitaciones entre otros, con el módulo de limpieza. </p>
+                        <h3>Spot cleaning</h3>
+                        <p>Efficiently organize the cleaning of offices, rooms, among others, with the cleaning module.</p>
                     </div>
                 </div>
                 
@@ -315,14 +316,14 @@
                         <div class="icon bg2">
                             <i class="ri-pie-chart-2-line"></i>
                         </div>
-                        <h3>Reportes</h3>
-                        <p>Genere inteligencia a partir de estadísticas y reportes que provee la herramienta.</p>
+                        <h3>Reports</h3>
+                        <p>Generate intelligence from statistics and reports provided by the tool.</p>
                     </div>
                 </div>
             </div>
 
             <div class="key-features-btn">
-                <a href="contactar.php" class="default-btn">Comenzar</a>
+                <a href="contactar.php" class="default-btn">Start</a>
             </div>
         </div>
     </div>
@@ -332,8 +333,8 @@
     <div class="app-screenshots-area ptb-100">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Pantallas de la APP</span>
-                <h2>APP nativa, intuitiva y bellamente diseñada </h2>
+                <span class="sub-title">APP Screeshots</span>
+                <h2>Intuitive and beautifully crafted Native APP</h2>
             </div>
             <div class="app-screenshots-slides owl-carousel owl-theme">
                 <div class="single-screenshot-card">
@@ -554,7 +555,7 @@
                     <div class="app-pricing-section-title">
                         <span class="sub-title">Tabla de Precios</span>
                         <h2>Sin costos escondidos ni de implementación</h2>
-                        <a href="docs/Whagons-2022.pdf">Ver Especificaciones y Planes</a>
+                        <!-- <a href="docs/Whagons-2022.pdf">Ver Especificaciones y Planes</a> -->
                         
                     </div>
                 </div>

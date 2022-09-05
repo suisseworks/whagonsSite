@@ -18,10 +18,30 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 
     <title>Whagons - Digitalice sus operaciones con nuestra App revolucionaria</title>
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+
+     <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '470062567657961');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=470062567657961&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -52,7 +72,7 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h2>Contactar</h2>
+                <h2>Contactarnos</h2>
                 <ul>
                     <li><a href="/">Inicio</a></li>
                     <li>Contactar</li>
@@ -160,26 +180,18 @@
     </div>
     End Contact Info Area -->
 
+      <!-- WhatsApp floating button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=50672286148" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
     <!-- Start Footer Area -->
     <?php include 'inc/footer.php'; ?>
     <!-- End Footer Area -->
 
-    <div class="go-top"><i class="ri-arrow-up-s-line"></i></div>
-
-    <!-- Link of JS files -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/meanmenu.min.js"></script>
-    <script src="assets/js/appear.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.js"></script>
-    <script src="assets/js/ajaxchimp.min.js"></script>
-    <script src="assets/js/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+ 
+  
 </body>
 
 </html>
