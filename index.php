@@ -92,7 +92,7 @@
                         <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p>
                         <div class="app-btn-box">
 
-                            <a href="contact.html" class="default-btn">Prueba Gratuita</a>
+                            <a href="contactar.php" class="default-btn">Prueba Gratuita</a>
 
                         </div>
                     </div>
@@ -421,7 +421,7 @@
                         <span class="sub-title">Testimonal</span>
                         <h2>Gerente de Operaciones del Grupo Lagar </h2>
                         <h4>"De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo"</h4><p>Guido Tenorio - Gerente de Operaciones del Grupo Lagar</p>
-                        <a href="contact.html" class="default-btn">Comenzar</a>
+                        <a href="contactar.php" class="default-btn">Comenzar</a>
                     </div>
                 </div>
             </div>
