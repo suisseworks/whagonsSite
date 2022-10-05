@@ -87,16 +87,16 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <span style="font-size:1.5em" class="sub-title">La plataforma premiada que todos pueden usar</span>
-                        <p   style="font-size:7em; line-height:normal; font-weight: 700; ">Optimice</p>
-                        <p   style="display:none; font-size:4em; line-height:normal; font-weight: 100; ">[Controle & Evalúe]</p>
-                        <p style="font-size: 6em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
-                         <p  style="font-size: 4em; font-weight: 100; line-height: normal; margin-top: -25px">   de sus </p>
-                         <p   style="font-size:4em; line-height:normal; font-weight: 600; margin-top: -10px ">Equipos de Trabajo</p>
+                        <span style="font-size:1.5em" class="sub-title"></span>
+                        <p   style="font-size:6em; line-height:normal; font-weight: 700; ">Organizando</p>
+                         
+                        <p style="font-size: 7em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
+                         <p  style="font-size: 4em; font-weight: 100; line-height: normal; margin-top: -30px">   de sus </p>
+                         <p   style="font-size:4.7em; line-height:normal; font-weight: 600; margin-top: -20px ">Equipos de Trabajo</p>
                         <!-- <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p> -->
                         <div class="app-btn-box">
 
-                            <a href="contactar.php" class="default-btn">Crear Cuenta</a>
+                            <a href="contact.html" class="default-btn">Prueba Gratuita</a>
 
                         </div>
                     </div>
@@ -126,23 +126,164 @@
     <!-- End New App Main Banner Wrap Area -->
 
     <!-- Start Features Area -->
-    
+    <div class="features-area pt-100 pb-75">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="features-inner-content">
+                        <span class="sub-title">Características Clave</span>
+                        <h2>Whagons es una herramienta que todos pueden utilizar</h2>
+                        <p>La App de Whagons fue diseñada para los usuarios puedan utilizarla de manera sencilla sin ningún problema. </p>
+                        <p>Su interfaz elegante e intuitiva permite que los usuarios entiendan su funcionamiento sin tener que pasar por capacitaciones extenuantes.</p>
+                        <div class="btn-box">
+                            <a href="pricing.html" class="default-btn">Solicite un demo</a>
+                           <!-- <a href="docs/Whagons-2022.pdf" class="link-btn"> Especificaciones</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 features-inner-list">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="features-inner-card">
+                                <div class="icon">
+                                    <i class="ri-check-double-line"></i>
+
+                                    <h3>Lista de Chequeo</h3>
+                                </div>
+                                <p>Digitalice listas de chequeo, auditorías y formularios. Whagons le permite configurar listas de chequeo inteligentes.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="features-inner-card with-box-shadow">
+                                <div class="icon">
+                                    <i class="ri-gps-line"></i>
+
+                                    <h3>Trazabilidad y Evaluaciones</h3>
+                                </div>
+                                <p>Genere trazabilidad y evalúe rendimintos, eliminando el uso excesivo de WhatsApp, Excel y correos electrónicos.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="features-inner-card with-box-shadow">
+                                <div class="icon">
+                                    <i class="ri-settings-2-fill"></i>
+
+                                    <h3>Fácil de Configurar</h3>
+                                </div>
+                                <p>Whagons le permite configurar equipos, usuarios, roles, horarios, tareas y ubicaciones (spots) de manera sencilla.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="features-inner-card">
+                                <div class="icon">
+                                    <i class="ri-pie-chart-2-line"></i>
+
+                                    <h3>Reportes a la medida</h3>
+                                </div>
+                                <p>Whagons cuenta con una gran cantidad de reportes que le permiten analizar las estadísticas operacionales de su organización.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Features Area -->
 
     <!-- Start Features Area -->
-   
+    <div class="features-area pb-75">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
+                    <div class="features-box-card">
+                        <div class="icon">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <h3>App Intuitiva</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
+                    <div class="features-box-card">
+                        <div class="icon bg2">
+                            <i class="ri-award-line"></i>
+                        </div>
+                        <h3>Herramienta Premiada</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
+                    <div class="features-box-card">
+                        <div class="icon">
+                            <i class="ri-fingerprint-line"></i>
+                        </div>
+                        <h3>Uso de biométricos</h3>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 col-6">
+                    <div class="features-box-card">
+                        <div class="icon bg2">
+                            <i class="ri-safe-line"></i>
+                        </div>
+                        <h3>Protección de datos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End Features Area -->
 
     <!-- Start App About Area -->
-    
+    <div class="app-about-area pb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="app-about-image">
+                        <img src="assets/img/custom/header2.png" alt="image">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="app-about-content">
+                        <span class="sub-title">FORMULARIOS</span>
+                        <h2>Digitalice listas de chequeo, formularios y auditorías</h2>
+                        <p>Configure diferentes tipos de listas de chequeo y formularios que pueden ser multi-equipo.</p>
+                        <ul class="list">
+                            <li>
+                                <div class="icon bg-3">
+                                    <i class="ri-signal-wifi-1-line"></i>
+                                </div>
+                                <h3>Sincronización en tiempo real</h3>
+                                <p>Los formularios de Whagons se sicronizan en tiempo real y además funcionan offline si no hubiera wifi.
+                                    Puedo agregar comentarios, fotos y crear tareas desde cada ítem de un formulario.
+                                </p>
+                            </li>
+                            <li>
+                                <div class="icon bg-3">
+                                    <i class="ri-calendar-check-line"></i>
+                                </div>
+                                <h3>Evaluación de formularios</h3>
+                                <p>Permite evaluar cada ítem de un formulario generando métricas de completitud y de eficiencia sobre los trabajos realizados. </p>
+                            </li>
+                        </ul>
+                        <div class="btn-box">
+                            <a href="contactar.php" class="default-btn">Comience prueba gratuita</a>
+                            <!-- <a href="docs/Whagons-2022.pdf" class="link-btn">Ver Especificaciones</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End App About Area -->
 
     <!-- Start Key Features Area -->
     <div id="funcionalidades" class="key-features-area bg-transparent-with-color pt-100 pb-100">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Si se puede medir, se puede mejorar</span>
-                <h2>¿Qué resuelve Whagons?</h2>
+                <span class="sub-title">Whagons</span>
+                <h2>Funcionalidades principales de Whagons</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -301,7 +442,46 @@
     <!-- End Gradient Funfacts Area -->
 
     <!-- Start New App Download Area -->
-     
+    <div class="new-app-download-wrap-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="new-app-download-content">
+                        <span class="sub-title">APP Nativa</span>
+                        <h2>Puede encontrar Whagons en el Play Store, Apple Store y el Huawei Gallery</h2>
+                        <p>Whagons es una herramienta en la nube, que cuenta con una app nativa disponible en las diferentes tiendas.</p>
+                        <div class="btn-box color-wrap">
+                            <a href="https://play.google.com/store/apps/details?id=com.whagons.v4" class="playstore-btn" target="_blank">
+                                <img src="assets/img/play-store.png" alt="image"> Obtener en
+                                <span>Google Play</span>
+                            </a>
+                            <a href="https://apps.apple.com/us/app/whagons/id1614856785\" class="applestore-btn" target="_blank">
+                                <img src="assets/img/apple-store.png" alt="image"> Descargar del
+                                <span>Apple Store</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="new-app-download-image text-end" data-aos="fade-up">
+                        <img src="assets/img/custom/download.png" alt="app-img">
+
+                        <div class="download-circle">
+                            <img src="assets/img/more-home/app-download/download-circle.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-download-shape-1">
+            <img src="assets/img/more-home/app-download/shape-1.png" alt="image">
+        </div>
+        <div class="app-download-shape-2">
+            <img src="assets/img/more-home/app-download/shape-2.png" alt="image">
+        </div>
+    </div>
     <!-- End New App Download Area -->
 
     <!-- Start Feedback Wrap Area -->
@@ -389,7 +569,75 @@
         </div>
     </div>
     <!-- End Feedback Wrap Area -->
- 
+
+    <!-- Start App Pricing Area 
+    <div id="precios" class="app-pricing-area pt-100 pb-75">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12">
+                    <div class="app-pricing-section-title">
+                        <span class="sub-title">Tabla de Precios</span>
+                        <h2>Comúniquese con nosotros para una cotización a la medida</h2>
+                       
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="single-app-pricing-box with-border-radius">
+                                <div class="title">
+                                    <h3>Paquete Startup</h3>
+                                    <p>hasta 10 usuarios premium</p>
+                                </div>
+                                <span class="popular">Popular</span>
+                                <div class="price">
+                                    $199 <span>/Mes</span>
+                                </div>
+                                <div class="pricing-btn">
+                                    <a href="#" class="default-btn">Adquirir Plan</a>
+                                </div>
+                                <ul class="features-list">
+                                <li><i class="ri-check-line"></i> Listas de Chequeo</li>                                   
+                                    <li><i class="ri-check-line"></i> Firma digital de tareas</li>
+                                    <li><i class="ri-check-line"></i> CLOCK-IN</li>
+                                    <li><i class="ri-check-line"></i> 5 Reportes</li>
+                                    <li><i class="ri-check-line"></i> GPS Tracking</li>
+                                    <li><i class="ri-check-line"></i> 5 GB de espacio</li>
+                                    <li><i class="ri-check-line"></i> Soporte en vivo</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="single-app-pricing-box with-border-radius">
+                                <div class="title">
+                                    <h3>Paquete Business</h3>
+                                    <p>hasta 30 usuarios premium</p>
+                                </div>
+                                <div class="price">
+                                    $399 <span>/Mes</span>
+                                </div>
+                                <div class="pricing-btn">
+                                    <a href="#" class="default-btn">Adquirir Plan</a>
+                                </div>
+                                <ul class="features-list">
+                                    <li><i class="ri-check-line"></i> Listas de Chequeo</li>
+                                    <li><i class="ri-check-line"></i> Formularios</li>
+                                    <li><i class="ri-check-line"></i> Firma digital de tareas</li>
+                                    <li><i class="ri-check-line"></i> CLOCK-IN</li>
+                                    <li><i class="ri-check-line"></i> 8 Reportes</li>
+                                    <li><i class="ri-check-line"></i> GPS Tracking</li>
+                                    <li><i class="ri-check-line"></i> 10 GB de espacio</li>
+                                    <li><i class="ri-check-line"></i> Soporte en vivo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    End App Pricing Area -->
 
     <!-- Start Blog Wrap Area -->
     <div class="blog-area pb-75">
