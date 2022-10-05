@@ -284,7 +284,7 @@
                         <span class="sub-title">Testimonal</span>
                         <h2>Gerente de Operaciones del Grupo Lagar </h2>
                         <h4>"De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo"</h4><p>Guido Tenorio - Gerente de Operaciones del Grupo Lagar</p>
-                        <a href="contact.html" class="default-btn">Comenzar</a>
+                        <a href="contactar.php" class="default-btn">Comenzar</a>
                     </div>
                 </div>
             </div>
