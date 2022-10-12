@@ -43,7 +43,7 @@ Default CSS
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-    --fontSize: 14px;
+    --fontSize: 16px;
     --transition: .5s;
     --mainColor: #ED2775;
     --whiteColor: #ffffff;
@@ -109,8 +109,10 @@ img {
 }
 
 p {
-    color: var(--paragraphColor);
-    font-size: var(--fontSize);
+    color: #000000c9;
+    /*var(--paragraphColor); */
+    font-size: 18px;
+    /* var(--fontSize); */
     margin-bottom: 15px;
     line-height: 1.8;
 }
@@ -6168,7 +6170,7 @@ New Demo CSS
     width: 100%;
     display: flex;
     margin-left: 35%;
-  }
+}
 
 
 /*# sourceMappingURL=style.css.map */

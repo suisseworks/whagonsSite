@@ -44,8 +44,10 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h3>Whagons</h3>
-                            <p style="font-size: 1.1em">¡Si se puede medir, se puede mejorar!</p>
-                           
+                            <p style="font-size: 0.8em">Whagons North America, Inc.
+                            <br>Delaware C Corporation Subsidiary
+                        </p>
+                             
                         </div>
                     </div>
                 </div>

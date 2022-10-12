@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
-    <title>Whagons - Digitalice sus operaciones con nuestra App revolucionaria</title>
+    <title>Whagons - Gestione las tareas de sus equipos de trabajo</title>
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
@@ -65,10 +65,10 @@
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
+                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Qué me resuelve?</a></li>
 
-                            <li class="nav-item"><a href="#precios" class=" nav-link">Precios</a></li>
-
+                            <li class="nav-item"><a href="#testimonio" class=" nav-link">Testimonios</a></li>
+                            <li class="nav-item"><a href="#prensa" class=" nav-link">Prensa</a></li>
                             <li class="nav-item"><a href="contactar.php" class="nav-link">Contactar</a></li>
                         </ul>
                         <div class="others-option">
@@ -88,7 +88,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <span style="font-size:1.5em" class="sub-title">La plataforma premiada que todos pueden usar</span>
-                        <p   style="font-size:7em; line-height:normal; font-weight: 700; ">Optimice</p>
+                        <p   style="  font-size:7em; line-height:normal; font-weight: 700; ">Gestione</p>
                         <p   style="display:none; font-size:4em; line-height:normal; font-weight: 100; ">[Controle & Evalúe]</p>
                         <p style="font-size: 6em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
                          <p  style="font-size: 4em; font-weight: 100; line-height: normal; margin-top: -25px">   de sus </p>
@@ -96,7 +96,7 @@
                         <!-- <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p> -->
                         <div class="app-btn-box">
 
-                            <a href="contactar.php" class="default-btn">Crear Cuenta</a>
+                            <a href="contactar.php" class="default-btn">COMENZAR</a>
 
                         </div>
                     </div>
@@ -141,54 +141,66 @@
     <div id="funcionalidades" class="key-features-area bg-transparent-with-color pt-100 pb-100">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Si se puede medir, se puede mejorar</span>
-                <h2>¿Qué resuelve Whagons?</h2>
+                <span style="font-size:1.5em" class="sub-title">
+                <span style=" font-size:1.4em"> Digitaliza </span>
+Automatiza
+Controla
+Coordina
+<span style=" font-size:1.3em"> Evalúa </span>
+Visualiza
+Organiza
+Gestiona
+<span style=" font-size:1.2em"> Motiva </span>
+Capacita
+<span style=" font-size:1.5em"> Apoya </span>
+</span>
+                <p style="color: #262A37; font-size:5em; line-height:normal; font-weight: 700;">Whagons le ayuda a...</p>
             </div>
 
             <div class="row justify-content-center">
-            <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+            <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card style-two">
                         <div class="icon">
                             <i class="ri-team-line"></i>
                         </div>
-                        <h3>Herramienta colaborativa</h3>
+                        <h2 style="color: #262A37; font-size:3em; line-height:normal; font-weight: 700;">Organizar equipos de trabajo y sus tareas</h2>
                         <p>Coordine la comunicación y las tareas de los diferentes departamentos de su empresa de manera digital, sencilla y eficiente.</p>
                     </div>
                 </div>
-            <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+            <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card bg-color-two style-two">
                         <div class="icon bg2">
                             <i class="ri-calendar-check-fill"></i>
                         </div>
-                        <h3>Listas de chequeo</h3>
-                        <p>Ahorre tiempo y dinero optimizando procesos que requieren de listas de chequeo y formularios. Digitalice sus auditorías.</p>
+                        <h2 style="color: #262A37; font-size:2.5em; line-height:normal; font-weight: 700;">Digitalizar listas de chequeo y formularios</h2>
+                        <p>Ahorre tiempo y ayude al planeta, digitalizando procesos que requieren de listas de chequeo y formularios.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-7 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card style-two">
                         <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div>
-                        <h3>Clock-IN</h3>
-                        <p>Controle entradas y salidas con GPS y calcule las horas extra trabajadas.</p>
+                        <h2>Controlar y evaluar el rendimiento y la puntualidad </h2>
+                        <p>Evalúe la eficiencia, las ubicaciones y las horas trabajadas de sus colaboradores.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-5 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card bg-color-two style-two">
                         <div class="icon bg2">
                             <i class="ri-hammer-line"></i>
                         </div>
-                        <h3>Tareas recurrentes</h3>
-                        <p>Programe tareas periódicas, tales como mantenimientos preventivos, con el planificador de Whagons.</p>
+                        <h3>Generar trazablidad y reportes</h3>
+                        <p>Obtenga inteligencia a partir de los datos generados al usar la herramienta.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-sm-6 col-md-6">
+                <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card style-two">
                         <div class="icon">
                             <i class="ri-leaf-line"></i>
                         </div>
-                        <h3>Limpieza de Spots</h3>
-                        <p>Organice de manera eficiente las limpiezas de oficinas, habitaciones entre otros, con el módulo de limpieza. </p>
+                        <h3>Motivar & Capacitar <span style="color:#F64D5E">(beta)</span></h3>
+                        <p>Motive a sus colaboradores y aumente la eficiencia de su personal. </p>
                     </div>
                 </div>
                 
@@ -198,14 +210,14 @@
                         <div class="icon bg2">
                             <i class="ri-pie-chart-2-line"></i>
                         </div>
-                        <h3>Reportes</h3>
-                        <p>Genere inteligencia a partir de estadísticas y reportes que provee la herramienta.</p>
+                        <h3>Desarrollar funcionalidades a la medida</h3>
+                        <p>Amplíe las funcionalidades de Whagons a sus necesidades más específicas. </p>
                     </div>
                 </div>
             </div>
 
             <div class="key-features-btn">
-                <a href="contactar.php" class="default-btn">Comenzar</a>
+                <a href="contactar.php" class="default-btn">Quiero probar Whagons</a>
             </div>
         </div>
     </div>
@@ -240,32 +252,25 @@
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot3.png" alt="screenshots">
                 </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot4.png" alt="screenshots">
-                </div>
+             
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot5.png" alt="screenshots">
                 </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot6.png" alt="screenshots">
-                </div>
+               
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot7.png" alt="screenshots">
                 </div>
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot12.png" alt="screenshots">
                 </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot13.png" alt="screenshots">
-                </div>
-              
+               
             </div>
         </div>
     </div>
     <!-- End App Screenshots Area -->
 
     <!-- Start App Video Area -->
-    <div class="app-video-area pb-100">
+    <div  id="testimonio" class="app-video-area pb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
@@ -281,7 +286,7 @@
 
                 <div class="col-lg-6 col-md-12">
                     <div class="app-intro-video-content">
-                        <span class="sub-title">Testimonal</span>
+                        <span class="sub-title"><a href="#testimonio">Testimonal</a></span>
                         <h2>Gerente de Operaciones del Grupo Lagar </h2>
                         <h4>"De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo"</h4><p>Guido Tenorio - Gerente de Operaciones del Grupo Lagar</p>
                         <a href="contactar.php" class="default-btn">Comenzar</a>
@@ -316,7 +321,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Servicio al Cliente</h5>
+                                <h3>Servicio al Cliente</h3>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -325,7 +330,7 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <a target="_blank" href="https://www.facebook.com/watch/?v=1226915434421602&ref=sharing">100% Recomiendo Whagons. Creo en la herramienta y en la gente que trabaja para Whagons.</a>
+                            <a style="font-size:1.5em" target="_blank" href="https://www.facebook.com/watch/?v=1226915434421602&ref=sharing"><i style= "color: red; font-size:3em" class="ri-play-line"></i>100% Recomiendo Whagons. Creo en la herramienta y en la gente que trabaja para Whagons.</a>
                             <div class="client-info">
                                 <img src="assets/img/custom/jorge-varela.png" alt="user">
                                 <div class="title">
@@ -339,7 +344,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Fácil de usar</h5>
+                                <h3>Fácil de usar</h3>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -348,7 +353,7 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <a target="_blank" href="https://www.facebook.com/watch/?v=1226915434421602&ref=sharing">Facilita tener un control sobre los procesos del día a día. Es una herramienta muy útil y sencilla de utilizar.</a>
+                            <a style="font-size:1.5em"  target="_blank" href="https://fb.watch/f-Btui6Yd8/"><i style= "color: red; font-size:3em" class="ri-play-line"></i>Facilita tener un control sobre los procesos del día a día. Es una herramienta muy útil y sencilla de utilizar.</a>
                             <div class="client-info">
                                 <img src="assets/img/custom/leela.png" alt="user">
                                 <div class="title">
@@ -362,7 +367,7 @@
                     <div class="swiper-slide">
                         <div class="single-feedback-wrap-item">
                             <div class="rating">
-                                <h5>Cultura organizacional</h5>
+                                <h3>Cultura organizacional</h3>
                                 <div>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
@@ -371,7 +376,7 @@
                                     <i class="ri-star-fill"></i>
                                 </div>
                             </div>
-                            <a target="_blank" href="https://www.facebook.com/watch/?v=1473546479663702&ref=sharing">De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo.</a>
+                            <a style="font-size:1.5em"  target="_blank" href="https://www.facebook.com/watch/?v=1473546479663702&ref=sharing"> <i style= "color: red; font-size:3em" class="ri-play-line"></i> De mi parte estoy muy satisfecho, porque controlar más 1500 empleados en una disciplina, no es sencillo.</a>
                             <div class="client-info">
                                 <img src="assets/img/custom/guido.png" alt="user">
                                 <div class="title">
@@ -392,11 +397,11 @@
  
 
     <!-- Start Blog Wrap Area -->
-    <div class="blog-area pb-75">
+    <div id="prensa" class="blog-area pb-75">
         <div class="container">
             <div class="section-title">
-                <span class="sub-title">Prensa</span>
-                <h2>Artículos sobre Whagons</h2>
+                <span class="sub-title">Artículos sobre Whagons</span>
+                <h2>Prensa</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">

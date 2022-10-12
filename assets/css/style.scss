@@ -41,17 +41,20 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
-    --fontSize: 14px;
+    --fontSize: 16px;
     --transition: .5s;
     --mainColor: #ED2775;
     --whiteColor: #ffffff;
     --blackColor: #262A37;
     --gradientColor: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
-    --paragraphColor: #716c80;
+    --paragraphColor: black;
+    /* #716c80; */
     --fontFamily: 'Inter', sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -59,83 +62,111 @@ body {
     font: {
         size: var(--fontSize);
         family: var(--fontFamily);
-    };
+    }
+    ;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--blackColor);
     font-weight: 700;
 }
+
 a {
     transition: var(--transition);
     color: var(--blackColor);
     text-decoration: none;
     outline: 0 !important;
-
     &:hover {
         color: var(--mainColor);
         text-decoration: none;
     }
 }
+
 :focus {
     outline: 0 !important;
 }
+
 .d-table {
     width: 100%;
     height: 100%;
-
     &-cell {
         vertical-align: middle;
     }
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 p {
     color: var(--paragraphColor);
     font-size: var(--fontSize);
     margin-bottom: 15px;
     line-height: 1.8;
-
     &:last-child {
         margin-bottom: 0;
     }
 }
+
 .ptb-100 {
     padding: {
         top: 100px;
         bottom: 100px;
-    };
+    }
+    ;
 }
+
 .pt-100 {
     padding-top: 100px;
 }
+
 .pb-100 {
     padding-bottom: 100px;
 }
+
 .ptb-75 {
     padding: {
         top: 75px;
         bottom: 75px;
-    };
+    }
+    ;
 }
+
 .pt-75 {
     padding-top: 75px;
 }
+
 .pb-75 {
     padding-bottom: 75px;
 }
+
 .bg-F7F7FF {
     background-color: #F7F7FF;
 }
+
 .bg-F4F8FC {
     background-color: #F4F8FC;
 }
+
 .bg-f9f9f9 {
     background-color: #f9f9f9;
 }
 
+
 /*default-btn*/
+
 .default-btn {
     z-index: 1;
     border: none;
@@ -149,7 +180,8 @@ p {
     font: {
         size: var(--fontSize);
         weight: 600;
-    };
+    }
+    ;
     &::before {
         content: '';
         position: absolute;
@@ -165,7 +197,6 @@ p {
     &:hover {
         background-color: var(--mainColor);
         color: var(--whiteColor);
-
         &::before {
             opacity: 0;
             visibility: hidden;
@@ -173,7 +204,9 @@ p {
     }
 }
 
+
 /*section-title*/
+
 .section-title {
     text-align: center;
     max-width: 660px;
@@ -181,7 +214,8 @@ p {
         left: auto;
         right: auto;
         bottom: 55px;
-    };
+    }
+    ;
     .sub-title {
         display: block;
         margin-bottom: 10px;
@@ -210,7 +244,9 @@ p {
     }
 }
 
+
 /*form-control*/
+
 .form-control {
     background-color: #f5f5f5 !important;
     box-shadow: unset !important;
@@ -221,7 +257,6 @@ p {
     padding-left: 15px;
     border-radius: 0;
     height: 50px;
-
     &::placeholder {
         color: var(--paragraphColor);
         transition: var(--transition);
@@ -232,12 +267,15 @@ p {
         }
     }
 }
+
 textarea.form-control {
     padding-top: 15px;
     height: auto;
 }
 
+
 /*shape-css*/
+
 .shape1 {
     bottom: 50px;
     z-index: -1;
@@ -245,6 +283,7 @@ textarea.form-control {
     position: absolute;
     animation: movebounce 5s linear infinite;
 }
+
 .shape2 {
     bottom: 18%;
     z-index: -1;
@@ -252,6 +291,7 @@ textarea.form-control {
     position: absolute;
     animation: movebounce 5s linear infinite;
 }
+
 .bg-shape1 {
     left: 0;
     right: 0;
@@ -260,6 +300,7 @@ textarea.form-control {
     position: absolute;
     transform: translateY(-50%);
 }
+
 .shape3 {
     right: 40px;
     bottom: 50px;
@@ -267,6 +308,7 @@ textarea.form-control {
     position: absolute;
     animation: movebounce 5s linear infinite;
 }
+
 .shape4 {
     top: 90px;
     left: 70px;
@@ -274,94 +316,100 @@ textarea.form-control {
     position: absolute;
     animation: movebounce 5s linear infinite;
 }
+
 .shape5 {
     left: 0;
     bottom: 0;
     z-index: -1;
     position: absolute;
 }
+
 .shape6 {
     position: absolute;
     z-index: -1;
     right: 10%;
     bottom: 8%;
-
     img {
         animation: moveleftbounce 5s linear infinite;
     }
 }
+
 .shape7 {
     position: absolute;
     z-index: -1;
     bottom: 0;
     left: 4%;
-
     img {
         animation: opacitychange 4s linear 1s infinite;
     }
 }
+
 .shape8 {
     position: absolute;
     z-index: -1;
     bottom: 28%;
     left: 30%;
-
     img {
         animation: {
             name: rotateme;
             duration: 20s;
             iteration-count: infinite;
             timing-function: linear;
-        };
+        }
+        ;
     }
 }
+
 .shape9 {
     position: absolute;
     z-index: -1;
     bottom: 5px;
     left: 5px;
-
     img {
         animation: opacitychange 4s linear 1s infinite;
     }
 }
+
 .shape10 {
     position: absolute;
     bottom: 40px;
     left: -40px;
     z-index: -1;
 }
+
 .shape11 {
     position: absolute;
     right: -30px;
     z-index: -1;
     top: 80px;
 }
+
 .shape12 {
     position: absolute;
     z-index: -1;
     bottom: 12%;
     left: 30%;
-
     img {
         animation: moveleftbounce 5s linear infinite;
     }
 }
+
 .shape13 {
     position: absolute;
     z-index: -1;
     right: 18%;
     top: 18%;
-
     img {
         animation: {
             name: rotateme;
             duration: 20s;
             iteration-count: infinite;
             timing-function: linear;
-        };
+        }
+        ;
     }
 }
+
 .lines {
     top: 0;
     left: 0;
@@ -371,7 +419,6 @@ textarea.form-control {
     height: 100%;
     margin: auto;
     position: absolute;
-
     .line {
         top: 0;
         left: 50%;
@@ -380,7 +427,6 @@ textarea.form-control {
         overflow: hidden;
         position: absolute;
         background: rgba(255, 255, 255, 0.1);
-
         &::after {
             left: 0;
             top: -50%;
@@ -396,54 +442,51 @@ textarea.form-control {
         }
         &:nth-child(1) {
             margin-left: -35%;
-
             &::after {
                 animation-delay: 2s;
             }
         }
         &:nth-child(3) {
             margin-left: -17.5%;
-
             &::after {
                 animation-delay: 2.5s;
             }
         }
         &:nth-child(4) {
             margin-left: 17.5%;
-
             &::after {
                 animation-delay: 3s;
             }
         }
         &:nth-child(5) {
             margin-left: 35%;
-
             &::after {
                 animation-delay: 3.5s;
             }
         }
     }
 }
+
 .shape14 {
     position: absolute;
     z-index: -1;
     right: 15%;
     top: 30%;
-
     img {
         animation: movebounce 5s linear infinite;
     }
 }
+
 .shape15 {
     position: absolute;
     bottom: 10px;
     z-index: -2;
     right: 50%;
-
     img {
         animation: moveleftbounce 5s linear infinite;
     }
 }
+
 .divider {
     width: 100%;
     height: 100px;
@@ -459,7 +502,9 @@ textarea.form-control {
     left: 0;
 }
 
+
 /*page-title*/
+
 .page-title-area {
     z-index: 1;
     position: relative;
@@ -467,7 +512,8 @@ textarea.form-control {
     padding: {
         bottom: 100px;
         top: 180px;
-    };
+    }
+    ;
     &::before {
         left: 0;
         right: 0;
@@ -481,7 +527,6 @@ textarea.form-control {
     }
     &.page-title-style-two {
         background: #eef5fc;
-
         &::before {
             background-color: var(--blackColor);
             opacity: .04;
@@ -493,10 +538,8 @@ textarea.form-control {
             ul {
                 li {
                     color: var(--blackColor);
-
                     a {
                         color: var(--mainColor);
-
                         &:hover {
                             color: var(--blackColor);
                         }
@@ -512,7 +555,6 @@ textarea.form-control {
     &.bg-color {
         padding-bottom: 90px;
         background: linear-gradient(76.8deg, #2BA6AC 0%, #36CE83 53.03%, #42E695 100%);
-
         &::before {
             display: none;
         }
@@ -521,9 +563,9 @@ textarea.form-control {
         }
     }
 }
+
 .page-title-content {
     text-align: center;
-
     h2 {
         color: var(--whiteColor);
         margin-bottom: 0;
@@ -535,7 +577,8 @@ textarea.form-control {
         margin: {
             bottom: 0;
             top: 15px;
-        };
+        }
+        ;
         li {
             color: var(--whiteColor);
             display: inline-block;
@@ -545,10 +588,10 @@ textarea.form-control {
             margin: {
                 left: 15px;
                 right: 15px;
-            };
+            }
+            ;
             &:last-child {
                 margin-right: 0;
-
                 &::before {
                     display: none;
                 }
@@ -575,12 +618,13 @@ textarea.form-control {
     }
 }
 
+
 /*pagination*/
+
 .pagination-area {
     margin-top: 20px;
     padding-top: 30px;
     border-top: 1px solid #eeeeee;
-
     .nav-links {
         display: flex;
         align-items: center;
@@ -601,11 +645,13 @@ textarea.form-control {
         font: {
             size: 15px;
             weight: 700;
-        };
+        }
+        ;
         margin: {
             left: 5px;
             right: 5px;
-        };
+        }
+        ;
         &.next {
             margin-left: auto;
         }
@@ -625,7 +671,9 @@ textarea.form-control {
     }
 }
 
+
 /*keyframes-css*/
+
 @keyframes ripple {
     0% {
         transform: scale(1);
@@ -639,28 +687,31 @@ textarea.form-control {
         opacity: 0;
     }
 }
+
 @keyframes movebounce {
     0% {
-        transform: translateY(0); 
+        transform: translateY(0);
     }
     50% {
-        transform: translateY(15px); 
+        transform: translateY(15px);
     }
     100% {
-        transform: translateY(0); 
-    } 
+        transform: translateY(0);
+    }
 }
+
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(15px); 
+        transform: translateX(15px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
+
 @keyframes rotateme {
     from {
         transform: rotate(0deg);
@@ -669,6 +720,7 @@ textarea.form-control {
         transform: rotate(360deg);
     }
 }
+
 @keyframes opacitychange {
     0% {
         opacity: 0;
@@ -686,6 +738,7 @@ textarea.form-control {
         opacity: 0;
     }
 }
+
 @keyframes run {
     0% {
         top: -50%;
@@ -694,6 +747,7 @@ textarea.form-control {
         top: 110%;
     }
 }
+
 @keyframes fadeInDown {
     0% {
         opacity: 0;
@@ -707,13 +761,14 @@ textarea.form-control {
     }
 }
 
+
 /*
 New Demo CSS
 ======================================================*/
+
 .section-title {
     &.title-with-bg-text {
         position: relative;
-
         .big-title {
             font-size: 100px;
             font-weight: 800;
@@ -729,7 +784,9 @@ New Demo CSS
     }
 }
 
+
 /* pakap-new-navbar-area-css */
+
 .pakap-new-navbar-area {
     &.is-sticky {
         background-color: var(--whiteColor) !important;
@@ -742,12 +799,13 @@ New Demo CSS
                 .nav-item {
                     a {
                         color: var(--blackColor);
-                        
-                        &:hover, &.active {
+                        &:hover,
+                        &.active {
                             color: var(--mainColor);
                         }
                     }
-                    &:hover, &.active {
+                    &:hover,
+                    &.active {
                         a {
                             color: var(--mainColor);
                         }
@@ -756,7 +814,6 @@ New Demo CSS
                         li {
                             a {
                                 color: var(--blackColor);
-
                                 &:hover {
                                     color: var(--mainColor);
                                     padding-left: 25px;
@@ -769,7 +826,6 @@ New Demo CSS
                                 li {
                                     a {
                                         color: var(--blackColor);
-                                        
                                         &:hover {
                                             color: var(--mainColor);
                                         }
@@ -781,7 +837,6 @@ New Demo CSS
                                         li {
                                             a {
                                                 color: var(--blackColor);
-            
                                                 &:hover {
                                                     color: var(--mainColor);
                                                 }
@@ -793,7 +848,6 @@ New Demo CSS
                                                 li {
                                                     a {
                                                         color: var(--blackColor);
-                    
                                                         &:hover {
                                                             color: var(--mainColor);
                                                         }
@@ -830,8 +884,8 @@ New Demo CSS
                                 li {
                                     a {
                                         color: var(--blackColor);
-
-                                        &:hover, &.active {
+                                        &:hover,
+                                        &.active {
                                             color: var(--mainColor);
                                         }
                                     }
@@ -844,6 +898,7 @@ New Demo CSS
         }
     }
 }
+
 .navbar-with-white-content {
     &.is-sticky {
         background-color: var(--blackColor) !important;
@@ -856,12 +911,13 @@ New Demo CSS
                 .nav-item {
                     a {
                         color: var(--whiteColor);
-                        
-                        &:hover, &.active {
+                        &:hover,
+                        &.active {
                             color: var(--mainColor);
                         }
                     }
-                    &:hover, &.active {
+                    &:hover,
+                    &.active {
                         a {
                             color: var(--mainColor);
                         }
@@ -870,7 +926,6 @@ New Demo CSS
                         li {
                             a {
                                 color: var(--blackColor);
-
                                 &:hover {
                                     color: var(--mainColor);
                                     padding-left: 25px;
@@ -883,7 +938,6 @@ New Demo CSS
                                 li {
                                     a {
                                         color: var(--blackColor);
-                                        
                                         &:hover {
                                             color: var(--mainColor);
                                         }
@@ -895,7 +949,6 @@ New Demo CSS
                                         li {
                                             a {
                                                 color: var(--blackColor);
-            
                                                 &:hover {
                                                     color: var(--mainColor);
                                                 }
@@ -907,7 +960,6 @@ New Demo CSS
                                                 li {
                                                     a {
                                                         color: var(--blackColor);
-                    
                                                         &:hover {
                                                             color: var(--mainColor);
                                                         }
@@ -944,8 +996,8 @@ New Demo CSS
                                 li {
                                     a {
                                         color: var(--blackColor);
-
-                                        &:hover, &.active {
+                                        &:hover,
+                                        &.active {
                                             color: var(--mainColor);
                                         }
                                     }
@@ -959,7 +1011,9 @@ New Demo CSS
     }
 }
 
+
 /* New App Main Banner Area CSS */
+
 .new-app-main-banner-area {
     background-image: url(../../assets/img/more-home/banner/banner-bg.jpg);
     background-position: center center;
@@ -967,11 +1021,13 @@ New Demo CSS
     background-repeat: no-repeat;
     padding: {
         top: 250px;
-    };
+    }
+    ;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
+
 .new-app-main-banner-content {
     height: 100%;
     display: flex;
@@ -979,12 +1035,10 @@ New Demo CSS
     justify-content: space-between;
     max-width: 630px;
     margin-left: auto;
-
     .content {
         position: relative;
         z-index: 1;
         margin-top: -50px;
-
         .name-big-text {
             font-size: 185px;
             color: var(--whiteColor);
@@ -1016,7 +1070,6 @@ New Demo CSS
         }
         .app-btn-box {
             margin-top: 25px;
-            
             .applestore-btn {
                 overflow: hidden;
                 position: relative;
@@ -1029,13 +1082,15 @@ New Demo CSS
                 font: {
                     size: 12px;
                     weight: 500;
-                };
+                }
+                ;
                 padding: {
                     top: 12px;
                     left: 65px;
                     right: 25px;
                     bottom: 12px;
-                };
+                }
+                ;
                 span {
                     display: block;
                     margin-top: 5px;
@@ -1044,7 +1099,8 @@ New Demo CSS
                     font: {
                         size: 15.5px;
                         weight: 500;
-                    };
+                    }
+                    ;
                 }
                 img {
                     transform: translateY(-50%);
@@ -1069,7 +1125,6 @@ New Demo CSS
                 &:hover {
                     transform: translateY(-3px);
                     color: var(--whiteColor);
-    
                     &::before {
                         opacity: 1;
                         visibility: visible;
@@ -1091,13 +1146,15 @@ New Demo CSS
                 font: {
                     size: 12px;
                     weight: 500;
-                };
+                }
+                ;
                 padding: {
                     top: 12px;
                     left: 70px;
                     right: 25px;
                     bottom: 12px;
-                };
+                }
+                ;
                 span {
                     display: block;
                     margin-top: 5px;
@@ -1106,7 +1163,8 @@ New Demo CSS
                     font: {
                         size: 15.5px;
                         weight: 500;
-                    };
+                    }
+                    ;
                 }
                 img {
                     transform: translateY(-50%);
@@ -1131,7 +1189,6 @@ New Demo CSS
                 &:hover {
                     transform: translateY(-3px);
                     color: var(--whiteColor);
-    
                     &::before {
                         opacity: 1;
                         visibility: visible;
@@ -1153,7 +1210,6 @@ New Demo CSS
     .new-app-trusted-by {
         position: relative;
         top: -15px;
-        
         .title {
             display: block;
             font-weight: 500;
@@ -1161,7 +1217,6 @@ New Demo CSS
         }
         .item {
             text-align: center;
-
             img {
                 display: inline-block !important;
                 width: auto !important;
@@ -1170,10 +1225,10 @@ New Demo CSS
         }
     }
 }
+
 .new-app-main-banner-image {
     position: relative;
     z-index: 1;
-
     .wrap-shape-1 {
         position: absolute;
         left: 112px;
@@ -1187,6 +1242,7 @@ New Demo CSS
         animation: movebounce 2s linear infinite;
     }
 }
+
 .new-app-banner-bg-shape {
     position: absolute;
     left: 0;
@@ -1195,6 +1251,7 @@ New Demo CSS
     z-index: -1;
     width: 100%;
 }
+
 .new-app-banner-strock-shape {
     position: absolute;
     right: 0;
@@ -1210,13 +1267,14 @@ New Demo CSS
     overflow: hidden;
     padding: {
         top: 150px;
-    };
+    }
+    ;
 }
+
 .new-app-main-banner-wrap-content {
     max-width: 635px;
     margin-left: auto;
     margin-top: -90px;
-
     .sub-title {
         font-size: 14px;
         display: inline-block;
@@ -1240,12 +1298,10 @@ New Demo CSS
         padding: 0;
         margin-top: 25px;
         margin-bottom: 0;
-
         li {
             list-style-type: none;
             display: inline-block;
             margin-right: -20px;
-
             img {
                 max-width: 50px;
                 border: 4px solid var(--whiteColor);
@@ -1263,7 +1319,6 @@ New Demo CSS
     }
     .app-btn-box {
         margin-top: 30px;
-        
         .applestore-btn {
             overflow: hidden;
             position: relative;
@@ -1276,13 +1331,15 @@ New Demo CSS
             font: {
                 size: 12px;
                 weight: 500;
-            };
+            }
+            ;
             padding: {
                 top: 12px;
                 left: 65px;
                 right: 25px;
                 bottom: 12px;
-            };
+            }
+            ;
             span {
                 display: block;
                 margin-top: 5px;
@@ -1291,7 +1348,8 @@ New Demo CSS
                 font: {
                     size: 15.5px;
                     weight: 500;
-                };
+                }
+                ;
             }
             img {
                 transform: translateY(-50%);
@@ -1316,7 +1374,6 @@ New Demo CSS
             &:hover {
                 transform: translateY(-3px);
                 color: var(--whiteColor);
-
                 &::before {
                     opacity: 1;
                     visibility: visible;
@@ -1338,13 +1395,15 @@ New Demo CSS
             font: {
                 size: 12px;
                 weight: 500;
-            };
+            }
+            ;
             padding: {
                 top: 12px;
                 left: 70px;
                 right: 25px;
                 bottom: 12px;
-            };
+            }
+            ;
             span {
                 display: block;
                 margin-top: 5px;
@@ -1353,7 +1412,8 @@ New Demo CSS
                 font: {
                     size: 15.5px;
                     weight: 500;
-                };
+                }
+                ;
             }
             img {
                 transform: translateY(-50%);
@@ -1378,7 +1438,6 @@ New Demo CSS
             &:hover {
                 transform: translateY(-3px);
                 color: var(--whiteColor);
-
                 &::before {
                     opacity: 1;
                     visibility: visible;
@@ -1390,11 +1449,11 @@ New Demo CSS
         }
     }
 }
+
 .new-app-main-banner-wrap-image {
     text-align: center;
     position: relative;
     z-index: 1;
-
     .wrap-image-shape-1 {
         position: absolute;
         left: 145px;
@@ -1416,7 +1475,6 @@ New Demo CSS
         margin: auto;
         z-index: -1;
         max-width: 575px;
-
         img {
             animation-name: rotateme;
             animation-duration: 10s;
@@ -1425,6 +1483,7 @@ New Demo CSS
         }
     }
 }
+
 .new-app-main-banner-wrap-shape {
     position: absolute;
     left: -170px;
@@ -1442,12 +1501,13 @@ New Demo CSS
     padding: {
         top: 120px;
         bottom: 80px;
-    };
+    }
+    ;
 }
+
 .new-app-main-banner-gradient-content {
     max-width: 635px;
     margin-left: auto;
-
     .sub-title {
         font-size: 12px;
         font-weight: 500;
@@ -1473,7 +1533,9 @@ New Demo CSS
     }
 }
 
+
 /* Features Area CSS */
+
 .features-card {
     transition: var(--transition);
     background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
@@ -1482,7 +1544,6 @@ New Demo CSS
     padding: 30px 25px;
     position: relative;
     z-index: 1;
-
     .icon {
         width: 100px;
         height: 100px;
@@ -1496,7 +1557,8 @@ New Demo CSS
             left: auto;
             right: auto;
             bottom: 25px;
-        };
+        }
+        ;
         i {
             left: 0;
             right: 0;
@@ -1549,10 +1611,8 @@ New Demo CSS
     }
     &:hover {
         transform: translateY(-5px);
-
         .icon {
             border-radius: 100px 100px 0 100px;
-
             .number {
                 background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
             }
@@ -1567,12 +1627,10 @@ New Demo CSS
         background: transparent;
         border-radius: 15px;
         overflow: hidden;
-
         .icon {
             background: linear-gradient(180deg, #ED2775 0%, #FF7448 100%);
             box-shadow: 15px 20px 35px;
             box-shadow: unset;
-
             .number {
                 background: linear-gradient(247.32deg, #4400B2 0%, #8B4FEB 70.53%);
             }
@@ -1603,9 +1661,9 @@ New Demo CSS
         }
     }
 }
+
 .features-inner-content {
     padding-right: 35px;
-
     .sub-title {
         font-size: 14px;
         display: inline-block;
@@ -1622,7 +1680,6 @@ New Demo CSS
     }
     .btn-box {
         margin-top: 35px;
-
         .default-btn {
             margin-right: 15px;
         }
@@ -1630,7 +1687,6 @@ New Demo CSS
             display: inline-block;
             font-weight: 600;
             position: relative;
-
             &::before {
                 content: '';
                 position: absolute;
@@ -1643,7 +1699,6 @@ New Demo CSS
             }
             &:hover {
                 color: var(--mainColor);
-
                 &::before {
                     width: 0;
                 }
@@ -1651,16 +1706,15 @@ New Demo CSS
         }
     }
 }
+
 .features-inner-card {
     margin-bottom: 25px;
     background: #E6F9FF;
     border-radius: 25px;
     padding: 30px;
-
     &.with-box-shadow {
         background: var(--whiteColor);
         box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
-
         .icon {
             i {
                 background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
@@ -1671,7 +1725,6 @@ New Demo CSS
         position: relative;
         margin: 18px 0 38px;
         padding-left: 70px;
-
         i {
             display: inline-block;
             width: 55px;
@@ -1697,6 +1750,7 @@ New Demo CSS
         font-weight: 600;
     }
 }
+
 .features-inner-list {
     .row {
         .col-lg-6 {
@@ -1709,13 +1763,12 @@ New Demo CSS
         }
     }
 }
+
 .features-box-card {
     margin-bottom: 25px;
     text-align: center;
-
     .icon {
         margin-bottom: 25px;
-
         i {
             display: inline-block;
             width: 100px;
@@ -1749,26 +1802,29 @@ New Demo CSS
     }
 }
 
+
 /* App About Area CSS */
+
 .app-about-area {
     position: relative;
     z-index: 1;
     overflow: hidden;
-
     .container-fluid {
         padding: {
             left: 50px;
-        };
+        }
+        ;
     }
 }
+
 .app-about-image {
     text-align: center;
 }
+
 .app-about-content {
     max-width: 610px;
     padding-left: 25px;
     position: relative;
-
     .big-text {
         font-size: 100px;
         font-weight: 800;
@@ -1799,12 +1855,12 @@ New Demo CSS
         margin: {
             bottom: 0;
             top: 35px;
-        };
+        }
+        ;
         li {
             position: relative;
             margin-bottom: 30px;
             padding-left: 75px;
-
             .icon {
                 width: 55px;
                 height: 55px;
@@ -1816,7 +1872,6 @@ New Demo CSS
                 left: 0;
                 top: 0;
                 border-radius: 20px 20px 20px 0;
-
                 i {
                     position: absolute;
                     left: 0;
@@ -1843,7 +1898,6 @@ New Demo CSS
     }
     .btn-box {
         margin-top: 35px;
-
         .default-btn {
             margin-right: 15px;
         }
@@ -1851,7 +1905,6 @@ New Demo CSS
             display: inline-block;
             font-weight: 600;
             position: relative;
-
             &::before {
                 content: '';
                 position: absolute;
@@ -1864,7 +1917,6 @@ New Demo CSS
             }
             &:hover {
                 color: var(--mainColor);
-
                 &::before {
                     width: 0;
                 }
@@ -1872,6 +1924,7 @@ New Demo CSS
         }
     }
 }
+
 .app-about-shape-1 {
     position: absolute;
     left: 30px;
@@ -1879,6 +1932,7 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .app-about-shape-2 {
     position: absolute;
     right: 30px;
@@ -1886,6 +1940,7 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .app-about-shape-3 {
     position: absolute;
     right: 55px;
@@ -1894,7 +1949,9 @@ New Demo CSS
     animation: movebounce 2s linear infinite;
 }
 
+
 /* Key Features Area CSS */
+
 .key-features-area {
     background-image: url(../../assets/img/more-home/features/features-bg.jpg);
     background-position: center center;
@@ -1903,12 +1960,12 @@ New Demo CSS
     position: relative;
     z-index: 1;
     overflow: hidden;
-
     &.bg-transparent-with-color {
         background-color: #F6F9FB !important;
         background-image: unset;
     }
 }
+
 .key-features-card {
     text-align: center;
     padding: 30px 40px;
@@ -1916,10 +1973,8 @@ New Demo CSS
     margin-bottom: 25px;
     position: relative;
     z-index: 1;
-
     .icon {
         margin-bottom: 25px;
-
         i {
             display: inline-block;
             height: 75px;
@@ -1971,7 +2026,6 @@ New Demo CSS
         text-align: start;
         border-radius: 25px;
         padding: 30px 30px 30px 125px;
-
         &::before {
             border-radius: 25px;
         }
@@ -1980,7 +2034,6 @@ New Demo CSS
             position: absolute;
             left: 30px;
             top: 30px;
-            
             i {
                 border-radius: 100px 100px 0px 100px;
                 height: 65px;
@@ -1999,7 +2052,6 @@ New Demo CSS
     &.style-three {
         border-radius: 15px;
         border: 1px solid #f5f5f5;
-
         &::before {
             border-radius: 15px;
         }
@@ -2024,7 +2076,6 @@ New Demo CSS
         .icon {
             i {
                 border-radius: 100px 100px 0 100px;
-
             }
         }
         h3 {
@@ -2035,6 +2086,7 @@ New Demo CSS
         }
     }
 }
+
 .key-features-shape-1 {
     position: absolute;
     left: 50px;
@@ -2042,6 +2094,7 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .key-features-shape-2 {
     position: absolute;
     right: 20px;
@@ -2049,29 +2102,32 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .key-features-btn {
     text-align: center;
     margin-top: 10px;
 }
 
+
 /* App Progress Area CSS */
+
 .new-app-progress-area {
     overflow: hidden;
     position: relative;
     z-index: 1;
-
     .container-fluid {
         padding: {
             right: 50px;
-        };
+        }
+        ;
     }
 }
+
 .new-app-progress-content {
     max-width: 620px;
     position: relative;
     margin-left: auto;
     padding-right: 20px;
-
     .big-text {
         font-size: 100px;
         font-weight: 800;
@@ -2101,6 +2157,7 @@ New Demo CSS
         margin-top: 10px;
     }
 }
+
 .new-app-progress-shape {
     position: absolute;
     left: 20px;
@@ -2108,27 +2165,30 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .new-app-progress-wrap-area {
     background-image: url(../../assets/img/more-home/progress/progress-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-
     .container-fluid {
         padding: {
             left: 50px;
-        };
+        }
+        ;
     }
     .new-app-progress-content {
         max-width: 620px;
         padding: {
             right: 0;
             left: 30px;
-        };
+        }
+        ;
         margin: {
             right: auto;
             left: 0;
-        };
+        }
+        ;
         .sub-title {
             background: var(--whiteColor);
             -webkit-background-clip: text;
@@ -2149,15 +2209,15 @@ New Demo CSS
     }
 }
 
+
 /* App Screenshots Area CSS */
+
 .app-screenshots-area {
     position: relative;
     z-index: 1;
-
     &.bg-color {
         position: relative;
         z-index: 1;
-
         &::before {
             left: 0;
             right: 0;
@@ -2170,9 +2230,11 @@ New Demo CSS
         }
     }
 }
+
 .single-screenshot-card {
     text-align: center;
 }
+
 .app-screenshots-slides {
     &.owl-theme {
         .owl-nav {
@@ -2189,7 +2251,6 @@ New Demo CSS
                     border-radius: 50%;
                     position: relative;
                     background: transparent;
-        
                     &::before {
                         top: 0;
                         left: 0;
@@ -2217,7 +2278,8 @@ New Demo CSS
                         background: linear-gradient(279.99deg, #9F5FF1 -1.19%, #FF54B0 50.99%, #FF9F5A 100%);
                     }
                 }
-                &:hover, &.active {
+                &:hover,
+                &.active {
                     span {
                         &::before {
                             opacity: 0;
@@ -2234,6 +2296,7 @@ New Demo CSS
         }
     }
 }
+
 .app-screenshots-shape-1 {
     position: absolute;
     top: 8%;
@@ -2242,6 +2305,7 @@ New Demo CSS
     animation: movebounce 2s linear infinite;
     z-index: -1;
 }
+
 .app-screenshots-shape-2 {
     position: absolute;
     right: 50px;
@@ -2249,12 +2313,12 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .app-screenshots-wrap-area {
     background-image: url(../../assets/img/more-home/screenshots/screenshots-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-
     .section-title {
         .sub-title {
             background: var(--whiteColor);
@@ -2266,22 +2330,24 @@ New Demo CSS
         }
     }
 }
+
 .screenshots-swiper-wrap-slides {
     overflow: hidden;
     padding: {
         top: 100px;
         bottom: 100px;
-    };
+    }
+    ;
     margin: {
         top: -80px;
         bottom: -80px;
-    };
+    }
+    ;
     .swiper-slide {
         width: 750px;
         border-radius: 10px;
         transition-duration: 0ms;
         transform: translate3d(0px, 0px, -100px) rotateX(0deg) rotateY(0deg) scale(1) !important;
-
         img {
             border-radius: 10px;
         }
@@ -2304,7 +2370,6 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-
         &::after {
             font-size: 20px;
         }
@@ -2327,7 +2392,6 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-
         &::after {
             font-size: 20px;
         }
@@ -2345,25 +2409,28 @@ New Demo CSS
     }
 }
 
+
 /* App Ever Area CSS */
+
 .app-ever-area {
     position: relative;
     z-index: 1;
     overflow: hidden;
-
     .container-fluid {
         padding: {
             left: 50px;
-        };
+        }
+        ;
     }
 }
+
 .app-ever-image {
     text-align: center;
 }
+
 .app-ever-content {
     max-width: 610px;
     padding-left: 25px;
-    
     &.with-left-zero {
         padding-left: 0;
     }
@@ -2378,12 +2445,12 @@ New Demo CSS
         margin: {
             bottom: 0;
             top: 35px;
-        };
+        }
+        ;
         li {
             position: relative;
             margin-bottom: 30px;
             padding-left: 75px;
-
             .icon {
                 width: 55px;
                 height: 55px;
@@ -2395,7 +2462,6 @@ New Demo CSS
                 left: 0;
                 top: 0;
                 border-radius: 100px 100px 0px 100px;
-
                 i {
                     position: absolute;
                     left: 0;
@@ -2421,7 +2487,6 @@ New Demo CSS
     }
     .btn-box {
         margin-top: 35px;
-
         .default-btn {
             margin-right: 15px;
         }
@@ -2429,7 +2494,6 @@ New Demo CSS
             display: inline-block;
             font-weight: 600;
             position: relative;
-
             &::before {
                 content: '';
                 position: absolute;
@@ -2442,7 +2506,6 @@ New Demo CSS
             }
             &:hover {
                 color: var(--mainColor);
-
                 &::before {
                     width: 0;
                 }
@@ -2450,6 +2513,7 @@ New Demo CSS
         }
     }
 }
+
 .app-ever-shape-1 {
     position: absolute;
     top: 30px;
@@ -2457,10 +2521,10 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 2s linear infinite;
 }
+
 .app-ever-wrap-image {
     position: relative;
     z-index: 1;
-
     .wrap-shape {
         position: absolute;
         right: 0;
@@ -2469,10 +2533,11 @@ New Demo CSS
     }
 }
 
+
 /* App Video Area CSS */
+
 .app-video-box {
     position: relative;
-
     &::before {
         content: '';
         position: absolute;
@@ -2501,8 +2566,8 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-    
-        &::after, &::before {
+        &::after,
+        &::before {
             content: '';
             display: block;
             position: absolute;
@@ -2544,10 +2609,10 @@ New Demo CSS
         }
     }
 }
+
 .app-intro-video-box {
     position: relative;
     border-radius: 10px;
-    
     &::before {
         top: 0;
         left: 0;
@@ -2580,8 +2645,8 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 15px 25px 35px rgba(38, 42, 55, 0.2);
-    
-        &::after, &::before {
+        &::after,
+        &::before {
             content: '';
             display: block;
             position: absolute;
@@ -2613,9 +2678,9 @@ New Demo CSS
         animation: movebounce 5s linear infinite;
     }
 }
+
 .app-intro-video-content {
     padding-left: 35px;
-
     .sub-title {
         font-size: 14px;
         display: inline-block;
@@ -2635,7 +2700,9 @@ New Demo CSS
     }
 }
 
+
 /* App Pricing Area CSS */
+
 .single-app-pricing-box {
     padding: 35px;
     margin-bottom: 25px;
@@ -2645,10 +2712,8 @@ New Demo CSS
     background: var(--whiteColor);
     position: relative;
     z-index: 1;
-
     .title {
         margin-bottom: 25px;
-
         h3 {
             font-size: 20px;
             margin-bottom: 10px;
@@ -2664,7 +2729,8 @@ New Demo CSS
         font: {
             size: 42px;
             weight: 700;
-        };
+        }
+        ;
         transition: var(--transition);
         span {
             position: relative;
@@ -2675,7 +2741,8 @@ New Demo CSS
             font: {
                 size: var(--fontSize);
                 weight: normal;
-            };
+            }
+            ;
             transition: var(--transition);
         }
     }
@@ -2692,7 +2759,8 @@ New Demo CSS
         margin: {
             top: 30px;
             bottom: 0;
-        };
+        }
+        ;
         li {
             color: #4A4F60;
             margin-bottom: 15px;
@@ -2702,7 +2770,8 @@ New Demo CSS
             font: {
                 size: 15px;
                 weight: 500;
-            };
+            }
+            ;
             i {
                 top: -1.5px;
                 left: -2px;
@@ -2710,7 +2779,6 @@ New Demo CSS
                 color: #36CC72;
                 position: absolute;
                 transition: var(--transition);
-
                 &.ri-close-line {
                     color: red;
                 }
@@ -2734,9 +2802,9 @@ New Demo CSS
         visibility: hidden;
         transition: var(--transition);
     }
-    &:hover, &.active {
+    &:hover,
+    &.active {
         border: 1px solid var(--mainColor);
-
         &::before {
             opacity: 1;
             visibility: visible;
@@ -2751,7 +2819,6 @@ New Demo CSS
         }
         .price {
             color: var(--whiteColor);
-
             span {
                 color: var(--whiteColor);
             }
@@ -2766,10 +2833,8 @@ New Demo CSS
         .features-list {
             li {
                 color: var(--whiteColor);
-
                 i {
                     color: var(--whiteColor);
-    
                     &.ri-close-line {
                         color: var(--whiteColor);
                     }
@@ -2790,7 +2855,6 @@ New Demo CSS
         box-shadow: 0px 25px 50px 5px rgba(0, 0, 0, 0.05);
         border-radius: 25px;
         border: 1px solid var(--whiteColor);
-
         &::before {
             border-radius: 25px;
         }
@@ -2818,28 +2882,27 @@ New Demo CSS
         }
     }
 }
+
 .app-pricing-bottom-text {
     text-align: center;
     margin-top: 10px;
-
     a {
         color: var(--paragraphColor);
         font-size: 14px;
         font-weight: 500;
         border-bottom: 1px solid var(--paragraphColor);
         padding-bottom: 5px;
-
         &:hover {
             color: var(--mainColor);
             border-bottom: 1px solid var(--mainColor);
         }
     }
 }
+
 .app-pricing-section-title {
     top: -50px;
     position: relative;
     padding-right: 40px;
-
     .sub-title {
         font-size: 14px;
         display: inline-block;
@@ -2860,16 +2923,15 @@ New Demo CSS
         font-weight: 500;
         border-bottom: 1px solid var(--paragraphColor);
         padding-bottom: 5px;
-
         &:hover {
             color: var(--mainColor);
             border-bottom: 1px solid var(--mainColor);
         }
     }
 }
+
 .app-pricing-gradient-area {
     background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
-
     .section-title {
         .sub-title {
             background: var(--whiteColor);
@@ -2889,11 +2951,9 @@ New Demo CSS
         }
         .pricing-btn {
             margin-top: 30px;
-
             .default-btn {
                 width: 100%;
                 text-align: center;
-
                 &::before {
                     background: linear-gradient(44.44deg, #ED2775 7.79%, #FF7448 94.18%);
                 }
@@ -2902,9 +2962,9 @@ New Demo CSS
         &::before {
             background: linear-gradient(247.32deg, #4400B2 0%, #8B4FEB 70.53%);
         }
-        &:hover, &.active {
+        &:hover,
+        &.active {
             border: 1px solid var(--mainColor);
-    
             &::before {
                 opacity: 1;
                 visibility: visible;
@@ -2915,7 +2975,6 @@ New Demo CSS
         a {
             color: var(--whiteColor);
             border-bottom: 1px solid var(--whiteColor);
-    
             &:hover {
                 color: var(--blackColor);
                 border-bottom: 1px solid var(--blackColor);
@@ -2924,16 +2983,18 @@ New Demo CSS
     }
 }
 
+
 /* New App Download Area CSS */
+
 .new-app-download-area {
     background-image: url(../../assets/img/more-home/app-download/download-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .new-app-download-content {
     position: relative;
-
     .big-text {
         font-size: 100px;
         font-weight: 800;
@@ -2961,7 +3022,6 @@ New Demo CSS
     }
     .btn-box {
         margin-top: 30px;
-
         .playstore-btn {
             position: relative;
             border-radius: 50px;
@@ -2973,13 +3033,15 @@ New Demo CSS
             font: {
                 size: 14px;
                 weight: 500;
-            };
+            }
+            ;
             padding: {
                 top: 12px;
                 left: 60px;
                 right: 25px;
                 bottom: 12px;
-            };
+            }
+            ;
             span {
                 display: block;
                 margin-top: 2px;
@@ -2988,7 +3050,8 @@ New Demo CSS
                 font: {
                     size: 17px;
                     weight: 700;
-                };
+                }
+                ;
             }
             img {
                 transform: translateY(-50%);
@@ -3000,7 +3063,6 @@ New Demo CSS
                 background-color: var(--blackColor);
                 transform: translateY(-3px);
                 color: var(--whiteColor);
-
                 span {
                     color: var(--whiteColor);
                 }
@@ -3016,13 +3078,15 @@ New Demo CSS
             font: {
                 size: 14px;
                 weight: 500;
-            };
+            }
+            ;
             padding: {
                 top: 12px;
                 left: 65px;
                 right: 25px;
                 bottom: 12px;
-            };
+            }
+            ;
             span {
                 display: block;
                 margin-top: 2px;
@@ -3031,7 +3095,8 @@ New Demo CSS
                 font: {
                     size: 17px;
                     weight: 700;
-                };
+                }
+                ;
             }
             img {
                 transform: translateY(-50%);
@@ -3043,7 +3108,6 @@ New Demo CSS
                 background-color: var(--blackColor);
                 transform: translateY(-3px);
                 color: var(--whiteColor);
-
                 span {
                     color: var(--whiteColor);
                 }
@@ -3053,7 +3117,6 @@ New Demo CSS
             .playstore-btn {
                 background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
                 color: var(--whiteColor);
-
                 span {
                     color: var(--whiteColor);
                 }
@@ -3061,7 +3124,6 @@ New Demo CSS
             .applestore-btn {
                 background: var(--blackColor);
                 color: var(--whiteColor);
-
                 span {
                     color: var(--whiteColor);
                 }
@@ -3072,10 +3134,10 @@ New Demo CSS
         }
     }
 }
+
 .new-app-download-image {
     position: relative;
     z-index: 1;
-
     .download-circle {
         position: absolute;
         left: 0;
@@ -3087,10 +3149,12 @@ New Demo CSS
         max-width: 580px;
     }
 }
+
 .new-app-download-wrap-area {
     position: relative;
     z-index: 1;
 }
+
 .app-download-shape-1 {
     position: absolute;
     left: 65px;
@@ -3098,6 +3162,7 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 5s linear infinite;
 }
+
 .app-download-shape-2 {
     position: absolute;
     bottom: 15%;
@@ -3106,11 +3171,12 @@ New Demo CSS
     animation: movebounce 5s linear infinite;
 }
 
+
 /* New Software Area CSS */
+
 .new-software-list {
     position: relative;
     text-align: center;
-
     ul {
         padding-left: 0;
         margin-bottom: 0;
@@ -3120,7 +3186,6 @@ New Demo CSS
         top: 0;
         width: 100%;
         height: 100%;
-
         li {
             width: 100px;
             height: 100px;
@@ -3130,7 +3195,6 @@ New Demo CSS
             transition: var(--transition);
             background-color: var(--whiteColor);
             box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
-
             img {
                 left: 0;
                 right: 0;
@@ -3140,7 +3204,8 @@ New Demo CSS
                 margin: {
                     left: auto;
                     right: auto;
-                };
+                }
+                ;
             }
             &:nth-child(1) {
                 top: 10px;
@@ -3159,7 +3224,8 @@ New Demo CSS
                 margin: {
                     left: auto;
                     right: auto;
-                };
+                }
+                ;
             }
             &:nth-child(4) {
                 right: 40px;
@@ -3183,13 +3249,18 @@ New Demo CSS
                 margin: {
                     left: auto;
                     right: auto;
-                };
-                background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
-                box-shadow: 0px 10px 35px rgba(237, 39, 117, 0.08);
+                }
+                ;
+                background: linear-gradient(221.69deg,
+                #50E1E4 0%,
+                #9A60EA 101.01%);
+                box-shadow: 0px 10px 35px rgba(237,
+                39,
+                117,
+                0.08);
             }
             &.hover {
                 filter: blur(4px);
-
                 &:hover {
                     filter: blur(0);
                 }
@@ -3197,9 +3268,9 @@ New Demo CSS
         }
     }
 }
+
 .new-software-content {
     position: relative;
-
     .big-text {
         font-size: 100px;
         font-weight: 800;
@@ -3230,11 +3301,14 @@ New Demo CSS
     }
 }
 
+
 /* Feedback Area CSS */
+
 .new-feedback-area {
     position: relative;
     z-index: 1;
 }
+
 .single-feedback-card {
     transition: var(--transition);
     border: 1px solid #D1DBE4;
@@ -3243,10 +3317,8 @@ New Demo CSS
     transition: var(--transition);
     position: relative;
     z-index: 1;
-
     .client-info {
         margin-bottom: 20px;
-
         img {
             height: 60px;
             border-radius: 50%;
@@ -3254,7 +3326,6 @@ New Demo CSS
         }
         .title {
             margin-left: 15px;
-
             h3 {
                 font-size: 18px;
                 margin-bottom: 10px;
@@ -3274,7 +3345,6 @@ New Demo CSS
     }
     .rating {
         margin-top: 25px;
-
         h5 {
             margin-bottom: 0;
             font-size: 16px;
@@ -3303,7 +3373,6 @@ New Demo CSS
     }
     &:hover {
         border: 1px solid var(--mainColor);
-
         &::before {
             opacity: 1;
             visibility: visible;
@@ -3328,6 +3397,7 @@ New Demo CSS
         }
     }
 }
+
 .new-feedback-slides {
     &.owl-theme {
         .owl-nav {
@@ -3344,7 +3414,6 @@ New Demo CSS
                     border-radius: 50%;
                     position: relative;
                     background-color: transparent;
-        
                     &::before {
                         top: 0;
                         left: 0;
@@ -3372,7 +3441,8 @@ New Demo CSS
                         background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
                     }
                 }
-                &:hover, &.active {
+                &:hover,
+                &.active {
                     span {
                         &::before {
                             opacity: 0;
@@ -3389,6 +3459,7 @@ New Demo CSS
         }
     }
 }
+
 .new-feedback-shape {
     position: absolute;
     right: 30px;
@@ -3396,19 +3467,19 @@ New Demo CSS
     z-index: -1;
     animation: movebounce 5s linear infinite;
 }
+
 .feedback-wrap-area {
     background: #F6F9FB;
 }
+
 .single-feedback-wrap-item {
     box-shadow: 0px 0px 30px rgba(29, 23, 77, .07);
     background-color: var(--whiteColor);
     text-align: center;
     padding: 45px 155px;
     border-radius: 25px;
-   
     .rating {
         margin-bottom: 15px;
-
         h5 {
             margin-bottom: 12px;
             font-size: 16px;
@@ -3427,7 +3498,6 @@ New Demo CSS
     }
     .client-info {
         margin-top: 25px;
-
         img {
             height: 70px;
             border-radius: 50%;
@@ -3435,7 +3505,6 @@ New Demo CSS
         }
         .title {
             margin-top: 18px;
-
             h3 {
                 font-size: 20px;
                 margin-bottom: 10px;
@@ -3448,12 +3517,14 @@ New Demo CSS
         }
     }
 }
+
 .feedback-swiper-wrap-slides {
     max-width: 900px;
     margin: {
         left: auto;
         right: auto;
-    };
+    }
+    ;
     .swiper-cube-shadow {
         display: none;
     }
@@ -3465,7 +3536,6 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-
         &::after {
             font-size: 20px;
         }
@@ -3489,7 +3559,6 @@ New Demo CSS
         border-radius: 50%;
         color: var(--whiteColor);
         box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
-
         &::after {
             font-size: 20px;
         }
@@ -3506,14 +3575,17 @@ New Demo CSS
         }
     }
 }
+
 .new-feedback-wrap-area {
     .container-fluid {
-        padding:  {
+        padding: {
             left: 0;
             right: 0;
-        };
+        }
+        ;
     }
 }
+
 .single-feedback-wrap-card {
     transition: var(--transition);
     border: 1px solid #D1DBE4;
@@ -3523,10 +3595,8 @@ New Demo CSS
     z-index: 1;
     border-radius: 25px;
     text-align: center;
-
     .rating {
         margin-bottom: 15px;
-
         i {
             line-height: 1;
             color: #FFCA40;
@@ -3534,7 +3604,6 @@ New Demo CSS
     }
     .client-info {
         margin-top: 20px;
-
         img {
             height: 60px;
             border-radius: 50%;
@@ -3543,7 +3612,6 @@ New Demo CSS
         }
         .title {
             margin-top: 15px;
-
             h3 {
                 font-size: 18px;
                 margin-bottom: 10px;
@@ -3578,7 +3646,6 @@ New Demo CSS
     }
     &:hover {
         border: 1px solid var(--mainColor);
-
         &::before {
             opacity: 1;
             visibility: visible;
@@ -3603,11 +3670,11 @@ New Demo CSS
         }
     }
 }
+
 .new-feedback-wrap-slides {
     &.owl-theme {
         .owl-nav {
             margin-top: 0;
-
             [class*=owl-] {
                 position: absolute;
                 top: 42%;
@@ -3624,7 +3691,6 @@ New Demo CSS
                 line-height: 42px;
                 transition: var(--transition);
                 z-index: 1;
-
                 &::before {
                     content: '';
                     position: absolute;
@@ -3648,7 +3714,6 @@ New Demo CSS
                     background-color: #f9f9f9;
                     color: var(--whiteColor);
                     border-radius: 50%;
-
                     &::before {
                         opacity: 1;
                         border-radius: 50%;
@@ -3660,18 +3725,18 @@ New Demo CSS
     }
 }
 
+
 /* New Free Trial Area CSS */
+
 .new-free-trial-inner-box {
     background: linear-gradient(221.69deg, #50E1E4 0%, #9A60EA 101.01%);
     padding: 50px 70px;
     position: relative;
     z-index: 11;
     margin-bottom: -270px;
-
     &.wrap-with-gradient {
         margin-bottom: 0;
         background: linear-gradient(247.32deg, #4400B2 0%, #8B4FEB 70.53%);
-
         .new-free-trial-content form {
             .default-btn {
                 &::before {
@@ -3687,9 +3752,9 @@ New Demo CSS
         animation: movebounce 5s linear infinite;
     }
 }
+
 .new-free-trial-content {
     max-width: 750px;
-
     .sub-title {
         font-size: 14px;
         display: inline-block;
@@ -3705,7 +3770,6 @@ New Demo CSS
     }
     form {
         position: relative;
-        
         .input-newsletter {
             width: 100%;
             height: 70px;
@@ -3715,7 +3779,6 @@ New Demo CSS
             color: var(--blackColor);
             border-radius: 50px;
             border: none;
-
             &::placeholder {
                 color: var(--paragraphColor);
                 transition: var(--transition);
@@ -3732,26 +3795,28 @@ New Demo CSS
             height: 60px;
             right: 5px;
             top: 5px;
-
             &::before {
                 border-radius: 50px;
             }
         }
     }
 }
+
 .new-free-trial-image {
     text-align: center;
 }
 
+
 /* Gradient Funfacts Area CSS */
+
 .gradient-funfacts-area {
     background: linear-gradient(88.83deg, #ED2775 0%, #FF7448 100%);
 }
+
 .single-funfacts-card {
     text-align: center;
     margin-bottom: 25px;
     transition: var(--transition);
-
     .icon {
         display: inline-block;
         height: 70px;
@@ -3760,7 +3825,6 @@ New Demo CSS
         text-align: center;
         border-radius: 50px;
         background-color: var(--whiteColor);
-
         i {
             font-size: 35px;
             background: var(--gradientColor);
@@ -3775,14 +3839,14 @@ New Demo CSS
         margin: {
             top: 15px;
             bottom: 12px;
-        };
+        }
+        ;
     }
     h3 {
         margin-bottom: 0;
         font-size: 36px;
         color: var(--whiteColor);
         line-height: 1;
-
         .sign {
             font-size: 32px;
             position: relative;
@@ -3794,14 +3858,14 @@ New Demo CSS
     }
 }
 
+
 /* Blog Wrap Area CSS */
+
 .single-blog-wrap-post {
     margin-bottom: 25px;
-
     .image {
         overflow: hidden;
         position: relative;
-
         img {
             transition: var(--transition);
         }
@@ -3816,24 +3880,22 @@ New Demo CSS
             font: {
                 size: 14px;
                 weight: 500;
-            };
+            }
+            ;
         }
     }
     .content {
         margin-top: 20px;
-
         ul {
             list-style-type: none;
             margin-bottom: 12px;
             padding-left: 0;
-
             li {
                 color: var(--paragraphColor);
                 display: inline-block;
                 padding-left: 19px;
                 margin-right: 15px;
                 position: relative;
-
                 i {
                     left: 0;
                     top: 50%;
@@ -3843,7 +3905,6 @@ New Demo CSS
                 }
                 a {
                     color: var(--paragraphColor);
-
                     &:hover {
                         color: var(--mainColor);
                     }
@@ -3854,7 +3915,6 @@ New Demo CSS
             line-height: 1.7;
             margin-bottom: 0;
             font-size: 22px;
-
             a {
                 color: var(--blackColor);
             }
@@ -3867,26 +3927,25 @@ New Demo CSS
             }
         }
         .content {
-           h3 {
-               a {
-                   color: #0064FB;
-               }
-           }
+            h3 {
+                a {
+                    color: #0064FB;
+                }
+            }
         }
     }
 }
 
 
 /* Footer Style With Black Color Area */
+
 .footer-area-style-with-black-color {
     background-color: var(--blackColor);
     position: relative;
     z-index: 1;
     padding-top: 370px;
-
     .single-footer-widget {
         margin-bottom: 25px;
-
         p {
             color: var(--whiteColor);
         }
@@ -3896,13 +3955,11 @@ New Demo CSS
         .links-list {
             li {
                 margin-bottom: 15px;
-
                 &:last-child {
                     margin-bottom: 0;
                 }
                 a {
                     color: var(--whiteColor);
-
                     &:hover {
                         color: var(--mainColor);
                     }
@@ -3921,7 +3978,6 @@ New Demo CSS
     }
     .copyright-area {
         border-top: 1px solid #e4e5ea14;
-
         p {
             color: var(--whiteColor);
             strong {
@@ -3934,6 +3990,7 @@ New Demo CSS
         }
     }
 }
+
 .footer-white-shape {
     position: absolute;
     left: 0;
@@ -3942,14 +3999,13 @@ New Demo CSS
     top: 0;
     z-index: -1;
 }
+
 .footer-wrap-area {
     background-color: var(--blackColor);
     position: relative;
     z-index: 1;
-
     .single-footer-widget {
         margin-bottom: 25px;
-
         p {
             color: var(--whiteColor);
         }
@@ -3959,13 +4015,11 @@ New Demo CSS
         .links-list {
             li {
                 margin-bottom: 15px;
-
                 &:last-child {
                     margin-bottom: 0;
                 }
                 a {
                     color: var(--whiteColor);
-
                     &:hover {
                         color: var(--mainColor);
                     }
@@ -3984,7 +4038,6 @@ New Demo CSS
     }
     .copyright-area {
         border-top: 1px solid #e4e5ea14;
-
         p {
             color: var(--whiteColor);
             strong {
@@ -4037,22 +4090,23 @@ New Demo CSS
         }
     }
 }
+
 .footer-wrap-shape {
     position: absolute;
     right: 0;
     right: 0;
     bottom: 0;
     z-index: -1;
-
     img {
         width: 100%;
         opacity: 50%;
     }
 }
 
-/* Max width 767px */
-@media only screen and (max-width: 767px) {
 
+/* Max width 767px */
+
+@media only screen and (max-width: 767px) {
     body {
         font-size: 13px;
     }
@@ -4063,7 +4117,8 @@ New Demo CSS
         padding: {
             top: 60px;
             bottom: 60px;
-        };
+        }
+        ;
     }
     .pt-100 {
         padding-top: 60px;
@@ -4075,7 +4130,8 @@ New Demo CSS
         padding: {
             top: 35px;
             bottom: 35px;
-        };
+        }
+        ;
     }
     .pt-75 {
         padding-top: 35px;
@@ -4083,24 +4139,28 @@ New Demo CSS
     .pb-75 {
         padding-bottom: 35px;
     }
-
     .default-btn {
         padding: 11px 30px;
         font-size: 12.5px;
     }
-
-    .shape1, .shape2, .bg-shape1, .shape6, .shape8, .shape12, .shape13, .shape10, .shape11 {
+    .shape1,
+    .shape2,
+    .bg-shape1,
+    .shape6,
+    .shape8,
+    .shape12,
+    .shape13,
+    .shape10,
+    .shape11 {
         display: none;
     }
     .shape7 {
         left: 0;
         width: 80px;
     }
-
     .section-title {
         margin-bottom: 40px;
         max-width: 100%;
-
         .sub-title {
             font-size: 12px;
         }
@@ -4111,12 +4171,12 @@ New Demo CSS
             font-size: 13px;
         }
     }
-
     .page-title-area {
         padding: {
             top: 140px;
             bottom: 70px;
-        };
+        }
+        ;
         &::before {
             display: none;
         }
@@ -4137,16 +4197,13 @@ New Demo CSS
     .divider {
         height: 50px;
     }
-
     .form-control {
         font-size: 13px;
         height: 45px;
     }
-
     .pagination-area {
         margin-top: 0;
         padding-top: 20px;
-
         .page-numbers {
             width: 40px;
             height: 40px;
@@ -4154,7 +4211,6 @@ New Demo CSS
             line-height: 40px;
         }
     }
-
     /*
     New Demo Responsive CSS
     ======================================================*/
@@ -4166,14 +4222,12 @@ New Demo CSS
             }
         }
     }
-
     .pakap-new-navbar-area {
         .pakap-responsive-nav {
             .mean-container {
                 a {
                     &.meanmenu-reveal {
                         color: var(--blackColor);
-
                         span {
                             background: var(--blackColor);
                         }
@@ -4182,14 +4236,12 @@ New Demo CSS
             }
         }
     }
-
     .navbar-with-white-content {
         .pakap-responsive-nav {
             .mean-container {
                 a {
                     &.meanmenu-reveal {
                         color: var(--whiteColor);
-
                         span {
                             background: var(--whiteColor);
                         }
@@ -4198,7 +4250,6 @@ New Demo CSS
             }
         }
     }
-
     .new-app-main-banner-area {
         padding-top: 170px;
     }
@@ -4213,14 +4264,12 @@ New Demo CSS
             .app-btn-box {
                 .applestore-btn {
                     font-size: 10px;
-
                     span {
                         font-size: 12.5px;
                     }
                 }
                 .playstore-btn {
                     font-size: 10px;
-
                     span {
                         font-size: 12.5px;
                     }
@@ -4233,7 +4282,6 @@ New Demo CSS
             margin-top: 30px;
             border-radius: 5px;
             background-color: var(--whiteColor);
-
             .title {
                 margin-bottom: 15px;
                 text-align: center;
@@ -4247,12 +4295,11 @@ New Demo CSS
     }
     .new-app-main-banner-image {
         margin-top: 30px;
-
-        .wrap-shape-1, .wrap-shape-2 {
+        .wrap-shape-1,
+        .wrap-shape-2 {
             display: none;
         }
     }
-
     .features-card {
         .icon {
             width: 60px;
@@ -4264,17 +4311,15 @@ New Demo CSS
             font-size: 18px;
         }
     }
-
     .app-about-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .app-about-content {
         padding-left: 0;
         margin-top: 30px;
-
         .big-text {
             font-size: 35px;
             top: -8px;
@@ -4290,33 +4335,30 @@ New Demo CSS
             }
         }
     }
-    .app-about-shape-1, .app-about-shape-2, .app-about-shape-3 {
+    .app-about-shape-1,
+    .app-about-shape-2,
+    .app-about-shape-3 {
         display: none;
     }
-
     .key-features-card {
         padding: 20px;
-
         .icon {
             margin-bottom: 20px;
-
             i {
                 height: 55px;
                 width: 55px;
                 line-height: 55px;
                 font-size: 20px;
-            } 
+            }
         }
         h3 {
             font-size: 18px;
         }
         &.style-two {
             padding: 20px 20px 20px 92px;
-
             .icon {
                 left: 20px;
                 top: 20px;
-
                 i {
                     height: 50px;
                     width: 50px;
@@ -4325,14 +4367,14 @@ New Demo CSS
             }
         }
     }
-    .key-features-shape-1, .key-features-shape-2 {
+    .key-features-shape-1,
+    .key-features-shape-2 {
         display: none;
     }
-
     .new-app-progress-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .new-app-progress-content {
@@ -4350,20 +4392,18 @@ New Demo CSS
     .new-app-progress-image {
         margin-top: 30px;
     }
-    
-    .app-screenshots-shape-1, .app-screenshots-shape-2 {
+    .app-screenshots-shape-1,
+    .app-screenshots-shape-2 {
         display: none;
     }
-
     .app-ever-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .app-ever-content {
         padding-left: 0;
-
         h2 {
             font-size: 20px;
         }
@@ -4385,7 +4425,6 @@ New Demo CSS
         margin-top: 30px;
         text-align: center;
     }
-
     .app-video-box {
         .video-btn {
             width: 70px;
@@ -4402,7 +4441,6 @@ New Demo CSS
             }
         }
     }
-
     .single-app-pricing-box {
         padding: 20px;
         .title {
@@ -4413,7 +4451,6 @@ New Demo CSS
         }
         .features-list {
             margin-top: 25px;
-
             li {
                 font-size: 14px;
             }
@@ -4423,12 +4460,10 @@ New Demo CSS
         padding-right: 0;
         top: 0;
         margin-bottom: 35px;
-
         h2 {
             font-size: 20px;
         }
     }
-
     .new-app-download-content {
         .big-text {
             font-size: 35px;
@@ -4441,14 +4476,12 @@ New Demo CSS
             .playstore-btn {
                 font-size: 10px;
                 margin-bottom: 10px;
-
                 span {
                     font-size: 12.5px;
                 }
             }
             .applestore-btn {
                 font-size: 10px;
-
                 span {
                     font-size: 12.5px;
                 }
@@ -4459,12 +4492,12 @@ New Demo CSS
         margin-top: 30px;
         text-align: center !important;
     }
-
     .new-software-list {
         text-align: center;
         margin: {
             left: 0;
-        };
+        }
+        ;
         img {
             display: none;
         }
@@ -4472,7 +4505,6 @@ New Demo CSS
             position: relative;
             width: auto;
             height: auto;
-
             li {
                 position: relative;
                 display: inline-block;
@@ -4487,7 +4519,8 @@ New Demo CSS
                     bottom: 15px;
                     left: 8px;
                     right: 8px;
-                };
+                }
+                ;
                 img {
                     display: inline-block;
                     width: 40px;
@@ -4497,7 +4530,6 @@ New Demo CSS
     }
     .new-software-content {
         margin-top: 20px;
-
         .big-text {
             font-size: 35px;
             top: -8px;
@@ -4506,21 +4538,17 @@ New Demo CSS
             font-size: 20px;
         }
     }
-
     .single-feedback-card {
         padding: 20px 15px;
         text-align: center;
-
         .client-info {
             margin-bottom: 15px;
-
             .d-flex {
                 justify-content: center;
             }
             .title {
                 text-align: start;
                 margin-left: 12px;
-
                 h3 {
                     font-size: 15px;
                 }
@@ -4535,7 +4563,6 @@ New Demo CSS
         .rating {
             margin-top: 18px;
             display: block !important;
-
             h5 {
                 font-size: 14px;
                 margin-bottom: 15px;
@@ -4545,10 +4572,8 @@ New Demo CSS
     .new-feedback-shape {
         display: none;
     }
-
     .new-free-trial-inner-box {
         padding: 50px 15px;
-
         .new-free-trial-shape {
             display: none;
         }
@@ -4578,33 +4603,27 @@ New Demo CSS
     .new-free-trial-image {
         margin-top: 30px;
     }
-
     .footer-area-style-with-black-color {
         padding-top: 330px;
     }
-
-
     .new-app-main-banner-wrap-area {
         padding-top: 110px;
         padding-bottom: 50px;
     }
     .new-app-main-banner-wrap-content {
         margin-top: 0;
-
         h1 {
             font-size: 25px;
         }
         .app-btn-box {
             .applestore-btn {
                 font-size: 10px;
-
                 span {
                     font-size: 12.5px;
                 }
             }
             .playstore-btn {
                 font-size: 10px;
-
                 span {
                     font-size: 12.5px;
                 }
@@ -4613,7 +4632,6 @@ New Demo CSS
     }
     .new-app-main-banner-wrap-image {
         margin-top: 30px;
-
         .wrap-image-shape-1 {
             display: none;
         }
@@ -4621,11 +4639,9 @@ New Demo CSS
             display: none;
         }
     }
-
     .features-inner-content {
         padding-right: 0;
         margin-bottom: 25px;
-
         h2 {
             font-size: 20px;
         }
@@ -4647,11 +4663,9 @@ New Demo CSS
     }
     .features-inner-card {
         padding: 20px;
-
         .icon {
             margin: 14px 0 30px;
             padding-left: 60px;
-
             i {
                 width: 45px;
                 height: 45px;
@@ -4663,7 +4677,6 @@ New Demo CSS
     .features-box-card {
         .icon {
             margin-bottom: 15px;
-
             i {
                 width: 65px;
                 height: 65px;
@@ -4675,11 +4688,9 @@ New Demo CSS
             font-size: 14px;
         }
     }
-
     .app-intro-video-content {
         padding-left: 0;
         margin-top: 30px;
-
         h2 {
             font-size: 22px;
         }
@@ -4695,16 +4706,13 @@ New Demo CSS
             display: none;
         }
     }
-
     .single-funfacts-card {
         p {
             font-size: 15px;
         }
     }
-
     .single-feedback-wrap-item {
         padding: 30px 20px;
-
         p {
             font-size: 14px;
         }
@@ -4720,8 +4728,8 @@ New Demo CSS
         max-width: 100%;
         overflow: hidden;
         padding-bottom: 55px;
-
-        .swiper-slide-shadow-right, .swiper-slide-shadow-left {
+        .swiper-slide-shadow-right,
+        .swiper-slide-shadow-left {
             display: none;
         }
         .swiper-button-next {
@@ -4733,7 +4741,6 @@ New Demo CSS
             box-shadow: unset;
             margin-right: -22px;
             transform: translateY(0) translateX(50%) !important;
-            
             &::after {
                 font-size: 15px;
             }
@@ -4748,7 +4755,6 @@ New Demo CSS
             box-shadow: unset;
             margin-left: -22px;
             transform: translateY(0) translateX(-50%) !important;
-
             &::after {
                 left: -2px;
                 font-size: 15px;
@@ -4756,7 +4762,6 @@ New Demo CSS
             }
         }
     }
-
     .single-blog-wrap-post {
         .content {
             h3 {
@@ -4764,8 +4769,6 @@ New Demo CSS
             }
         }
     }
-
-
     .new-app-main-banner-gradient-area {
         padding-top: 145px;
         padding-bottom: 50px;
@@ -4779,11 +4782,10 @@ New Demo CSS
         text-align: center;
         margin-top: 30px;
     }
-
     .new-app-progress-wrap-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
         .new-app-progress-image {
             margin-top: 0;
@@ -4793,19 +4795,19 @@ New Demo CSS
             padding-left: 0;
         }
     }
-
     .screenshots-swiper-wrap-slides {
         padding: {
             top: 0;
             bottom: 75px;
-        };
+        }
+        ;
         margin: {
             top: 0;
             bottom: 0;
-        };
+        }
+        ;
         .swiper-slide {
             width: 296px;
-
             &.swiper-slide-active {
                 box-shadow: unset;
                 border: 1px solid #eeeeee;
@@ -4820,7 +4822,6 @@ New Demo CSS
             box-shadow: unset;
             margin-right: -22px;
             transform: translateY(0) translateX(50%) !important;
-            
             &::after {
                 font-size: 15px;
             }
@@ -4835,7 +4836,6 @@ New Demo CSS
             box-shadow: unset;
             margin-left: -22px;
             transform: translateY(0) translateX(-50%) !important;
-
             &::after {
                 left: -2px;
                 font-size: 15px;
@@ -4843,7 +4843,6 @@ New Demo CSS
             }
         }
     }
-
     .new-software-area {
         &.software-wrap-style {
             .new-software-content {
@@ -4860,16 +4859,14 @@ New Demo CSS
             }
         }
     }
-
     .new-feedback-wrap-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .single-feedback-wrap-card {
         padding: 20px;
-
         p {
             font-size: 14px;
         }
@@ -4885,7 +4882,6 @@ New Demo CSS
         &.owl-theme {
             .owl-nav {
                 margin-top: 30px;
-
                 [class*=owl-] {
                     position: relative;
                     top: unset;
@@ -4894,7 +4890,6 @@ New Demo CSS
                     left: 0;
                     transform: unset;
                     margin: 0 10px;
-
                     &.owl-next {
                         left: auto;
                         right: 0;
@@ -4906,23 +4901,25 @@ New Demo CSS
     }
 }
 
-/* Min width 576px to Max width 767px */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
 
+/* Min width 576px to Max width 767px */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
     .container-fluid {
         max-width: 540px;
     }
-
 }
 
-/* Min width 768px to Max width 991px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
 
+/* Min width 768px to Max width 991px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .ptb-100 {
         padding: {
             top: 80px;
             bottom: 80px;
-        };
+        }
+        ;
     }
     .pt-100 {
         padding-top: 80px;
@@ -4934,7 +4931,8 @@ New Demo CSS
         padding: {
             top: 55px;
             bottom: 55px;
-        };
+        }
+        ;
     }
     .pt-75 {
         padding-top: 55px;
@@ -4942,8 +4940,9 @@ New Demo CSS
     .pb-75 {
         padding-bottom: 55px;
     }
-
-    .shape1, .shape2, .shape6 {
+    .shape1,
+    .shape2,
+    .shape6 {
         display: none;
     }
     .shape10 {
@@ -4952,15 +4951,12 @@ New Demo CSS
     .shape11 {
         right: -20px;
     }
-
     .default-btn {
         font-size: 13px;
     }
-
     .section-title {
         max-width: 100%;
         margin-bottom: 50px;
-
         .sub-title {
             font-size: 13px;
         }
@@ -4971,12 +4967,12 @@ New Demo CSS
             font-size: 14px;
         }
     }
-
     .page-title-area {
         padding: {
             top: 150px;
             bottom: 80px;
-        };
+        }
+        ;
         &::before {
             display: none;
         }
@@ -4990,7 +4986,6 @@ New Demo CSS
         }
         ul {
             margin-top: 10px;
-
             li {
                 font-size: 14px;
             }
@@ -4999,19 +4994,16 @@ New Demo CSS
     .divider {
         height: 50px;
     }
-
     .pagination-area {
         margin-top: 10px;
         padding-top: 20px;
     }
-
     /*
     New Demo Responsive CSS
     ======================================================*/
     .container-fluid {
         max-width: 720px;
     }
-
     .section-title {
         &.title-with-bg-text {
             .big-title {
@@ -5020,14 +5012,12 @@ New Demo CSS
             }
         }
     }
-
     .pakap-new-navbar-area {
         .pakap-responsive-nav {
             .mean-container {
                 a {
                     &.meanmenu-reveal {
                         color: var(--blackColor);
-
                         span {
                             background: var(--blackColor);
                         }
@@ -5036,14 +5026,12 @@ New Demo CSS
             }
         }
     }
-
     .navbar-with-white-content {
         .pakap-responsive-nav {
             .mean-container {
                 a {
                     &.meanmenu-reveal {
                         color: var(--whiteColor);
-
                         span {
                             background: var(--whiteColor);
                         }
@@ -5052,13 +5040,11 @@ New Demo CSS
             }
         }
     }
-
     .new-app-main-banner-area {
         padding-top: 210px;
     }
     .new-app-main-banner-content {
         max-width: 695px;
-
         .content {
             h1 {
                 font-size: 35px;
@@ -5070,7 +5056,6 @@ New Demo CSS
             margin-top: 30px;
             border-radius: 5px;
             background-color: var(--whiteColor);
-
             .title {
                 margin-bottom: 15px;
                 text-align: center;
@@ -5079,12 +5064,11 @@ New Demo CSS
     }
     .new-app-main-banner-image {
         margin-top: 30px;
-
-        .wrap-shape-1, .wrap-shape-2 {
+        .wrap-shape-1,
+        .wrap-shape-2 {
             display: none;
         }
     }
-
     .features-card {
         .icon {
             width: 60px;
@@ -5096,17 +5080,15 @@ New Demo CSS
             font-size: 18px;
         }
     }
-
     .app-about-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .app-about-content {
         padding-left: 0;
         margin-top: 30px;
-
         .big-text {
             font-size: 70px;
             top: -18px;
@@ -5122,33 +5104,30 @@ New Demo CSS
             }
         }
     }
-    .app-about-shape-1, .app-about-shape-2, .app-about-shape-3 {
+    .app-about-shape-1,
+    .app-about-shape-2,
+    .app-about-shape-3 {
         display: none;
     }
-
     .key-features-card {
         padding: 20px;
-
         .icon {
             margin-bottom: 20px;
-
             i {
                 height: 55px;
                 width: 55px;
                 line-height: 55px;
                 font-size: 20px;
-            } 
+            }
         }
         h3 {
             font-size: 18px;
         }
         &.style-two {
             padding: 20px 20px 20px 92px;
-
             .icon {
                 left: 20px;
                 top: 20px;
-
                 i {
                     height: 50px;
                     width: 50px;
@@ -5157,19 +5136,18 @@ New Demo CSS
             }
         }
     }
-    .key-features-shape-1, .key-features-shape-2 {
+    .key-features-shape-1,
+    .key-features-shape-2 {
         display: none;
     }
-
     .new-app-progress-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .new-app-progress-content {
         max-width: 695px;
-        
         .big-text {
             font-size: 70px;
             top: -18px;
@@ -5184,20 +5162,18 @@ New Demo CSS
     .new-app-progress-image {
         margin-top: 30px;
     }
-    
-    .app-screenshots-shape-1, .app-screenshots-shape-2 {
+    .app-screenshots-shape-1,
+    .app-screenshots-shape-2 {
         display: none;
     }
-
     .app-ever-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .app-ever-content {
         padding-left: 0;
-
         h2 {
             font-size: 28px;
         }
@@ -5219,7 +5195,6 @@ New Demo CSS
         text-align: center;
         margin-top: 30px;
     }
-
     .app-video-box {
         .video-btn {
             width: 70px;
@@ -5236,7 +5211,6 @@ New Demo CSS
             }
         }
     }
-
     .single-app-pricing-box {
         padding: 20px;
         .title {
@@ -5247,7 +5221,6 @@ New Demo CSS
         }
         .features-list {
             margin-top: 25px;
-
             li {
                 font-size: 14px;
             }
@@ -5257,12 +5230,10 @@ New Demo CSS
         top: 0;
         padding-right: 0;
         margin-bottom: 35px;
-
         h2 {
             font-size: 28px;
         }
     }
-
     .new-app-download-content {
         .big-text {
             font-size: 70px;
@@ -5276,10 +5247,8 @@ New Demo CSS
         margin-top: 30px;
         text-align: center !important;
     }
-
     .new-software-content {
         margin-top: 20px;
-
         .big-text {
             font-size: 70px;
             top: -18px;
@@ -5288,7 +5257,6 @@ New Demo CSS
             font-size: 28px;
         }
     }
-
     .single-feedback-card {
         p {
             font-size: 15px;
@@ -5302,10 +5270,8 @@ New Demo CSS
     .new-feedback-shape {
         display: none;
     }
-
     .new-free-trial-inner-box {
         padding: 50px;
-
         .new-free-trial-shape {
             display: none;
         }
@@ -5335,19 +5301,15 @@ New Demo CSS
     .new-free-trial-image {
         margin-top: 30px;
     }
-
     .footer-area-style-with-black-color {
         padding-top: 330px;
     }
-
-
     .new-app-main-banner-wrap-area {
         padding-bottom: 50px;
     }
     .new-app-main-banner-wrap-content {
         margin-top: 0;
         max-width: 695px;
-
         h1 {
             font-size: 35px;
         }
@@ -5355,11 +5317,9 @@ New Demo CSS
     .new-app-main-banner-wrap-image {
         margin-top: 30px;
     }
-
     .features-inner-content {
         padding-right: 0;
         margin-bottom: 25px;
-
         h2 {
             font-size: 28px;
         }
@@ -5369,11 +5329,9 @@ New Demo CSS
     }
     .features-inner-card {
         padding: 20px;
-
         .icon {
             margin: 14px 0 30px;
             padding-left: 60px;
-
             i {
                 width: 45px;
                 height: 45px;
@@ -5385,7 +5343,6 @@ New Demo CSS
     .features-box-card {
         .icon {
             margin-bottom: 15px;
-
             i {
                 width: 65px;
                 height: 65px;
@@ -5397,11 +5354,9 @@ New Demo CSS
             font-size: 14px;
         }
     }
-
     .app-intro-video-content {
         padding-left: 0;
         margin-top: 30px;
-
         h2 {
             font-size: 28px;
         }
@@ -5417,16 +5372,13 @@ New Demo CSS
             display: none;
         }
     }
-
     .single-funfacts-card {
         p {
             font-size: 15px;
         }
     }
-
     .single-feedback-wrap-item {
         padding: 30px 20px;
-
         p {
             font-size: 14px;
         }
@@ -5442,8 +5394,8 @@ New Demo CSS
         max-width: 100%;
         overflow: hidden;
         padding-bottom: 55px;
-
-        .swiper-slide-shadow-right, .swiper-slide-shadow-left {
+        .swiper-slide-shadow-right,
+        .swiper-slide-shadow-left {
             display: none;
         }
         .swiper-button-next {
@@ -5455,7 +5407,6 @@ New Demo CSS
             box-shadow: unset;
             margin-right: -22px;
             transform: translateY(0) translateX(50%) !important;
-            
             &::after {
                 font-size: 15px;
             }
@@ -5470,7 +5421,6 @@ New Demo CSS
             box-shadow: unset;
             margin-left: -22px;
             transform: translateY(0) translateX(-50%) !important;
-
             &::after {
                 left: -2px;
                 font-size: 15px;
@@ -5478,14 +5428,12 @@ New Demo CSS
             }
         }
     }
-
     .new-app-main-banner-gradient-area {
         padding-top: 145px;
         padding-bottom: 50px;
     }
     .new-app-main-banner-gradient-content {
         max-width: 695px;
-
         h1 {
             font-size: 45px;
         }
@@ -5494,11 +5442,10 @@ New Demo CSS
         text-align: center;
         margin-top: 30px;
     }
-
     .new-app-progress-wrap-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
         .new-app-progress-image {
             margin-top: 0;
@@ -5508,19 +5455,19 @@ New Demo CSS
             padding-left: 0;
         }
     }
-
     .screenshots-swiper-wrap-slides {
         padding: {
             top: 0;
             bottom: 75px;
-        };
+        }
+        ;
         margin: {
             top: 0;
             bottom: 0;
-        };
+        }
+        ;
         .swiper-slide {
             width: 450px;
-
             &.swiper-slide-active {
                 box-shadow: unset;
                 border: 1px solid #eeeeee;
@@ -5535,7 +5482,6 @@ New Demo CSS
             box-shadow: unset;
             margin-right: -22px;
             transform: translateY(0) translateX(50%) !important;
-            
             &::after {
                 font-size: 15px;
             }
@@ -5550,7 +5496,6 @@ New Demo CSS
             box-shadow: unset;
             margin-left: -22px;
             transform: translateY(0) translateX(-50%) !important;
-
             &::after {
                 left: -2px;
                 font-size: 15px;
@@ -5558,7 +5503,6 @@ New Demo CSS
             }
         }
     }
-
     .new-software-area {
         &.software-wrap-style {
             .new-software-content {
@@ -5575,16 +5519,14 @@ New Demo CSS
             }
         }
     }
-
     .new-feedback-wrap-area {
         .container-fluid {
-            padding-right: var(--bs-gutter-x,.75rem);
-            padding-left: var(--bs-gutter-x,.75rem);
+            padding-right: var(--bs-gutter-x, .75rem);
+            padding-left: var(--bs-gutter-x, .75rem);
         }
     }
     .single-feedback-wrap-card {
         padding: 20px;
-
         p {
             font-size: 14px;
         }
@@ -5600,7 +5542,6 @@ New Demo CSS
         &.owl-theme {
             .owl-nav {
                 margin-top: 30px;
-                
                 [class*=owl-] {
                     position: relative;
                     top: unset;
@@ -5609,7 +5550,6 @@ New Demo CSS
                     left: 0;
                     transform: unset;
                     margin: 0 10px;
-
                     &.owl-next {
                         left: auto;
                         right: 0;
@@ -5621,9 +5561,10 @@ New Demo CSS
     }
 }
 
-/* Min width 992px to Max width 1199px */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+/* Min width 992px to Max width 1199px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .shape6 {
         display: none;
     }
@@ -5637,14 +5578,12 @@ New Demo CSS
         bottom: 12%;
         left: 10%;
     }
-
     /*
     New Demo Responsive CSS
     ======================================================*/
     .container-fluid {
         max-width: 960px;
     }
-
     .section-title {
         &.title-with-bg-text {
             .big-title {
@@ -5653,7 +5592,6 @@ New Demo CSS
             }
         }
     }
-
     .new-app-main-banner-content {
         .content {
             h1 {
@@ -5676,7 +5614,6 @@ New Demo CSS
             top: -100px;
         }
     }
-
     .app-about-content {
         .big-text {
             font-size: 70px;
@@ -5686,7 +5623,6 @@ New Demo CSS
     .app-about-shape-2 {
         display: none;
     }
-
     .new-app-progress-content {
         .big-text {
             font-size: 70px;
@@ -5696,12 +5632,10 @@ New Demo CSS
     .new-app-progress-shape {
         display: none;
     }
-
     .app-ever-shape-1 {
         top: 0;
         right: 0;
     }
-
     .app-video-box {
         .shape {
             .shape-1 {
@@ -5712,24 +5646,20 @@ New Demo CSS
             }
         }
     }
-
     .single-app-pricing-box {
         padding: 25px;
-        
         .features-list {
             li {
                 font-size: 14px;
             }
         }
     }
-
     .new-app-download-content {
         .big-text {
             font-size: 70px;
             top: -15px;
         }
     }
-
     .new-software-list {
         ul {
             li {
@@ -5750,17 +5680,14 @@ New Demo CSS
             }
         }
     }
-
     .new-software-content {
         .big-text {
             font-size: 70px;
             top: -15px;
         }
     }
-
     .single-feedback-card {
         padding: 25px;
-
         p {
             font-size: 15px;
         }
@@ -5770,20 +5697,16 @@ New Demo CSS
             }
         }
     }
-
     .new-free-trial-inner-box {
         .new-free-trial-shape {
             display: none;
         }
     }
-
-
     .new-app-main-banner-wrap-area {
         padding-bottom: 80px;
     }
     .new-app-main-banner-wrap-content {
         margin-top: 0;
-
         h1 {
             font-size: 45px;
         }
@@ -5798,14 +5721,11 @@ New Demo CSS
             bottom: 110px;
         }
     }
-
     .features-inner-card {
         padding: 20px;
-
         .icon {
             margin: 18px 0 20px;
             padding-left: 50px;
-
             i {
                 width: 35px;
                 height: 35px;
@@ -5814,7 +5734,6 @@ New Demo CSS
             }
         }
     }
-
     .feedback-swiper-wrap-slides {
         .swiper-button-next {
             right: -30px;
@@ -5823,17 +5742,14 @@ New Demo CSS
             left: -30px;
         }
     }
-
     .new-app-main-banner-gradient-area {
         padding-top: 145px;
         padding-bottom: 100px;
     }
-
     .new-feedback-wrap-slides {
         &.owl-theme {
             .owl-nav {
                 margin-top: 30px;
-                
                 [class*=owl-] {
                     position: relative;
                     top: unset;
@@ -5842,7 +5758,6 @@ New Demo CSS
                     left: 0;
                     transform: unset;
                     margin: 0 10px;
-
                     &.owl-next {
                         left: auto;
                         right: 0;
@@ -5854,9 +5769,10 @@ New Demo CSS
     }
 }
 
-/* Min width 1200px to Max width 1399px */
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
 
+/* Min width 1200px to Max width 1399px */
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
     /*
     New Demo Responsive CSS
     ======================================================*/
@@ -5868,11 +5784,9 @@ New Demo CSS
             }
         }
     }
-
     .container-fluid {
         max-width: 1140px;
     }
-
     .new-app-main-banner-content {
         .content {
             h1 {
@@ -5898,11 +5812,9 @@ New Demo CSS
             top: -100px;
         }
     }
-
     .features-card {
         padding: 25px 18px;
     }
-
     .app-about-content {
         .big-text {
             font-size: 70px;
@@ -5912,7 +5824,6 @@ New Demo CSS
     .app-about-shape-2 {
         display: none;
     }
-
     .new-app-progress-content {
         .big-text {
             font-size: 70px;
@@ -5922,12 +5833,10 @@ New Demo CSS
     .new-app-progress-shape {
         display: none;
     }
-
     .app-ever-shape-1 {
         top: 0;
         right: 0;
     }
-
     .app-video-box {
         .shape {
             .shape-1 {
@@ -5938,14 +5847,12 @@ New Demo CSS
             }
         }
     }
-
     .new-app-download-content {
         .big-text {
             font-size: 70px;
             top: -15px;
         }
     }
-
     .new-software-list {
         ul {
             li {
@@ -5966,17 +5873,14 @@ New Demo CSS
             }
         }
     }
-
     .new-software-content {
         .big-text {
             font-size: 70px;
             top: -15px;
         }
     }
-
     .single-feedback-card {
         padding: 25px;
-
         p {
             font-size: 15px;
         }
@@ -5986,19 +5890,16 @@ New Demo CSS
             }
         }
     }
-
     .new-free-trial-inner-box {
         .new-free-trial-shape {
             left: 0;
         }
     }
-
     .new-app-main-banner-wrap-area {
         padding-bottom: 80px;
     }
     .new-app-main-banner-wrap-content {
         margin-top: 0;
-
         h1 {
             font-size: 45px;
         }
@@ -6013,14 +5914,11 @@ New Demo CSS
             bottom: 110px;
         }
     }
-
     .features-inner-card {
         padding: 20px;
-
         .icon {
             margin: 18px 0 20px;
             padding-left: 50px;
-
             i {
                 width: 35px;
                 height: 35px;
@@ -6029,7 +5927,6 @@ New Demo CSS
             }
         }
     }
-
     .feedback-swiper-wrap-slides {
         .swiper-button-next {
             right: -30px;
@@ -6043,18 +5940,19 @@ New Demo CSS
     }
 }
 
-/* Min width 1550px */
-@media only screen and (min-width: 1550px) {
 
+/* Min width 1550px */
+
+@media only screen and (min-width: 1550px) {
     /*
     New Demo Responsive CSS
     ======================================================*/
-
     /* New App Main Banner Area CSS */
     .new-app-main-banner-area {
         padding: {
             top: 200px;
-        };
+        }
+        ;
     }
     .new-app-main-banner-content {
         .content {
@@ -6075,7 +5973,6 @@ New Demo CSS
         right: 155px;
         top: -15px;
     }
-
     // New App Main Banner Wrap Area CSS
     .new-app-main-banner-wrap-image {
         .wrap-image-shape-1 {
@@ -6094,7 +5991,6 @@ New Demo CSS
         left: -100px;
         top: -100px;
     }
-
     // Feedback Area CSS
     .single-feedback-wrap-card {
         padding: 30px 80px;

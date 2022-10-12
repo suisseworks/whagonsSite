@@ -103,19 +103,19 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" required data-error="Ingrese su nombre" placeholder="Eg: Sarah Taylor">
+                                <input type="text" name="name" class="form-control" id="name" required data-error="Ingrese su nombre" placeholder="nombre">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" id="email" required  data-error="Ingrese su correo electrónico" placeholder="hello@sarah.com">
+                                <input type="email" name="email" class="form-control" id="email" required  data-error="Ingrese su correo electrónico" placeholder="correo electrónico">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="form-group">
-                                <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Please enter your message" placeholder="Enter message..."></textarea>
+                                <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Ingrese su mensaje" placeholder="mensaje..."></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
