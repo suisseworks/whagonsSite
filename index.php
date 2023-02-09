@@ -88,10 +88,10 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
                         <span style="font-size:1.5em" class="sub-title">La plataforma premiada que todos pueden usar</span>
-                        <p   style="  font-size:7em; line-height:normal; font-weight: 700; ">Gestione</p>
+                        <p   style="  font-size:6em; line-height:normal; font-weight: 700; ">Gestione</p>
                         <p   style="display:none; font-size:4em; line-height:normal; font-weight: 100; ">[Controle & Evalúe]</p>
-                        <p style="font-size: 6em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
-                         <p  style="font-size: 4em; font-weight: 100; line-height: normal; margin-top: -25px">   de sus </p>
+                        <p style="font-size: 4em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
+                         <p  style="font-size: 3em; font-weight: 100; line-height: normal; margin-top: -10px">   de sus </p>
                          <p   style="font-size:4em; line-height:normal; font-weight: 600; margin-top: -10px ">Equipos de Trabajo</p>
                         <!-- <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p> -->
                         <div class="app-btn-box">
@@ -141,19 +141,20 @@
     <div id="funcionalidades" class="key-features-area bg-transparent-with-color pt-100 pb-100">
         <div class="container">
             <div class="section-title">
-                <span style="font-size:1.5em" class="sub-title">
-                <span style=" font-size:1.4em"> Digitaliza </span>
-Automatiza
-Controla
-Coordina
-<span style=" font-size:1.3em"> Evalúa </span>
-Visualiza
-Organiza
-Gestiona
-<span style=" font-size:1.2em"> Motiva </span>
-Capacita
-<span style=" font-size:1.5em"> Apoya </span>
-</span>
+                <!-- <span style="font-size:1.5em" class="hide sub-title">
+                                                <span style=" font-size:1.4em"> Digitaliza </span>
+                                                Automatiza
+                                                Controla
+                                                Coordina
+                                                <span style=" font-size:1.3em"> Evalúa </span>
+                                                Visualiza
+                                                Organiza
+                                                Gestiona
+                                                <span style=" font-size:1.2em"> Motiva </span>
+                                                Capacita
+                                                <span style=" font-size:1.5em"> Apoya </span>
+                </span>
+  -->
                 <p style="color: #262A37; font-size:5em; line-height:normal; font-weight: 700;">Whagons le ayuda a...</p>
             </div>
 
@@ -163,8 +164,8 @@ Capacita
                         <div class="icon">
                             <i class="ri-team-line"></i>
                         </div>
-                        <h2 style="color: #262A37; font-size:3em; line-height:normal; font-weight: 700;">Organizar equipos de trabajo y sus tareas</h2>
-                        <p>Coordine la comunicación y las tareas de los diferentes departamentos de su empresa de manera digital, sencilla y eficiente.</p>
+                        <h2 style="color: #262A37; font-size:3em; line-height:normal; font-weight: 700;">Gestionar las tareas de sus equipos de trabajo</h2>
+                        <p>Visualice en tiempo real las actividades que se están ejecutando. Organice trabajos recurrentes. Sincronice la comunicación entre sus equipos. </p>
                     </div>
                 </div>
             <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
@@ -173,7 +174,7 @@ Capacita
                             <i class="ri-calendar-check-fill"></i>
                         </div>
                         <h2 style="color: #262A37; font-size:2.5em; line-height:normal; font-weight: 700;">Digitalizar listas de chequeo y formularios</h2>
-                        <p>Ahorre tiempo y ayude al planeta, digitalizando procesos que requieren de listas de chequeo y formularios.</p>
+                        <p>Fáciles de configurar y fáciles de manipular desde cualquier dispositivo móvil.</p>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6 col-sm-6 col-md-6">
@@ -181,8 +182,8 @@ Capacita
                         <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div>
-                        <h2>Controlar y evaluar el rendimiento y la puntualidad </h2>
-                        <p>Evalúe la eficiencia, las ubicaciones y las horas trabajadas de sus colaboradores.</p>
+                        <h2>Controlar los horarios de sus trabajadores </h2>
+                        <p>Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 col-sm-6 col-md-6">
@@ -191,10 +192,10 @@ Capacita
                             <i class="ri-hammer-line"></i>
                         </div>
                         <h3>Generar trazablidad y reportes</h3>
-                        <p>Obtenga inteligencia a partir de los datos generados al usar la herramienta.</p>
+                        <p>Whagons cuenta una gran cantidad de reportes estadísticos fáciles de consultar.</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
+               <!-- <div class="col-xl-6 col-lg-6 col-sm-6 col-md-6">
                     <div class="key-features-card style-two">
                         <div class="icon">
                             <i class="ri-leaf-line"></i>
@@ -213,7 +214,7 @@ Capacita
                         <h3>Desarrollar funcionalidades a la medida</h3>
                         <p>Amplíe las funcionalidades de Whagons a sus necesidades más específicas. </p>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="key-features-btn">
@@ -228,41 +229,32 @@ Capacita
         <div class="container">
             <div class="section-title">
                 <span class="sub-title">Pantallas de la APP</span>
-                <h2>APP nativa, intuitiva y bellamente diseñada </h2>
+                <h2>Intuitiva y fácil de utilizar.</h2>
             </div>
             <div class="app-screenshots-slides owl-carousel owl-theme">
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot1.png" alt="screenshots">
+            <div class="single-screenshot-card">
+                    <img src="assets/img/custom/screenshot2.png" alt="screenshots">
                 </div>
                 <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot8.png" alt="screenshots">
+                    <img src="assets/img/custom/screenshot3.png" alt="screenshots">
                 </div>
+          
+                
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot9.png" alt="screenshots">
                 </div>
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot10.png" alt="screenshots">
                 </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot11.png" alt="screenshots">
-                </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot2.png" alt="screenshots">
-                </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot3.png" alt="screenshots">
-                </div>
+ 
+            
+           
              
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot5.png" alt="screenshots">
-                </div>
                
                 <div class="single-screenshot-card">
                     <img src="assets/img/custom/screenshot7.png" alt="screenshots">
                 </div>
-                <div class="single-screenshot-card">
-                    <img src="assets/img/custom/screenshot12.png" alt="screenshots">
-                </div>
+                
                
             </div>
         </div>

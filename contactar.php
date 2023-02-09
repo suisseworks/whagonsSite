@@ -72,11 +72,11 @@
     <div class="page-title-area">
         <div class="container">
             <div class="page-title-content">
-                <h2>Contactarnos</h2>
-                <ul>
-                    <li><a href="/">Inicio</a></li>
-                    <li>Contactar</li>
-                </ul>
+                <h2>Si se puede medir, se puede mejorar!</h2>
+                <!-- <ul>
+                    <li><a href="/">Volver al Inicio</a></li>
+                   
+                </ul> -->
             </div>
         </div>
         <div class="divider"></div>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Hablemos</h2>
-                <p>Contacte a nuestros equipos de soporte, ventas o finanzas. Un agente le responderá cuanto antes.</p>
+                <p>Un agente le responderá cuanto antes.</p>
             </div>
             <div class="contact-form">
                 <form id="contactForm">
