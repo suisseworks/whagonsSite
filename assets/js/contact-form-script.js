@@ -40,8 +40,8 @@ var sending = false;
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message,
+            url: "https://webadmin.whagons.com/api/sendContactEmail",
+            data: "name=" + name + "&email=" + email + "&description=" + message,
             success: function(text) {
                 console.log(text);
                 if (text == "success") {
@@ -78,21 +78,21 @@ var sending = false;
     function sendEmail() {
         var name = $('#name').val();
         var email = $('#email').val();
-        var consultation = $('#message').val();
+        var description = $('#message').val();
 
         $("#loader").show();
         submitMSG(false, "Enviando mensaje...");
 
 
         $.ajax({
-            url: 'assets/php/sendmail.php',
+            url: 'https://webadmin.whagons.com/api/sendContactEmail',
             type: 'POST',
             data: {
                 name: name,
                 email: email,
                 organization: '',
                 phone: '',
-                consultation: consultation,
+                description: description,
                 whformtype: 'agendar-demo',
             },
             dataType: "json",

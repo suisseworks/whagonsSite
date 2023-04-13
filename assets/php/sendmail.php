@@ -33,9 +33,9 @@ try {
     $mail->Subject = "Nuevo Contacto Whagons!";
     $mail->isHTML(true);
     $mail->Body =   '<h1>Nuevo Contacto Whagons!</h1> <br><br>' .
-                    '<b>Nombre: </b>' . $_GET["name"] . '<br>' .
-                    '<b>Correo: </b>' . $_GET["email"] . '<br>' .
-                    '<b>Comentario: </b>' . $_GET["consultation"];
+                    '<b>Nombre: </b>' . $_POST["name"] . '<br>' .
+                    '<b>Correo: </b>' . $_POST["email"] . '<br>' .
+                    '<b>Comentario: </b>' . $_POST["consultation"];
 
     $mail->send();
     
