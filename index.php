@@ -24,6 +24,13 @@
 
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-BCR7QH6');</script>
+<!-- End Google Tag Manager -->
 
  <!-- Facebook Pixel Code -->
  <script>
@@ -46,6 +53,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-BCR7QH6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <!-- Start Navbar Area -->
     <div class="navbar-area pakap-new-navbar-area">
@@ -87,13 +98,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="new-app-main-banner-wrap-content">
-                        <span style="font-size:1.5em" class="sub-title">La plataforma premiada que todos pueden usar</span>
-                        <p   style="  font-size:6em; line-height:normal; font-weight: 700; ">Gestione</p>
+                        <span style="font-size:1.5em" class="sub-title"> Agiliza el proceso de Certificaciones ISO</span>
+                        <p   style="  font-size:8em; line-height:normal; font-weight: 700; ">Optimice</p>
                         <p   style="display:none; font-size:4em; line-height:normal; font-weight: 100; ">[Controle & Evalúe]</p>
-                        <p style="font-size: 4em;  ;font-weight: 200; line-height: normal; margin-top: -15px ">   LAS TAREAS   </p> 
-                         <p  style="font-size: 3em; font-weight: 100; line-height: normal; margin-top: -10px">   de sus </p>
-                         <p   style="font-size:4em; line-height:normal; font-weight: 600; margin-top: -10px ">Equipos de Trabajo</p>
-                        <!-- <p class="sub-title2">Whagons es una plataforma premiada que le ayuda a organizar mejor la operatividad de su empresa.</p> -->
+                        <p style="font-size: 2em;  ;font-weight: 200; line-height: normal; margin-left: 190px;margin-top: -15px ">   su  </p> 
+                         <p  style="font-size: 5em; font-weight: 100; line-height: normal;  margin-top: -10px">    Hotel </p>
+                         <p   style="font-size:3em; line-height:normal; font-weight: 600; margin-top: -10px ">en 30 días</p>
+                         <p style="font-size:1.3em; margin-top:20px; color:#5d5d5d; text-decoration: underline; font-family: arial">Hemos desarrollado una manera más eficiente de gestionar las tareas de los equipos de trabajo de su <b>hotel</b> o negocio.</p>
                         <div class="app-btn-box">
 
                             <a href="contactar.php" class="default-btn">COMENZAR</a>
@@ -141,20 +152,17 @@
     <div id="funcionalidades" class="key-features-area bg-transparent-with-color pt-100 pb-100">
         <div class="container">
             <div class="section-title">
-                <!-- <span style="font-size:1.5em" class="hide sub-title">
-                                                <span style=" font-size:1.4em"> Digitaliza </span>
-                                                Automatiza
-                                                Controla
-                                                Coordina
-                                                <span style=" font-size:1.3em"> Evalúa </span>
-                                                Visualiza
-                                                Organiza
-                                                Gestiona
-                                                <span style=" font-size:1.2em"> Motiva </span>
-                                                Capacita
-                                                <span style=" font-size:1.5em"> Apoya </span>
+                 <span style="font-size:1.5em" class="hide sub-title">
+                 <span style=" font-size:1.4em"> Servicio premiado </span> <br>
+                                                <span style=" font-size:1.4em"> Funciona off-line </span> <br>
+                                                Increíblemente intuitiva
+                                                <br>
+                                                <span style=" font-size:1.2em">No se requiere de un correo electrónico por usuario </span>
+                                               <br>
+                                              
+                                                
                 </span>
-  -->
+  
                 <p style="color: #262A37; font-size:5em; line-height:normal; font-weight: 700;">Whagons le ayuda a...</p>
             </div>
 
@@ -173,7 +181,7 @@
                         <div class="icon bg2">
                             <i class="ri-calendar-check-fill"></i>
                         </div>
-                        <h2 style="color: #262A37; font-size:2.5em; line-height:normal; font-weight: 700;">Digitalizar listas de chequeo y formularios</h2>
+                        <h2 style="color: #262A37; font-size:2.5em; line-height:normal; font-weight: 700;">Digitalizar listas de chequeo ,formularios & Auditorías</h2>
                         <p>Fáciles de configurar y fáciles de manipular desde cualquier dispositivo móvil.</p>
                     </div>
                 </div>
@@ -182,8 +190,8 @@
                         <div class="icon">
                             <i class="ri-eye-line"></i>
                         </div>
-                        <h2>Controlar los horarios de sus trabajadores </h2>
-                        <p>Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.</p>
+                        <h2>Medir la eficiencia y productividad de sus colaboradores </h2>
+                        <p>Además, puede controlar las horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.</p>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 col-sm-6 col-md-6">
@@ -214,7 +222,7 @@
                         <h3>Desarrollar funcionalidades a la medida</h3>
                         <p>Amplíe las funcionalidades de Whagons a sus necesidades más específicas. </p>
                     </div>
-                </div> -->
+                </div> 
             </div>
 
             <div class="key-features-btn">
@@ -468,6 +476,16 @@
                 <div class="partner-item">
                     <a href="#" class="d-block">
                         <img src="assets/img/custom/logos/2.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/radisson.png" alt="image">
+                    </a>
+                </div>
+                <div class="partner-item">
+                    <a href="#" class="d-block">
+                        <img src="assets/img/custom/logos/construfacil.png" alt="image">
                     </a>
                 </div>
                 <div class="partner-item">
