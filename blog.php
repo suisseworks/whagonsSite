@@ -5,48 +5,18 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Blog de Whagons - Gestione las tareas de sus equipos de trabajo</title>
+    <?php include 'inc/header-blog.php'; ?>
 
-    <!-- Link of CSS files -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <link rel="stylesheet" href="assets/css/remixicon.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <script src="https://kit.fontawesome.com/b5039d4001.js" crossorigin="anonymous"></script>
-
-    <title>Whagons - Gestione las tareas de sus equipos de trabajo</title>
-
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-
-
- <!-- Facebook Pixel Code -->
- <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '470062567657961');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=470062567657961&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-BCR7QH6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <!-- Start Navbar Area -->
     <div class="navbar-area pakap-new-navbar-area blog-header">
@@ -65,12 +35,7 @@
                     <a class="navbar-brand" href="/"><img src="assets/img/custom/black-logo.png" alt="logo"></a>
                     <div class="collapse navbar-collapse mean-menu">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-                            <li class="nav-item"><a href="#funcionalidades" class="nav-link">Qué me resuelve?</a></li>
-
-                            <li class="nav-item"><a href="#testimonio" class=" nav-link">Testimonios</a></li>
-                            <li class="nav-item"><a href="#prensa" class=" nav-link">Prensa</a></li>
-                            <li class="nav-item"><a href="contactar.php" class="nav-link">Contactar</a></li>
+                       
                         </ul>
                         <div class="others-option">
                             <a href="contactar.php" class="default-btn">Comenzar</a>
@@ -86,35 +51,35 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner blog-carousel">
                     <div class="carousel-item active">
-                      <img src="assets/img/blog/blog-banner-1.jpg" class="d-block w-100" alt="...">
+                      <img src="assets/img/blog/blog-banner-a.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div>
                             <p class="date text-white">
-                                2 Feb, 2023 — HEALTH 
+                                Marzo - 2023 
                             </p>
-                            <h1 class="text-white">Intuitiva y fácil de utilizar</h1>
+                            <h1 class="text-white">¡Adiós al papel! 4 razones para digitalizar tus checklists.</h1>
                             <p class="text-white mobile-h">
-                                Tenga control sobre horas de ingreso y de salida,horas trabajadas y desplazamientos de sus trabajadores.
+                            ¿Alguna vez has oído hablar de los checklist digitales?   
                             </p>
-                             <a href="#" class="default-btn">READ MORE</a>
+                             <a href="4-razones-para-digitalizar-checklists.php" class="default-btn">LEER MÁS</a>
                         </div>    
                       </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="assets/img/blog/blog-banner-2.jpg" class="d-block w-100" alt="...">
+                     <div class="carousel-item">
+                      <img src="assets/img/custom/press2.png" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div>
                             <p class="date text-white mw-70">
-                                2 Feb, 2023 — HEALTH
+                                Abril 2023
                             </p>
-                            <h1 class="text-white">Gerente de Operaciones</h1>
+                            <h1 class="text-white">Gamificación en Apps Colaborativas</h1>
                             <p class="text-white mobile-h">
-                                Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.
+                            Cómo motivar a los usuarios y mejorar la eficacia.
                             </p>
-                             <a href="#" class="default-btn">READ MORE</a>
+                             <a href="gamificacion-en-apps-colaborativas.php" class="default-btn">LEER MÁS</a>
                         </div>    
                       </div>
-                    </div>
+                    </div> 
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -143,15 +108,12 @@
     </section> -->
 
     <!-- Start Blog Wrap Area -->
-    <div class="blog-area pb-75 pt-75">
+    <!-- <div class="blog-area pb-75 pt-75">
         <div class="container">
             <div class="section-title d-flex justify-content-between align-items-center mw-100">
                 
                 <h2>Popular Posts</h2>
-                <!-- <div class="arrow-text mb-0">
-                    <a href="#"><span class="d-flex">All STORIES<img src="assets/img/svg/up-right-arrow-red.svg" alt="" class=""></span>
-                    </a>
-                </div>  -->
+             
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-6">
@@ -218,7 +180,7 @@
                 <hr>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Blog Wrap Area -->
 
 
@@ -226,11 +188,27 @@
     <div  class="lp-area pb-75">
         <div class="container">
             <div class="section-title">
-                <h2>LATEST POSTS</h2> 
+                <h2>Últimas Publicaciones</h2> 
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12">
                      <div class="row">
+                     <div class="col-lg-12">
+                            <div class="single-blog-wrap-post pe-0 pe-lg-5 pe-md-0 pt-5">
+                                <div class="">
+                                        <img src="assets/img/custom/press2.png" alt="blog">
+                                    
+                                </div>
+                                <div class="content">
+                                   <p class="b-date mb-2">
+                                   Abril, 2023                     
+                                   </p>
+                                   <h2><a href="gamificacion-en-apps-colaborativas.php">Gamificación en Apps Colaborativas</a></h2>
+                                   <p> Cómo motivar a los usuarios y mejorar la eficacia.</p>
+                                   <a href="gamificacion-en-apps-colaborativas.php" class="default-btn">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div> 
                         <div class="col-lg-12">
                             <div class="single-blog-wrap-post pe-0 pe-lg-5 pe-md-0">
                                 <div class="">
@@ -239,50 +217,33 @@
                                 </div>
                                 <div class="content">
                                    <p class="b-date mb-2">
-                                    SEP 9, 2022 — VIDEOS                       
+                                   Marzo, 2023                      
                                    </p>
-                                   <h2><a href="#">FILMING FROM Different ANGLES AND POSITIONS</a></h2>
-                                   <p>Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.</p>
-                                   <a href="#" class="default-btn">READ MORE</a>
+                                   <h2><a href="#">¡Adiós al papel! 4 razones para digitalizar tus checklists.</a></h2>
+                                   <p>¿Alguna vez has oído hablar de los checklist digitales? Son una herramienta poderosa para gestionar tareas y auditorías de manera más efectiva.</p>
+                                   <a href="4-razones-para-digitalizar-checklists.php" class="default-btn">LEER MÁS</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-12">
-                            <div class="single-blog-wrap-post pe-0 pe-lg-5 pe-md-0 pt-5">
-                                <div class="">
-                                        <img src="assets/img/custom/press1.png" alt="blog">
-                                    
-                                </div>
-                                <div class="content">
-                                   <p class="b-date mb-2">
-                                    SEP 9, 2022 — VIDEOS                       
-                                   </p>
-                                   <h2><a href="#">FILMING FROM Different ANGLES AND POSITIONS</a></h2>
-                                   <p>Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.Tenga control sobre horas de ingreso y de salida, horas trabajadas y desplazamientos de sus trabajadores.</p>
-                                   <a href="#" class="default-btn">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
+                       
                      </div>
-                     <div class="find-more-btn py-5 text-center">
-                        <a href="#" class="default-btn">Find More</a>
-                     </div>   
+                     
                 </div>
                 <div class="col-lg-4 col-md-12">
                       <div class="ps-lg-5">
                             <div class="col-md-12">
                                 <div class="key-features-card style-two news-l post-key-card">
                                     <h2 class="text-center mb-4">
-                                        Subscribe To Our Newsletter
+                                    Suscríbete a nuestro boletín
                                     </h2>
                                     <div class="contact-form">
                                         <form id="subscribe-form">
                                             <div class="form-group">
-                                                <input type="email" name="email" class="form-control" id="email" required="" placeholder="Your Email">
+                                                <input type="email" name="email" class="form-control" id="email" required="" placeholder="Tu correo electrónico">
                                             </div>
                                             <div class="col-md-12 text-left">
-                                                <button type="submit" class="default-btn subscribe-btn">Subscribe</button>
+                                                <button type="submit" class="default-btn subscribe-btn">Subscribirse</button>
                                             </div>    
                                         </form>
                                     </div>    
@@ -290,7 +251,7 @@
                             </div>    
                     
             
-                                <div class="py-5">
+                                <div class="hidden py-5">
                                     <h3 class="sub-title">Categories</h3>
                                     <p>Guido Tenorio - Gerente de Operaciones del Grupo Lagar.Guido Tenorio - Gerente de Operaciones del Grupo Lagar</p>
                                 </div>
@@ -341,15 +302,15 @@
                                 </div>
                            </div>
 
-                           <div class="py-5">
+                           <!-- <div class="py-5">
                                 <form class="d-flex">
                                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                     <button class="default-btn" type="submit">Search</button>
                                 </form>
-                           </div>
+                           </div> -->
                                 
                            <div class="single-footer-widget side-bar-icons pb-5">
-                             <h3 class="sub-title">FOLLOW US</h3>
+                             <h3 class="sub-title">SÍGUENOS</h3>
                                     <ul class="social-links">
                                         <li><a href="https://www.facebook.com/whagons" target="_blank"><i class="ri-facebook-fill"></i></a></li>
                                         <li><a href="https://www.instagram.com/whagons/" target="_blank"><i class="ri-instagram-fill"></i></a></li>
@@ -381,7 +342,7 @@
         </div>
     </section>
 
-    <section class="blog-feature-slider pb-100">
+    <section class="hidden blog-feature-slider pb-100">
         <div class="container">
             <div class="section-title">
                 <h2>As Featured In</h2>
