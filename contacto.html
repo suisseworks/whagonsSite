@@ -138,7 +138,11 @@
                         <textarea name="additional_details" id="additional_details" required></textarea>
                         <p>Por favor ingrese los detalles de su solicitud. Un miembro de nuestro equipo de soporte responderá lo antes posible.</p>
                     </div>
-                    <button type="submit" class="btn-get-started btn-style mt-0">Enviar</button>
+                    <button id="btn-submit-contact" type="submit" class="btn-get-started btn-style mt-0">Enviar</button>
+                    <div id="loader" style="display: none;" class="hidden">
+                        <img src="assets/img/loader-image.gif" style="height: 60px; width: 60px;"  alt="Loader Image">
+                        <div id="msgSubmit" class="h4 text-left text-danger" style="margin-top: auto;">Enviando mensaje...</div>
+                    </div>
                     <br>
                     <br>
                     <div class="alert alert-success" id="success_alert" style="display:none;"></div>
@@ -249,52 +253,6 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#contact_form').validate({
-                rules: {
-                    email: {
-                        required: true,
-                        email: true
-                    },
-                    subject: 'required',
-                    additional_details: 'required',
-                },
-                messages: {
-                    email: {
-                        required: 'Por favor, introduzca su dirección de correo electrónico',
-                        email: 'Por favor, introduce una dirección de correo electrónico válida'
-                    },
-                    subject: 'Por favor ingresa tu asunto',
-                    additional_details: 'Por favor ingresa tus datos adicionales',
-                }
-            });
-
-            $(document).on('submit', '#contact_form', function(e) {
-                if($('#contact_form').valid()) {
-                    e.preventDefault();
-                    var form = $("#contact_form").serialize();
-                    $.ajax({
-                        url: "ajaxEmail.php",
-                        type: "post",
-                        data: form,
-                        dataType:'json',
-                        success: function (status) {
-                            if(status.msg =='success') {
-                                $('#contact_form')[0].reset();
-                                $('#error_alert').hide();
-                                $('#success_alert').html('Correo electrónico enviado correctamente. Nos comunicaremos con usted en breve. Gracias.').show();
-                                setTimeout(function() { $('#success_alert').hide(); }, 5000);
-                            } else {
-                                $('#success_alert').hide();
-                                $('#error_alert').html('Lo sentimos, se produjo un error al enviar el mensaje. Inténtelo de nuevo.').show();
-                                setTimeout(function() { $('#error_alert').hide(); }, 5000);
-                            }
-                        }
-                    });
-                }
-            });
-        });
-    </script>
+    <script src="assets/js/contact-form-script.js"></script>
 </body>
 </html>
