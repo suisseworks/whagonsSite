@@ -5,90 +5,73 @@ var sending = false;
 (function($) {
     "use strict"; // Start of use strict
 
+    $(document).ready(function () {
+        $('#contact_form').validate({
+            rules: {
+                email: {
+                    required: true,
+                    email: true
+                },
+                subject: 'required',
+                additional_details: 'required',
+            },
+            messages: {
+                email: {
+                    required: 'Por favor, introduzca su dirección de correo electrónico',
+                    email: 'Por favor, introduce una dirección de correo electrónico válida'
+                },
+                subject: 'Por favor ingresa tu asunto',
+                additional_details: 'Por favor ingresa tus datos adicionales',
+            }
+        });
 
-
-    $("#contactForm").validator().on("submit", function(event) {
-
-        console.log(`validator ${sending}`);
-
-        if (sending) return false;
-
-        if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            console.log('Error');
-            formError();
-            submitMSG(false, "Favor completar los campos requeridos!");
-        } else {
-            // everything looks good!
-            sending = true;
-            console.log('BIEN');
-            event.preventDefault();
-            sendEmail();
-        }
+        $(document).on('submit', '#contact_form', function(e) {
+            if($('#contact_form').valid()) {
+                e.preventDefault();
+                var form = $("#contact_form").serialize();
+                sendEmail();
+            }
+        });
     });
 
 
-    function submitForm() {
-
-        // Initiate Variables With Form Content
-        var name = $("#name").val();
-        var email = $("#email").val();
-        //var msg_subject = $("#msg_subject").val();
-        //var phone_number = $("#phone_number").val();
-        var message = $("#message").val();
-
-
-        $.ajax({
-            type: "POST",
-            url: "https://webadmin.whagons.com/api/sendContactEmail",
-            data: "name=" + name + "&email=" + email + "&description=" + message,
-            success: function(text) {
-                console.log(text);
-                if (text == "success") {
-                    formSuccess();
-                } else {
-                    formError();
-                    submitMSG(false, text);
-                }
-            }
-        });
-    }
-
     function formSuccess() {
-        $("#contactForm")[0].reset();
-        submitMSG(true, "Le estaremos contactando en brevedad!");
-        sending = false;
+        $('#contact_form')[0].reset();
+        $('#error_alert').hide();
+        $('#success_alert').html('Correo electrónico enviado correctamente. Nos comunicaremos con usted en breve. Gracias.').show();
+        setTimeout(function() { $('#success_alert').hide(); }, 5000);
     }
 
     function formError() {
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
+        $('#success_alert').hide();
+        $('#error_alert').html('Lo sentimos, se produjo un error al enviar el mensaje. Inténtelo de nuevo.').show();
+        setTimeout(function() { $('#error_alert').hide(); }, 5000);
     }
 
-    function submitMSG(valid, msg) {
-        if (valid) {
-            var msgClasses = "h4 text-left tada animated text-success";
+    function showLoader(isLoading) {
+        if (isLoading) {
+            $("#btn-submit-contact").hide();
+            $("#loader").css("display", "flex");
         } else {
-            var msgClasses = "h4 text-left text-danger";
+            $("#btn-submit-contact").show();
+            $("#loader").css("display", "none");
         }
-        $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 
     function sendEmail() {
-        var name = $('#name').val();
+        // var name = $('#name').val();
+        var subject = $('#subject').val();
         var email = $('#email').val();
-        var description = $('#message').val();
+        var description = $('#additional_details').val();
 
-        $("#loader").show();
-        submitMSG(false, "Enviando mensaje...");
-
+        showLoader(true);
 
         $.ajax({
             url: 'https://webadmin.whagons.com/api/sendContactEmail',
             type: 'POST',
             data: {
-                name: name,
+                name: '',
+                subject: subject,
                 email: email,
                 organization: '',
                 phone: '',
@@ -99,11 +82,10 @@ var sending = false;
             success: function(response) {
 
                 if (response.result) {
-                    $("#loader").hide();
+                    showLoader(false);
                     formSuccess();
                 } else {
                     formError();
-                    submitMSG(false, text);
                     sending = false;
                 }
             }
