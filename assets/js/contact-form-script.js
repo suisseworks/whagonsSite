@@ -60,7 +60,7 @@ var sending = false;
 
     function sendEmail() {
         // var name = $('#name').val();
-        var subject = $('#subject').val();
+        // var subject = $('#subject').val();
         var email = $('#email').val();
         var description = $('#additional_details').val();
 
@@ -71,7 +71,7 @@ var sending = false;
             type: 'POST',
             data: {
                 name: '',
-                subject: subject,
+                subject: '',
                 email: email,
                 organization: '',
                 phone: '',
